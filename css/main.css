@@ -1,0 +1,11 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1.5rem auto;
+    max-width: 800px;
+}
+
+header {
+    background-color: darkslateblue;
+
+}
