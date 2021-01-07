@@ -4,7 +4,8 @@ body {
     margin: 1.5rem auto;
     max-width: 800px;
     background-color: rgb(190, 245, 245);
-    font: "";
+    font-family: "constantia";
+    
 }
 
 header, footer {
