@@ -25,3 +25,7 @@ img {
     float: right;
 }
 
+#updated {
+    font-size: 14px;
+    color: yellow;
+}
