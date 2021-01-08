@@ -29,3 +29,16 @@ img {
     font-size: 14px;
     color: yellow;
 }
+
+footer a {
+    color: whitesmoke;
+    
+}
+
+footer a:hover {
+    color:  rgb(190, 245, 245);
+    }
+
+footer a:visited {
+    color:violet;
+}
