@@ -1,9 +1,6 @@
 @media only screen and (max-width: 32em) {
     main {
         grid-template-columns: 1fr;
-        padding: 6px;
-    }
-   div {
-        grid-template-columns: 2/3;
+    
     }
 }
