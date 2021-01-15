@@ -21,7 +21,11 @@ main {
     padding: 12px;
     text-align: center;
    
+}
 
+p {
+   font-size: 18px; 
+   padding: 2em;
 }
 
 h1, h2 {
