@@ -1,0 +1,9 @@
+@media only screen and (max-width: 30em) {
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 6px;
+    }
+   div {
+        grid-template-columns:max-content;
+    }
+}
