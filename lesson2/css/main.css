@@ -1,11 +1,14 @@
+body {
+    background-color:rgb(193, 227, 248);
+    font-family: 'Josefin Slab', serif;
+}
+
 header {
     background-color :linen;
     color: navy;
     border:  solid black 2.5px;
     box-shadow: 0px 4px 4px 0px gray;
-    max-width: 400px;
-    
-   
+    max-width: 400px;  
     
 }
 
