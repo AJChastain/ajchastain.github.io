@@ -6,9 +6,12 @@ body {
 header {
     background-color :linen;
     color: navy;
-    border:  solid black 2.5px;
+    border:  solid black 3px;
     box-shadow: 0px 4px 4px 0px gray;
-    max-width: 400px;  
+    max-width: 400px;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+     
     
 }
 
@@ -16,7 +19,8 @@ main {
     display:grid;
     grid-template-columns: 1fr;
     padding: 12px;
-    align-items: center;
+    text-align: center;
+   
 
 }
 
@@ -27,6 +31,7 @@ h1, h2 {
 
 img {
     max-width: 250px;
+    align-items: center;
 }
 
 .contrast {
@@ -46,6 +51,10 @@ div {
     border: black 25px;
     background-color:darkblue;
     padding: 4px;
+    margin: 1em auto;
+    border: solid black 3px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px gray;
 }
 
 div a {
