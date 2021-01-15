@@ -1,0 +1,38 @@
+main {
+    display:grid;
+    grid-template-columns: 275px 1fr 1fr 1fr 275px;
+    padding: 24px;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 250px;
+}
+
+.contrast {
+    grid-column: 2/3;
+}
+
+.alignment {
+    grid-column: 3/4;
+}
+
+.proximity {
+    grid-column: 4/5;
+}
+
+div {
+    color: white;
+    border: black 25px;
+    background-color:darkblue;
+    padding: 4px;
+}
+
+div a {
+    color: lightskyblue;
+    
+}
