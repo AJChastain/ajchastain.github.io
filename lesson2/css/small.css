@@ -4,6 +4,6 @@
         padding: 6px;
     }
    div {
-        grid-template-columns:max-content;
+        grid-template-columns: 2/3;
     }
 }
