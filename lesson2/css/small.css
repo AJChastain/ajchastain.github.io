@@ -29,9 +29,11 @@ p {
 
 h1, h2 {
     text-align: center;
-
 }
 
+h2 {
+    font-style: italic;
+}
 img {
     max-width: 250px;
     align-items: center;
