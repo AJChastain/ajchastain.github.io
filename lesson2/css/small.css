@@ -3,16 +3,15 @@ body {
     font-family: 'Josefin Slab', serif;
 }
 
-header {
+header, footer {
     background-color :linen;
     color: navy;
     border:  solid black 3px;
     box-shadow: 0px 4px 4px 0px gray;
-    max-width: 400px;
+    max-width: 600px;
     margin: 1.5rem auto;
     border-radius: 4px;
-     
-    
+        
 }
 
 main {
@@ -55,12 +54,20 @@ div {
     border: black 25px;
     background-color:darkblue;
     padding: 4px;
-    margin: 1em auto;
+    margin: .5em 1em;
     border: solid black 3px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px gray;
+
 }
 
 div a {
     color: lightskyblue;
+}
+
+footer {
+    font-style: italic;
+    padding: 6px;
+    line-height: 1.25em;
+    text-align:center;
 }
