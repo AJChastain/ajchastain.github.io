@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    background-color: rgb(206, 215, 253);
+    font-family: 'Merienda One', cursive;
+    
+}
+
+header, footer {
+    background-color: rgb(57, 64, 97);
+    color: whitesmoke;
+    text-align:center;
+    padding: 12px;
+    border-radius: 8px;    
+}
+nav a {
+    padding: 1.5em;
+}
+ul li a:hover {
+    color: rgb(92, 120, 247);
+}
+
+img {
+    max-width: 225px;
+    border: 6px solid rgb(92, 120, 247);
+    margin: 24px 0px 24px;
+    
+}
+
+#updated {
+    font-size: 14px;
+    color: yellow;
+}
+
+footer a {
+    color: whitesmoke;
+    
+}
+
+footer a:visited {
+    color:violet;
+}
+
+footer a:hover {
+    color:  rgb(190, 245, 245);
+    }
+
+
