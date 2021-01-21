@@ -2,8 +2,8 @@ body {
     font-size: 16px;
     /*line-height: 1.5;*/
     margin: 1.5rem auto;
-    max-width: 800px;
-    background-color:whitesmoke;
+    max-width: 900px;
+    background-color:white;
     font-family: 'Merienda One', cursive;
 }
 
@@ -15,19 +15,14 @@ main {
     box-shadow: 4px 4px 6px rgb(57, 64, 97);
 }
 
-h1, h3 {
-    font: "Merienda One";
-}
-
 p {
     font-family: 'PT Serif', serif;
 }
 
 header, footer {
     background-color: rgb(57, 64, 97);
-    color: whitesmoke;
+    color: white;
     text-align:center;
-    padding: 12px;
     border: solid 12px  rgb(170, 184, 248);
     border-radius: 10px; 
     margin: 12px;   
@@ -50,7 +45,7 @@ nav a {
 img {
     max-width: 225px;
     border: 6px solid rgb(84, 112, 248);
-    margin: 24px 0px 24px;
+    margin: 24px 0px 0px;
     background-color: rgb(170, 184, 248);
     
 }
@@ -58,7 +53,9 @@ img {
 /*#updated {
     font-size: 14px;
     color: yellow;}*/
-
+footer {
+    padding: 12px;
+}
 /*footer a {
     color: whitesmoke;
     
