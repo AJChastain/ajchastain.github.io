@@ -3,7 +3,7 @@ body {
     /*line-height: 1.5;*/
     margin: 1.5rem auto;
     max-width: 900px;
-    background-color:white;
+    background-color:whitesmoke;
     font-family: 'Merienda One', cursive;
 }
 
@@ -21,7 +21,7 @@ p {
 
 header, footer {
     background-color: rgb(57, 64, 97);
-    color: white;
+    color: whitesmoke;
     text-align:center;
     border: solid 12px  rgb(170, 184, 248);
     border-radius: 10px; 
@@ -35,8 +35,14 @@ nav{
 }
 
 nav a {
-    padding: 1em;   
+    padding: 1em;  
+    text-decoration: none; 
 }
+
+nav a:hover {
+    color:salmon;
+}
+
 
 /*ul li a:hover {
     color: rgb(92, 120, 247);
