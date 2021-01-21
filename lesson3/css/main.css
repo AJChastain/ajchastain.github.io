@@ -43,37 +43,20 @@ nav a:hover {
     color:salmon;
 }
 
-
-/*ul li a:hover {
-    color: rgb(92, 120, 247);
-}*/
-
 img {
     max-width: 225px;
     border: 6px solid rgb(84, 112, 248);
     margin: 24px 0px 0px;
-    background-color: rgb(170, 184, 248);
-    
+    background-color: rgb(170, 184, 248);  
 }
 
 /*#updated {
     font-size: 14px;
     color: yellow;}*/
+
 footer {
     padding: 12px;
 }
-/*footer a {
-    color: whitesmoke;
-    
-}
-
-footer a:visited {
-    color:violet;
-}
-
-footer a:hover {
-    color:  rgb(190, 245, 245);
-    }*/
 
 #sections {
     background-color:whitesmoke;
