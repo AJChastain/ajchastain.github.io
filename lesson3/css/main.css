@@ -31,8 +31,9 @@ header, footer {
 
 nav{
     margin: 24px;
-    text-align: center; 
+    justify-content: center; 
     font-size: 17px;
+    display: flex;
 }
 
 nav a {
@@ -78,18 +79,4 @@ div.sections2 img {
 
 #colorscheme {
     margin: 0px 20px 0px;
-}
-
-/*medium-sized screens:*/
-@media only screen and (min-width: 32.5em) {
-    main{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/*large screens:*/
-@media only screen and (min-width: 60em) {
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 }
