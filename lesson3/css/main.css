@@ -58,18 +58,17 @@ footer {
     padding: 12px;
 }
 
-#sections, #sections2 {
+div.sections, div.sections2 {
     background-color:whitesmoke;
     padding: 12px;
     border: solid 3px rgb(57, 64, 97); 
     margin: 20px;
 }
 
-#sections2 {
+div.sections2 {
     display:flex;
 }
-
-#sections2 img {
+div.sections2 img {
     border: none;
     margin: 12px; 
     max-height: 52px;
