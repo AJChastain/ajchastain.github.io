@@ -52,10 +52,22 @@ img {
     background-color: rgb(170, 184, 248);  
 }
 
-/*#updated {
+#updated {
     font-size: 14px;
-    color: yellow;}*/
-
+    color: yellow;}
+    footer a {
+        color: whitesmoke;
+        
+    }
+    
+    footer a:visited {
+        color:rgb(170, 184, 248);
+    }
+    
+    footer a:hover {
+        color:  salmon;
+        }
+    
 footer {
     padding: 12px;
 }
@@ -94,3 +106,4 @@ th {
     border: solid 1px rgb(57, 64, 97);
     padding: 6px; 
 }
+
