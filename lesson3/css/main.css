@@ -65,8 +65,16 @@ footer {
     margin: 20px;
 }
 
+#sections2 {
+    display:flex;
+}
+
 #sections2 img {
     border: none;
+    margin: 12px; 
+    max-height: 52px;
+    max-width: 52px;
+    
 }
 
 #colorscheme {
