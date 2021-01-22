@@ -58,9 +58,13 @@ footer {
     padding: 12px;
 }
 
-#sections {
+#sections, #sections2 {
     background-color:whitesmoke;
     padding: 12px;
     border: solid 3px rgb(57, 64, 97); 
     margin: 20px;
+}
+
+#sections2 img {
+    border: none;
 }
