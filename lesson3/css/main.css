@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 img {
-    max-width: 225px;
+    max-width: 350px;
     border: 6px solid rgb(84, 112, 248);
     margin: 24px 0px 0px;
     background-color: rgb(170, 184, 248);  
@@ -67,4 +67,8 @@ footer {
 
 #sections2 img {
     border: none;
+}
+
+#colorscheme {
+    margin: 0px 20px 0px;
 }
