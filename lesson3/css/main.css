@@ -78,4 +78,5 @@ div.sections2 img {
 
 #colorscheme {
     margin: 0px 20px 0px;
+    max-width: auto;
 }
