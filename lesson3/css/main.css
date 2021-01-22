@@ -53,7 +53,7 @@ img {
 }
 
 #updated {
-    font-size: 14px;
+    font-size: 12px;
     color: yellow;}
     footer a {
         color: whitesmoke;
@@ -70,6 +70,8 @@ img {
     
 footer {
     padding: 12px;
+    font-size: 12px;
+    line-height: 1.5em;
 }
 
 div.sections, div.sections2 {
