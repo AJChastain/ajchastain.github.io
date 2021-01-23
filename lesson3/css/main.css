@@ -3,15 +3,15 @@ body {
     /*line-height: 1.5;*/
     margin: 1.5rem auto;
     max-width: 900px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     font-family: 'Merienda One', cursive;
 }
 
 main {
-    background-color:rgb(170, 184, 248);
+    background-color: rgb(170, 184, 248);
     padding: 12px;
-    border-radius: 10px; 
-    margin: 12px;  
+    border-radius: 10px;
+    margin: 12px;
     box-shadow: 4px 4px 6px rgb(57, 64, 97);
 }
 
@@ -19,14 +19,15 @@ p {
     font-family: 'PT Serif', serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: rgb(57, 64, 97);
     color: whitesmoke;
-    text-align:center;
-    border: solid 12px  rgb(170, 184, 248);
-    border-radius: 10px; 
-    margin: 12px;   
-    box-shadow: 4px 4px 6px rgb(57, 64, 97);    
+    text-align: center;
+    border: solid 12px rgb(170, 184, 248);
+    border-radius: 10px;
+    margin: 12px;
+    box-shadow: 4px 4px 6px rgb(57, 64, 97);
 }
 
 nav{
@@ -38,57 +39,60 @@ nav{
 
 nav a {
     padding: 1em;  
-    text-decoration: none; 
-}
+    text-decoration: none; }
 
 nav a:hover {
-    color:salmon;
+    color: salmon;
 }
 
 img {
     max-width: 350px;
     border: 6px solid rgb(84, 112, 248);
     margin: 24px 0px 0px;
-    background-color: rgb(170, 184, 248);  
+    background-color: rgb(170, 184, 248);
 }
 
 #updated {
     font-size: 12px;
-    color: yellow;}
-    footer a {
-        color: whitesmoke;
-        
-    }
-    
-    footer a:visited {
-        color:rgb(170, 184, 248);
-    }
-    
-    footer a:hover {
-        color:  salmon;
-        }
-    
+    color: yellow;
+}
+
+footer a {
+    color: whitesmoke;
+
+}
+
+footer a:visited {
+    color: rgb(170, 184, 248);
+}
+
+footer a:hover {
+    color: salmon;
+}
+
 footer {
     padding: 12px;
     font-size: 12px;
     line-height: 1.5em;
 }
 
-div.sections, div.sections2 {
-    background-color:whitesmoke;
+div.sections,
+div.sections2 {
+    background-color: whitesmoke;
     padding: 12px;
-    border: solid 3px rgb(57, 64, 97); 
+    border: solid 3px rgb(57, 64, 97);
     margin: 20px;
 }
 
 div.sections2 {
-    display:flex;
+    display: flex;
 }
+
 div.sections2 img {
     border: none;
-    margin: 12px; 
+    margin: 12px;
     max-height: 52px;
-    max-width: 52px;  
+    max-width: 52px;
 }
 
 #colorscheme {
@@ -96,16 +100,16 @@ div.sections2 img {
 }
 
 table {
-    border: solid 3px  rgb(84, 112, 248); 
-    font-family: 'PT Serif', serif; 
+    border: solid 3px rgb(84, 112, 248);
+    font-family: 'PT Serif', serif;
 }
 
 tr {
-    border: solid 1px rgb(57, 64, 97); 
+    border: solid 1px rgb(57, 64, 97);
 }
 
 th {
     border: solid 1px rgb(57, 64, 97);
-    padding: 6px; 
+    padding: 6px;
 }
 
