@@ -2,11 +2,18 @@
 @media only screen and (min-width:32.5em) {
     nav {
         display: flex;
-        margin: 24px auto;
+        flex-flow: row;
+        margin: auto;
+        justify-content: center;
        
        /* margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;*/
-        padding: 24px;
-    }}
+        
+    }
+nav a {
+    padding: 24px;
+    
+}
+}
