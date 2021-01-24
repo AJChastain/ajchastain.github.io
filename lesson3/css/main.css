@@ -34,13 +34,13 @@ nav {
     margin: 24px;
     font-size: 18px;
     display: flex;
-    justify-content: center;
-    /*display: block;
-    text-align: center;*/
+    flex-flow: column;
+    align-items: center;
+     
 }
 
 nav a {
-    padding: 1em;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -116,9 +116,4 @@ th {
     padding: 6px;
 }
 
-/*medium screen*/
-/*@media only screen and (min-width:32.5em) {
-nav a {
-    display: flex;
-    justify-content: center;
-}}*/
+
