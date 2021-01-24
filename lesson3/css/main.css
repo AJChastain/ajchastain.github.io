@@ -99,8 +99,8 @@ div.sections2 img {
 }
 
 #colorscheme {
-    margin: 0px 20px 0px;
-    align-self:stretch;
+    display: flex;
+    margin: auto;
 }
 
 table {
