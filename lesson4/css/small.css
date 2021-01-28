@@ -1,8 +1,9 @@
 body {
     font-size: 16px;
     /*line-height: 1.5;*/
-    margin: 1.5rem auto;
-    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    /*max-width: 900px;*/
     background-color: whitesmoke;
     font-family: 'Merienda One', cursive;
 }
@@ -19,15 +20,45 @@ p {
     font-family: 'PT Serif', serif;
 }
 
-header,
-footer {
+header, footer
+ {
     background-color: rgb(57, 64, 97);
     color: whitesmoke;
-    text-align: center;
     border: solid 12px rgb(170, 184, 248);
     border-radius: 10px;
     margin: 12px;
     box-shadow: 4px 4px 6px rgb(57, 64, 97);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 2px 24px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: rgb(170, 184, 248);
+    margin-left: 20px;
+    font-size: .9rem;
 }
 
 nav {
@@ -35,12 +66,16 @@ nav {
     font-size: 18px;
     display: flex;
     flex-flow: column;
-    align-items: center;
-     
+    align-items: center;    
 }
 
-nav a {
+nav ul li {
     padding: 20px;
+    
+    list-style: none;
+}
+
+nav ul li a {
     text-decoration: none;
 }
 
@@ -51,7 +86,7 @@ nav a:hover {
 img {
     max-width: 350px;
     border: 6px solid rgb(84, 112, 248);
-    margin: 24px 0px 0px;
+    margin: 24px 0 0;
     background-color: rgb(170, 184, 248);
 }
 
@@ -77,6 +112,7 @@ footer {
     padding: 12px;
     font-size: 12px;
     line-height: 1.5em;
+    
 }
 
 div.sections,
@@ -97,3 +133,6 @@ div.sections2 img {
     max-height: 52px;
     max-width: 52px;
 }
+
+
+
