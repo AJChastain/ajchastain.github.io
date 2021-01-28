@@ -97,24 +97,3 @@ div.sections2 img {
     max-height: 52px;
     max-width: 52px;
 }
-
-#colorscheme {
-    display: flex;
-    margin: auto;
-}
-
-table {
-    border: solid 3px rgb(84, 112, 248);
-    font-family: 'PT Serif', serif;
-}
-
-tr {
-    border: solid 1px rgb(57, 64, 97);
-}
-
-th {
-    border: solid 1px rgb(57, 64, 97);
-    padding: 6px;
-}
-
-
