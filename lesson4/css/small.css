@@ -50,6 +50,7 @@ header img {
 
 .headings h1 {
     font-size: 1.6rem;
+    padding: .75rem;
     margin: 0 0 0 17px;
 }
 
@@ -62,27 +63,47 @@ header img {
 }
 
 nav {
-    margin: 24px;
+    margin: 0 auto;
+    max-width: 800px;
     font-size: 18px;
     display: flex;
-    flex-flow: column;
-    align-items: center;    
+    /*flex-flow: column;*/
+    align-items: center;
+    padding: 0;   
 }
 
-nav ul li {
-    padding: 20px;
-    
+/*.nav ul li {
+    padding: 5px;
     list-style: none;
 }
 
 nav ul li a {
     text-decoration: none;
-}
+}*/
 
-nav a:hover {
+.navigation a:hover {
     color: salmon;
 }
 
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+   
+}
+.nagivation li {
+    display: none;
+}
+
+.navigation a {
+display: block;
+padding: .75rem;
+text-align: left;
+text-decoration: none;
+}
 img {
     max-width: 350px;
     border: 6px solid rgb(84, 112, 248);
