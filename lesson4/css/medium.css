@@ -13,18 +13,11 @@
         margin-left: 17px;
     }
 
-    /*.navigation li{
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
-        margin: auto;
-    }*/
-
     nav a {
         padding: 24px;
     }
 
-     .navigation {
+    .navigation {
         display: flex;
     }
 
@@ -35,4 +28,11 @@
 
     .navigation li:first-child {
         display: none;
+    }
+
+    main,
+    footer {
+        max-width: 850px;
+        margin: 24px auto;
+    }
 }
