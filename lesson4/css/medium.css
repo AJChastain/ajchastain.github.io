@@ -12,10 +12,23 @@
         margin-left: 17px;
     }
     
-    nav {
+    /*nav {
         display: block;
         margin: auto;
         text-align: center;
         padding: 8px 
+    }*/
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
     }
 }
