@@ -67,13 +67,24 @@ nav {
     /*max-width: 800px;*/
     font-size: 18px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     flex: 1;
     align-items: center;
-    padding: 0;
 }
 
-.navigation {
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    border-top: solid rgba(0, 0, 0, .3);
+}
+
+nav a:hover {
+    color: salmon;
+}
+
+/*.navigation {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -87,29 +98,20 @@ nav {
     display: none;
 }
 
-.navigation a {
-    display: block;
-    padding: .75rem;
-    text-align: center;
-    text-decoration: none;
-}
+*/
 
-.navigation a:hover {
-    color: salmon;
-}
-
-/*.nav ul li {
+nav ul li {
     padding: 5px;
     list-style: none;
 }
 
 nav ul li a {
     text-decoration: none;
-}*/
-
-.responsive li {
-    display: block;
 }
+
+/*.responsive li {
+    display: block;
+}*/
 
 
 img {

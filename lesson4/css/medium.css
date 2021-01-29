@@ -2,33 +2,37 @@
     header img {
         width: 100%;
     }
+
     .headings {
         font-size: 3rem;
     }
 
     .motto {
         letter-spacing: 1.5pt;
-        font-size: larger;
+        font-size: 1rem;
         margin-left: 17px;
     }
-    
-    /*nav {
-        display: block;
+
+    /*.navigation li{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
         margin: auto;
-        text-align: center;
-        padding: 8px 
     }*/
 
-    .navigation {
-        display: flex;
+    nav a {
+        padding: 24px;
     }
 
-    .navigation li:first-child {
-        display: none;
+     .navigation {
+        display: flex;
     }
 
     .navigation li {
         display: block;
         flex: 1 1 100%;
     }
+
+    .navigation li:first-child {
+        display: none;
 }

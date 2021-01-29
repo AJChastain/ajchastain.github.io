@@ -1,23 +1,24 @@
-
 @media only screen and (min-width:32.5em) {
     nav {
         display: flex;
         flex-flow: row;
         margin: auto;
         justify-content: center;
-       
-       /* margin-block-start: 1em;
+
+        /* margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;*/
-        
+
     }
-nav a {
-    padding: 24px;
-    
-}
-#colorscheme {
-    margin: 0px 20px 0px;
-}
+
+    nav a {
+        padding: 24px;
+
+    }
+
+    #colorscheme {
+        margin: 0px 20px 0px;
+    }
 
 }
