@@ -155,3 +155,23 @@ div.sections2 img {
     max-height: 52px;
     max-width: 52px;
 }
+.fiveDay {
+    display: block;
+    padding: 6px;
+    border: solid 1px rgb(84, 112, 248);
+}
+
+div.sections {
+    background-color: whitesmoke;
+    padding: 12px;
+    border: solid 3px rgb(57, 64, 97);
+    margin: 20px;
+}
+
+.sections p {
+    margin: 6px 24px;
+}
+.sections ul li{
+    list-style: none;
+    padding: 6px;
+}
