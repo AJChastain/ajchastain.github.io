@@ -78,13 +78,14 @@ nav {
     text-align: center;
     text-decoration: none;
     border-top: solid rgba(0, 0, 0, .3);
+
 }
 
 nav a:hover {
     color: salmon;
 }
 
-/*.navigation {
+.navigation {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -94,25 +95,15 @@ nav a:hover {
     display: block;
 }
 
-.nagivation li {
+.navigation li {
     display: none;
-}
-
-*/
-
-nav ul li {
     padding: 5px;
     list-style: none;
 }
 
-nav ul li a {
-    text-decoration: none;
-}
-
-/*.responsive li {
+.responsive li {
     display: block;
-}*/
-
+}
 
 img {
     max-width: 350px;
