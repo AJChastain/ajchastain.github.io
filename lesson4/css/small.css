@@ -87,7 +87,7 @@ nav {
     padding: 0 8px;
 }
 
-nav ul li a {
+.navigation a {
     display: block;
     padding: .75rem;
     text-align: center;
