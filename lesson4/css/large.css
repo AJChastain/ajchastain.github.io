@@ -14,5 +14,7 @@
         padding: 8px 
     }
 
-    
+    nav ul li {
+        margin: 0 10px;
+    }
 }

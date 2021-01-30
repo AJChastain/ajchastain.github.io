@@ -72,19 +72,6 @@ nav {
     align-items: center;
 }
 
-.navigation a {
-    display: block;
-    padding: .75rem;
-    text-align: center;
-    text-decoration: none;
-    border-top: solid rgba(0, 0, 0, .3);
-
-}
-
-nav a:hover {
-    color: salmon;
-}
-
 .navigation {
     list-style: none;
     text-align: center;
@@ -97,8 +84,19 @@ nav a:hover {
 
 .navigation li {
     display: none;
-    padding: 5px;
-    list-style: none;
+    padding: 0 8px;
+}
+
+nav ul li a {
+    display: block;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    border-top: solid rgba(0, 0, 0, .3);
+}
+
+nav a:hover {
+    color: salmon;
 }
 
 .responsive li {
@@ -119,7 +117,6 @@ img {
 
 footer a {
     color: whitesmoke;
-
 }
 
 footer a:visited {
@@ -134,7 +131,6 @@ footer {
     padding: 12px;
     font-size: 12px;
     line-height: 1.5em;
-
 }
 
 div.sections,
@@ -155,6 +151,7 @@ div.sections2 img {
     max-height: 52px;
     max-width: 52px;
 }
+
 .fiveDay {
     display: block;
     padding: 6px;
@@ -171,7 +168,8 @@ div.sections {
 .sections p {
     margin: 6px 24px;
 }
-.sections ul li{
+
+.sections ul li {
     list-style: none;
     padding: 6px;
 }
