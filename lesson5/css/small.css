@@ -242,3 +242,8 @@ p {
     padding: 50px;
     
 }
+
+.links {
+    max-width: 40px;
+    padding: 0 3px;
+}
