@@ -41,9 +41,8 @@ header {
 header img {
     width: 80px;
     height: auto;
-    /*max-width: 350px;*/
     border: 6px solid rgb(84, 112, 248);
-    margin: 24px 0 0;
+    margin: 24px 10px 0 0;
     background-color: rgb(170, 184, 248);
 }
 
