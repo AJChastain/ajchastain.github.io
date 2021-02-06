@@ -35,8 +35,42 @@
         max-width: 850px;
         margin: 24px auto;
     }
-    
-    .fiveDay {
-        display: flex;
+
+    .fiveDay,
+    h3 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 6px;
     }
+
+    .fiveDay h3 {
+        background-color: rgb(84, 112, 248);
+        border: solid rgb(57, 64, 97) 2px;
+    }
+
+    .fiveDay table {
+        margin: auto;
+    }
+
+    .fiveDay table th {
+        padding: .25rem 1rem;
+    }
+
+
+    .sections #map,
+    #contact {
+        display: inline-block;
+        width: 300px;
+        margin: auto;
+        vertical-align: top;
+      
+       /* margin: 0 0 2rem;
+        }*/
+    }
+#contact,
+   #map {
+       max-width: 50%;
+   }
+
 }

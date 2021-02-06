@@ -18,7 +18,9 @@
 </head>
 
 <body>
-    <aside id="pancakes" onload="banner()">Preston Pancakes in the Park! 9:00A.M. Saturday at the city park pavilion.
+    <aside id="pancakes" style="display: none;">
+        <p id="pancakesinfo">Preston Pancakes in the Park! <br>
+            9:00A.M. Saturday at the city park pavilion.</p>
     </aside>
     <header>
         <picture><img src="images/windCheckSmall.png"
@@ -46,17 +48,42 @@
             <section class="stats">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="currently">Sunny</span></p>
-                <p>Temperature: <span id="temperature">76</span></p>
+                <p>Temperature: <span id="temperature">76&#9900 F</span></p>
                 <p>Humidity: <span id="humidity">69%</span></p>
                 <p>Precipitation: <span id="precipitation">8 inches</span></p>
                 <p>Wind Speed: <span id="wind speed">5 mph</span></p>
             </section>
         </div>
-
+        <div class="fiveDay">
+            <h3>5-Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <th>&#127774</th>
+                    <th>&#9925</th>
+                    <th>&#9748</th>
+                    <th>&#9925</th>
+                    <th>&#127774</th>
+                </tr>
+                <tr>
+                    <th>62&#9900</th>
+                    <th>59&#9900</th>
+                    <th>58&#9900</th>
+                    <th>64&#9900</th>
+                    <th>67&#9900</th>
+                </tr>
+            </table>
+        </div>
         <div class="sections">
             <img src="images/pexels-brett-sayles-festival.jpg" alt="girl on her dad's shoulders"><br>
             <h2>Founders' Day Fresco</h2>
-            <p><i>by Author Name</i></p>
+            <p><i>by Arthur Name</i></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, inventore! Velit blanditiis, dolor fugiat
                 quis voluptas eveniet consectetur corporis odit labore ipsum dolorem dolore quod aliquid eos saepe id,
                 eius unde magnam, rerum sint nobis sapiente! Delectus illum, laudantium error, mollitia amet excepturi
@@ -74,11 +101,17 @@
                 Repellendus, ipsam.</p>
         </div>
         <div class="sections">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email us : <a href="WindCheck@gmail.com">WindCheck@gmail.com</a></li>
-                <li>Call us: (123) 456-7890</li>
-            </ul>
+            <img id="map" src="images/bearLakeArea300.png" alt="Bear Lake Area map">
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <h3>Wind Check</h3>
+                <ul>
+                    <li>📍 30 N 1st E</li>
+                    <li>Preston, ID 82363</li><br>
+                    <li>📧 <a href="WindCheck@gmail.com">WindCheck@gmail.com</a></li>
+                    <li>📞 (123) 456-7890</li>
+                </ul>
+            </section>
         </div>
     </main>
     <footer> &copy;Wind Check | Attributions | Amelia Chastain Brogdon |

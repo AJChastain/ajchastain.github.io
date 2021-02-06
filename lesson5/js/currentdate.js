@@ -10,8 +10,10 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 } 
 
-function banner() {
-    let today = new Date();
-    if (today.getDay =="5") {
-        document.getElementById("pancakes").style.display = "block";
-}}
+
+    let Today = new Date();
+    let Day = Today.getDay();
+    let aside = document.getElementById("pancakes");
+    if (Day == 5) {
+      aside.style.display = (aside.style.display == "block") ? "none" : "block";
+}

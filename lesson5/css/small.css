@@ -53,11 +53,13 @@ header img {
     flex-direction: column;
 }
 
-.headings h1, .motto {
+.headings h1,
+.motto {
     text-shadow: 3px 3px 5px black;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 2rem;
     padding: .75rem;
     margin: 0 0 0 17px;
@@ -159,15 +161,13 @@ div.sections2 img {
 }
 
 .fiveDay {
-    display: block;
-    padding: 6px;
-    border: solid 1px rgb(84, 112, 248);
-}
+    display: none;
 
+}
 
 .sections img {
     width: 100%;
-   margin: 0 0 2rem;
+    margin: 0 0 2rem;
 }
 
 .sections p {
@@ -175,9 +175,14 @@ div.sections2 img {
     margin: 6px 24px;
 }
 
+.sections h3 {
+    padding: 1rem 1rem 0 1rem;
+    margin: 6px 24px 0 28px;
+}
+
 .sections ul li {
     list-style: none;
-    padding: 6px;
+    padding: 6px; 
 }
 
 .hero {
@@ -196,7 +201,11 @@ p {
     width: 100%;
     margin: .75rem auto;
     border: solid black 3px;
-    
+
+}
+
+.sections #map {
+    display: none
 }
 
 .stats {
@@ -208,17 +217,21 @@ p {
     border: solid black 1.5px;
     box-shadow: 0 0 20px black;
     opacity: .85;
+    text-align: center;
 }
 
-aside {
-    display: none;
+#pancakes {
+    /*display: none;*/
     background-color: salmon;
     font-family: 'PT Serif', serif;
-    font-weight: bold;
     color: black;
     padding: 2rem;
     text-align: center;
     font-size: 1.25em;
-    border: solid rgb(57, 64, 97) 4px;
+    border: solid rgb(57, 64, 97) 3px;
     box-shadow: 0 0 20px black;
+}
+
+#contact ul li {
+    margin: auto;
 }
