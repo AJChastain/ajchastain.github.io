@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     header img {
         width: 100%;
        
@@ -6,6 +6,8 @@
 
     .headings {
         font-size: 3rem;
+        padding-left: 1rem;
+        
     }
 
     .motto {
@@ -21,7 +23,7 @@
 
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 50%;
         padding: 0 10px;
         text-shadow: 3px 3px 8px #999;
     }
@@ -78,4 +80,9 @@
         max-width: 50%;
     
     }
-}
+    .stats {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        padding: .5rem;
+}}

@@ -44,10 +44,12 @@ header img {
     border: 6px solid rgb(84, 112, 248);
     margin: 24px 10px 0 0;
     background-color: rgb(170, 184, 248);
-    
+
 }
+
 picture {
-    padding-left: 1rem;;
+    padding-left: 1rem;
+    ;
 }
 
 .headings {
@@ -59,7 +61,7 @@ picture {
 .headings h1,
 .motto {
     text-shadow: 3px 3px 5px black;
-    
+
 }
 
 h1,
@@ -81,12 +83,12 @@ h2 {
 
 nav {
     margin: 0 auto;
-    /*max-width: 800px;*/
+    /*width: fit-content;*/
     font-size: 18px;
     display: flex;
     flex-flow: column;
     flex: 1;
-    align-items: center;
+    justify-content: center;
 }
 
 .navigation {
@@ -101,7 +103,7 @@ nav {
 
 .navigation li {
     display: none;
-    
+
 }
 
 .navigation a {
@@ -165,7 +167,6 @@ div.sections2 img {
 
 .fiveDay {
     display: none;
-
 }
 
 .sections img {
@@ -185,7 +186,7 @@ div.sections2 img {
 
 .sections ul li {
     list-style: none;
-    padding: 6px; 
+    padding: 6px;
 }
 
 .hero {
@@ -213,10 +214,10 @@ p {
 
 .stats {
     position: absolute;
-    top: 40px;
-    left: 50px;
+    top: 30px;
+    left: 20px;
     background: radial-gradient(whitesmoke, rgb(170, 184, 248));
-    padding: .5rem;
+    padding: .25rem;
     border: solid black 1.5px;
     box-shadow: 0 0 20px black;
     opacity: .85;
@@ -233,19 +234,22 @@ p {
     font-size: 1.25em;
     border: solid rgb(57, 64, 97) 3px;
     box-shadow: 0 0 20px black;
-    
+
 }
+
 #pancakesinfo {
     line-height: 1.75rem;
 }
+
 #contact {
     text-align: center;
 }
+
 #contact p {
     margin: auto;
     line-height: 1.5rem;
     padding: 50px;
-    
+
 }
 
 .links {
@@ -254,5 +258,5 @@ p {
 }
 
 .active {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
