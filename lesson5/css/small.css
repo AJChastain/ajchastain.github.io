@@ -1,6 +1,5 @@
 body {
     font-size: 16px;
-    /*line-height: 1.5;*/
     margin: 0;
     padding: 0;
     /*max-width: 900px;*/
@@ -97,8 +96,7 @@ nav {
 
 .navigation li {
     display: none;
-    padding: 0 8px;
-    text-shadow: 3px 3px 8px #999;
+    
 }
 
 .navigation a {
@@ -167,7 +165,7 @@ div.sections2 img {
 
 .sections img {
     width: 100%;
-    margin: 0 0 2rem;
+    margin: 0 auto 2rem;
 }
 
 .sections p {
@@ -225,13 +223,22 @@ p {
     background-color: salmon;
     font-family: 'PT Serif', serif;
     color: black;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     font-size: 1.25em;
     border: solid rgb(57, 64, 97) 3px;
     box-shadow: 0 0 20px black;
+    
 }
-
-#contact ul li {
+#pancakesinfo {
+    line-height: 1.75rem;
+}
+#contact {
+    text-align: center;
+}
+#contact p {
     margin: auto;
+    line-height: 1.5rem;
+    padding: 50px;
+    
 }
