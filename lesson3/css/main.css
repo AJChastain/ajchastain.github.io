@@ -70,16 +70,8 @@ header img {
 .motto {
     text-shadow: 3px 3px 5px black;
 }
-/*img {
-    float: left;
-    max-width: 100px;
-    border: 6px solid rgb(84, 112, 248);
-    margin: 10px 0 12px 25%;
-    background-color: rgb(170, 184, 248);
-}
-/*header {
-    display: block;
-}*/
+
+
 
 #updated {
     font-size: 12px;
