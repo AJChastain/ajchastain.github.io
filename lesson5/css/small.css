@@ -57,7 +57,7 @@ header img {
     text-shadow: 3px 3px 5px black;
 }
 
-h1 {
+h1, h2 {
     font-size: 2rem;
     padding: .75rem;
     margin: 0 0 0 17px;
@@ -164,14 +164,14 @@ div.sections2 img {
     border: solid 1px rgb(84, 112, 248);
 }
 
-div.sections {
-    background-color: whitesmoke;
-    padding: 12px;
-    border: solid 3px rgb(57, 64, 97);
-    margin: 20px;
+
+.sections img {
+    width: 100%;
+   margin: 0 0 2rem;
 }
 
 .sections p {
+    padding: 1rem 1rem;
     margin: 6px 24px;
 }
 
@@ -201,11 +201,24 @@ p {
 
 .stats {
     position: absolute;
-    top: 24px;
-    right: 52px;
+    top: 40px;
+    left: 50px;
     background: radial-gradient(whitesmoke, rgb(170, 184, 248));
     padding: .5rem;
     border: solid black 1.5px;
     box-shadow: 0 0 20px black;
     opacity: .85;
+}
+
+aside {
+    display: none;
+    background-color: salmon;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.25em;
+    border: solid rgb(57, 64, 97) 4px;
+    box-shadow: 0 0 20px black;
 }
