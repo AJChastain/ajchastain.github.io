@@ -47,13 +47,39 @@ nav a {
 nav a:hover {
     color: salmon;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 2px 24px;
+}
 
-img {
-    max-width: 350px;
+header img {
+    width: 80px;
+    height: auto;
     border: 6px solid rgb(84, 112, 248);
-    margin: 24px 0px 0px;
+    margin: 24px 10px 0 0;
     background-color: rgb(170, 184, 248);
 }
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1,
+.motto {
+    text-shadow: 3px 3px 5px black;
+}
+/*img {
+    float: left;
+    max-width: 100px;
+    border: 6px solid rgb(84, 112, 248);
+    margin: 10px 0 12px 25%;
+    background-color: rgb(170, 184, 248);
+}
+/*header {
+    display: block;
+}*/
 
 #updated {
     font-size: 12px;
