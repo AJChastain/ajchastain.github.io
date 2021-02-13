@@ -23,7 +23,7 @@
             9:00A.M. Saturday at the city park pavilion.</p>
     </aside>
     <header>
-        <picture><img src="images/windCheckSmall.png"
+        <picture class="logo"><img src="images/windCheckSmall.png"
                 alt="a bright yellow sun peeks out behind a blue-grey cloud with wind blowing in front"></picture>
         <section class="headings">
             <h1>Wind Check Weather & Events</h1>
@@ -44,11 +44,11 @@
     <main>
         <h1>Preston Idaho</h1>
         <div class="hero">
-
-            <img src="images/wdd230_image_franklinOriginal.jpeg" alt="Preston Idaho scenery" sizes="100vw"
-                scrset="images/375.wdd230_image_franklin.jpg 375w, 
-                        images/768.wdd230_image_franklin.jpg 768w, 
-                        images/1160.wdd230_image_franklin.jpg 1160w,">
+            <picture id="week6">
+                <source scrset="images/wdd230_image_franklin.768.jpg" media="(min-width:32.5em) and (max-width:60em)">
+                <source scrset="images/wdd230_image_franklin.1160.jpg" media="(min-width:60em)">
+                <img id="heroImg" src="images/wdd230_image_franklin.375.jpg" alt="Preston Idaho scenery">
+            </picture>
 
             <section class="stats">
                 <h2>Weather Summary</h2>

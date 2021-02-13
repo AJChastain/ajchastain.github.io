@@ -47,9 +47,9 @@ header img {
 
 }
 
-picture {
+#logo {
     padding-left: 1rem;
-    ;
+    
 }
 
 .headings {
@@ -198,14 +198,13 @@ div.sections2 img {
 h2,
 p {
     margin: .25rem auto;
-
 }
 
-.hero img{
+
+#heroImg {
     width: 100%;
     margin: .75rem auto;
     border: solid black 3px;
-
 }
 
 .sections #map {
