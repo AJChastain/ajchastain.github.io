@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body onload="getChilled()">
     <aside id="pancakes" style="display: none;">
         <p id="pancakesinfo">Preston Pancakes in the Park! <br>
             9:00A.M. Saturday at the city park pavilion.</p>
@@ -56,13 +56,13 @@
                     <p id="current">Currently:</p> 
                        <span id="currently">Sunny</span>
                     <p id="temp">Temperature:</p> 
-                    <p><span id="temperature">76</span> &#8457;</p> 
+                    <p><span id="temperature">48</span> &#8457;</p> 
                     <p id="windch">Wind Chill:</p>
-                        <p><span id="wind_chill" onload="getChilled()"></span> &#8457;</p>
+                        <p><span id="wind_chill"></span> &#8457;</p>
                     <p id="humid">Humidity: </p> 
-                        <p><span id="humidity">69</span> %</p>
+                        <p><span id="humidity">65</span> %</p>
                     <p id="winds">Wind Speed:</p>
-                        <p><span id="wind_speed">5</span> mph</p>
+                        <p><span id="wind_speed">11</span> mph</p>
                 </div>
             </section>
         </div>
