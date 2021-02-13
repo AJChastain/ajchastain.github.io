@@ -222,6 +222,22 @@ p {
     opacity: .85;
     text-align: center;
 }
+#sumBox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+}
+#current {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+#currently {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
 
 #pancakes {
     /*display: none;*/

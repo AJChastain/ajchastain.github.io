@@ -51,12 +51,19 @@
             </picture>
 
             <section class="stats">
-                <h2>Weather Summary</h2>
-                <p>Currently: <span id="currently">Sunny</span></p>
-                <p>Temperature: <span id="temperature">76&#8457;</span></p>
-                <p>Humidity: <span id="humidity">69%</span></p>
-                <p>Precipitation: <span id="precipitation">8 inches</span></p>
-                <p>Wind Speed: <span id="wind_speed">5 mph</span></p>
+                <h2 id="summary">Weather Summary</h2>
+                <div id="sumBox">
+                    <p id="current">Currently:</p> 
+                       <span id="currently">Sunny</span>
+                    <p id="temp">Temperature:</p> 
+                    <p><span id="temperature">76</span> &#8457;</p> 
+                    <p id="windch">Wind Chill:</p>
+                        <p><span id="wind_chill" onload="getChilled()"></span> &#8457;</p>
+                    <p id="humid">Humidity: </p> 
+                        <p><span id="humidity">69</span> %</p>
+                    <p id="winds">Wind Speed:</p>
+                        <p><span id="wind_speed">5</span> mph</p>
+                </div>
             </section>
         </div>
         <div class="fiveDay">
@@ -129,6 +136,7 @@
         <div id="updated"><span id="currentdate"></span></div>
     </footer>
     <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
