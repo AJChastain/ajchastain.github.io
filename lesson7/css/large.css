@@ -1,0 +1,30 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+    .headings {
+        font-size: 3rem;
+        
+    }
+
+
+    nav {
+        display: block;
+        margin: auto;
+        padding: 10px 
+    }
+
+    nav ul li {
+        margin: 0 12px;
+    }
+    .sections #map,
+    #contact {
+        display: inline-block;
+        max-width: 300px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 33%  33% 33%;
+}
+}

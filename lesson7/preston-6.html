@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-width, initial-scale=1.0">
+    <meta name="description" content="Wind Check Preston">
+    <title>Wind Check Preston</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body onload="getChilled()">
+    <aside id="pancakes" style="display: none;">
+        <p id="pancakesinfo">Preston Pancakes in the Park! <br>
+            9:00A.M. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <picture class="logo"><img src="images/windCheckSmall.png"
+                alt="a bright yellow sun peeks out behind a blue-grey cloud with wind blowing in front"></picture>
+        <section class="headings">
+            <h1>Wind Check Weather & Events</h1>
+            <div class="motto">Don't get blown off course. Be ready for anything!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="hero">
+            <picture>
+                <source srcset="images/w06franklinLarge.jpg" media="(min-width:60em)">
+                <source srcset="images/w06franklinMedium.jpg" media="(min-width:32.5em) and (max-width:60em)">
+                <img id="heroImg" src="images/w06franklinSmall.jpg" alt="Preston Idaho scenery">
+            </picture>
+
+            <section class="stats">
+                <h2 id="summary">Weather Summary</h2>
+                <div id="sumBox">
+                    <p id="current">Currently:</p> 
+                       <span id="currently">Sunny</span>
+                    <p id="temp">Temperature:</p> 
+                    <p><span id="temperature">48</span> &#8457;</p> 
+                    <p id="windch">Wind Chill:</p>
+                        <p><span id="wind_chill"></span> &#8457;</p>
+                    <p id="humid">Humidity: </p> 
+                        <p><span id="humidity">65</span> %</p>
+                    <p id="winds">Wind Speed:</p>
+                        <p><span id="wind_speed">11</span> mph</p>
+                </div>
+            </section>
+        </div>
+        <div class="fiveDay">
+            <h3>5-Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <th>&#127774;</th>
+                    <th>&#9925;</th>
+                    <th>&#9748;</th>
+                    <th>&#9925;</th>
+                    <th>&#127774;</th>
+                </tr>
+                <tr>
+                    <th>62&#8457;</th>
+                    <th>59&#8457;</th>
+                    <th>58&#8457;</th>
+                    <th>64&#8457;</th>
+                    <th>67&#8457;</th>
+                </tr>
+            </table>
+        </div>
+        <div class="sections">
+            <img src="images/pexels-brett-sayles-festival.jpg" alt="girl on her dad's shoulders"><br>
+            <h2>Founders' Day Fresco</h2>
+            <p><i>by Arthur Name</i></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, inventore! Velit blanditiis, dolor fugiat
+                quis voluptas eveniet consectetur corporis odit labore ipsum dolorem dolore quod aliquid eos saepe id,
+                eius unde magnam, rerum sint nobis sapiente! Delectus illum, laudantium error, mollitia amet excepturi
+                ratione iure totam debitis obcaecati, saepe sit numquam ipsa ab fuga unde sint voluptas neque est
+                praesentium optio quidem vel porro possimus? Unde, dolores repellendus voluptate, praesentium molestiae
+                deserunt tempora inventore cum veniam assumenda facere sapiente quia hic reiciendis mollitia atque vitae
+                consequatur, omnis necessitatibus? Voluptatibus, consequuntur. Distinctio neque sequi qui animi!
+                Incidunt repellendus molestias id quisquam obcaecati aliquam nobis nemo consequuntur, soluta eveniet
+                dolores perspiciatis tempore omnis deleniti laborum saepe iure minus suscipit neque velit deserunt cum
+                nihil ab? Sed eius laboriosam incidunt dicta fugiat excepturi corrupti possimus culpa nobis ullam,
+                nulla, in officia itaque officiis nisi enim consequatur, praesentium impedit saepe ex? Quas, ut culpa
+                alias incidunt nam iste similique officia. Quidem similique modi quam molestiae reiciendis consequuntur
+                consequatur nulla at iure sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nobis
+                ipsam fuga eligendi corrupti explicabo provident placeat iure, eveniet sunt minus. Consequatur, magnam.
+                Repellendus, ipsam.</p>
+        </div>
+        <div class="sections mapbox">
+            <img id="map" src="images/bearLakeArea300.png" alt="Bear Lake Area map">
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <h3>Wind Check</h3>
+
+                <p>📍 30 N 1st E<br>
+                    Preston, ID 82363<br>
+                    📧 <a href="WindCheck@gmail.com">WindCheck@gmail.com</a><br>
+                    📞 (123) 456-7890</p><br>
+
+                <a href="facebook.com"><img class="links" src="images/fb.png" alt="facebook icon"></a>
+                <a href="instagram.com"><img class="links" src="images/ig.png" alt="instagram icon"></a>
+                <a href="twitter.com"><img class="links" src="images/twitter.png" alt="twitter icon"></a>
+                <a href="reddit.com"><img class="links" src="images/Reddit.png" alt="reddit icon"></a>
+
+            </section>
+        </div>
+    </main>
+    <footer> &copy;Wind Check | Attributions | Amelia Chastain Brogdon |
+        California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
+        <div id="updated"><span id="currentdate"></span></div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
