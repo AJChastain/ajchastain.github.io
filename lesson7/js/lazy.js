@@ -6,11 +6,12 @@ function preloadImage(img) {
         return;
     }
     img.src = src;
+    img.onload = () => {img.removeAttribute("data-src")};
 }
 
 const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 400px 0px"
+    threshold: 0,
+    rootMargin: "0px 0px 300px 0px"
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
@@ -28,3 +29,4 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image);
 });
+
