@@ -1,13 +1,13 @@
 @media only screen and (min-width: 37.5em) {
     header img {
         width: 100%;
-       
+
     }
 
     .headings {
         font-size: 3rem;
         padding-left: 1rem;
-        
+
     }
 
     .motto {
@@ -78,16 +78,19 @@
     #map {
 
         max-width: 50%;
-    
+
     }
+
     .stats {
         position: absolute;
         top: 50px;
         left: 40px;
         padding: .5rem;
-}
-.gallery {
-    display: grid;
-    grid-template-columns: 50%  50%;
-}
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
 }

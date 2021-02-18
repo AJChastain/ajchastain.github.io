@@ -49,7 +49,7 @@ header img {
 
 #logo {
     padding-left: 1rem;
-    
+
 }
 
 .headings {
@@ -222,21 +222,24 @@ p {
     opacity: .85;
     text-align: center;
 }
+
 #sumBox {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
 
 }
+
 #current {
     grid-column: 1/2;
     grid-row: 1/2;
-    
+
 }
+
 #currently {
     grid-column: 2/3;
     grid-row: 1/2;
-    
+
 }
 
 #pancakes {
@@ -278,15 +281,28 @@ p {
 
 .gallery {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-gap: 6px;
-    
-}
 
-.gallery picture:hover {
-    box-shadow: 4px 4px 6px rgb(57, 64, 97);
 }
 
 .gallery picture {
-border:rgb(84, 112, 248) dotted 2px;
+    border: rgb(84, 112, 248) dotted 2px;
+    margin: 6px;
+}
+
+
+.gallery picture img {
+    min-width: 200px;
+    min-height: 150px;
+    border: darkblue dotted 1px;
+    margin: 20px auto 0;
+
+}
+
+.gallery picture p {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
 }
