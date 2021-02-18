@@ -1,19 +1,25 @@
-
 picture img[data-src] {
-    filter: blur(.2em);
+    filter: blur(0.2em);
 }
 
 picture img {
+    filter: blur(0);
+    transition: filter 5s;
+}
+
+img {
     width: 300px;
     height: 400px;
-    border:darkblue dotted 1px;
+    border: darkblue dotted 1px;
     margin: 20px;
-    filter: blur(0em);
-    transition: filter(2.5s);
-    
+}
+
+[data-src] {
+    min-width: 75px;
+    min-height: 100px;
 }
 
 body {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
