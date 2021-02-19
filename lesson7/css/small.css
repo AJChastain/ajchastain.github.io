@@ -286,13 +286,13 @@ p {
 
 }
 
-.gallery picture {
+.gallery figure {
     border: rgb(84, 112, 248) dotted 2px;
     margin: 6px;
 }
 
 
-.gallery picture img {
+.gallery figure img {
     min-width: 200px;
     min-height: 150px;
     border: darkblue dotted 1px;
@@ -300,7 +300,7 @@ p {
 
 }
 
-.gallery picture p {
+.gallery figure p {
     padding: 0;
     text-align: center;
     margin-bottom: 12px;

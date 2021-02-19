@@ -28,7 +28,7 @@
     grid-template-columns: 33%  33% 33%;
 }
 
-.gallery picture:hover {
+.gallery figure:hover {
     box-shadow: 4px 4px 6px rgb(57, 64, 97);
 }
 }
