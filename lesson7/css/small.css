@@ -307,11 +307,11 @@ p {
     font-size: 14px;
 }
 
-article img[data-src] {
+figure img[data-src] {
     filter: blur(0.2em);
-  }
-  
-  article img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+}
+
+figure img {
+    filter: blur(0);
+    transition: filter .025s;
+}
