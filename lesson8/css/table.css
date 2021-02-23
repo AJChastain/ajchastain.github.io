@@ -19,7 +19,7 @@ thead {
     background-color: #7fb9c2;
     padding: 8px 40px;
     font-size: x-large;
-    border: solid lightgrey 2px 2px 0px 2px;
+    /*border: solid lightgrey 2px;*/
 }
 
 .th1 {
