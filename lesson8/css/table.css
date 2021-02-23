@@ -3,9 +3,9 @@ body {
 
 
 table {
-    box-shadow: 10px 10px 10px #628ca6;
     margin: 50px;
     text-align: center;
+    box-shadow: 10px 10px 12px #628ca6;
 }
 
 table, tr, th, td {
@@ -13,19 +13,16 @@ table, tr, th, td {
     border-collapse: collapse;
 }
 
-caption {
+thead {
     color: black;
     font-weight: 900;
     background-color: #7fb9c2;
     padding: 8px 40px;
     font-size: x-large;
+    border: solid lightgrey 2px 2px 0px 2px;
 }
 
-tr.th1 {
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: .055rem;
-}
+
 
 .th1 {
     background-color:#628ca6;
@@ -50,3 +47,9 @@ tfoot {
  tfoot {
     background-color: #7fb9c2;
  }
+tbody tr.th1 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .055rem;
+    background-color:#628ca6;
+}
