@@ -13,14 +13,18 @@ table, tr, th, td {
     border-collapse: collapse;
 }
 
-thead {
+caption {
     color: black;
+    font-weight: 900;
     background-color: #7fb9c2;
-    font-size: 2em;
-    padding: 10px 50px;
+    padding: 8px 40px;
+    font-size: x-large;
 }
+
 tr.th1 {
     font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .055rem;
 }
 
 .th1 {
@@ -32,7 +36,7 @@ tfoot {
     font-size: 12px; 
 }
  th, td {
-     padding: 6px;
+     padding: 8px;
  }
 
  tbody tr {
