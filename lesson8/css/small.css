@@ -315,3 +315,57 @@ figure img {
     filter: blur(0);
     transition: filter .025s;
 }
+
+.top {
+    display: block;
+    padding: .75rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+form label.top input,
+form label.top option, input.top, select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1.5px rgb(84, 112, 248);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+fieldset {
+    border-color: rgb(57, 64, 97);
+    margin-top: 1.5rem;
+    
+}
+
+form label.top input:required {
+    border-left: salmon solid 6px;
+}
+
+form label.top input:required:valid {
+   border-left: rgb(84, 112, 248) solid 6px;
+
+}
+
+ label input, label select{
+    margin-top: .5rem;
+}
+#severity {
+    
+}
+
+#ratingvalue {
+   font-size: 1rem;
+   letter-spacing: .55rem;
+    margin-left: .8rem;
+    width: 100%;
+    max-width: 20rem; 
+    
+}
