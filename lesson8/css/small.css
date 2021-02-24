@@ -329,7 +329,9 @@ form div {
 }
 
 form label.top input,
-form label.top option, input.top, select {
+form label.top option,
+input.top,
+select {
     display: block;
     font-size: 1rem;
     border: solid 1.5px rgb(84, 112, 248);
@@ -342,7 +344,7 @@ form label.top option, input.top, select {
 fieldset {
     border-color: rgb(57, 64, 97);
     margin-top: 1.5rem;
-    
+
 }
 
 form label.top input:required {
@@ -350,22 +352,55 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-   border-left: rgb(84, 112, 248) solid 6px;
+    border-left: rgb(84, 112, 248) solid 6px;
 
 }
 
- label input, label select{
+label input,
+label select {
     margin-top: .5rem;
 }
-#severity {
-    
-}
+
+#severity {}
 
 #ratingvalue {
-   font-size: 1rem;
-   letter-spacing: .55rem;
+    font-size: 1rem;
+    letter-spacing: .55rem;
     margin-left: .8rem;
     width: 100%;
-    max-width: 20rem; 
-    
+    max-width: 20rem;
+}
+
+label.rad,
+label.rad input {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 2rem;
+    margin: .5rem 0.25rem .25rem;
+}
+
+label.rad input {
+    margin-top: 4px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 50rem;
+    min-height: 10rem;
+}
+
+.submit {
+    border-radius: 4px;
+    border: 4px solid rgb(57, 64, 97);
+    background-color: salmon;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.submit:hover {
+    background-color: rgb(57, 64, 97);
+    color: salmon;
+    box-shadow: #555 6px 6px 16px;
 }

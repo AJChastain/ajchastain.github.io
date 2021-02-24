@@ -72,38 +72,53 @@
                         <option>Tornado</option>
                     </datalist>
 
-                    <label class="top">Severity<input type="range" id="severity" value="3" min="1" max="10" step="1"
-                            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">1 2 3 4 5 6 7 8 9 10</span>
-                    </label>
-                    <datalist id="tickmarks">
-                        <option value="0">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
-                    </datalist>
-                </fieldset>
-                <fieldset>
+                    <div><label class="top">Severity<input type="range" id="severity" value="3" min="1" max="10"
+                                step="1" list="tickmarks" oninput="adjustRating(this.value)"
+                                onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">1 2 3 4 5 6 7 8 9 10</span>
+                        </label>
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </div>
+
                     <label class="top">Storm Region
                         <select name="region">
                             <option>Select Region &#9662; </option>
                             <option value="fish">Fish Haven</option>
                             <option value="preston">Preston</option>
                             <option value="soda">Soda SPrings</option>
-
                         </select></label>
-                </fieldset>
 
+                    <label class="top">Are you in danger?
+                        <label class="rad"><input type="radio" name="danger" value="yes">Yes!</label>
+                        <label class="rad"><input type="radio" name="danger" value="maybe">Maybe</label>
+                        <label class="rad"><input type="radio" name="danger" value="no">No</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information or Comments</legend>
+                    <label class="top">
+                        <textarea id="addinfo" name="addinfo">
+                            </textarea></label>
+                </fieldset>
+                <input type="submit" value= "Report Storm" class="submit">
+                    
+               
 
         </main>
-        <footer> &copy;Wind Check | Attributions | Amelia Chastain Brogdon |
+
+        <footer> &copy;Wind Check |
+            Attributions | Amelia Chastain Brogdon |
             California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
             <div id="updated"><span id="currentdate"></span></div>
         </footer>
