@@ -38,86 +38,84 @@
             <li><a href="lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
+    <h1>Storm Center</h1>
     <main>
-        <h1>Storm Center</h1>
-        
-            <h1>Report a Storm</h1>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label class="top">Full Name* <input type="text" name="fname" required pattern=".{5,}"></label>
-                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top">Zip Code*<input type="number" name="zip" required></label>
-                    <label class="top">Email <input type="email" name="email" placeholder="myname@gmail.com"></label>
-                </fieldset>
+        <h2>Report a Storm</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" required pattern=".{5,}"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code*<input type="number" name="zip" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="myname@gmail.com"></label>
+            </fieldset>
 
-                <fieldset>
-                    <legend>Storm Details</legend>
-                    <label class="top">Storm Date<input type="date" name="date"></label>
+            <fieldset>
+                <legend>Storm Details</legend>
+                <label class="top">Storm Date<input type="date" name="date"></label>
 
-                    <label class="top" for="type">Storm Type (Select &#9662;)</label>
-                    <input class="top" list="type" name="type">
-                    <datalist id="type">
-                        <option>Blizzard</option>
-                        <option>Flash Flood</option>
-                        <option>Hail</option>
-                        <option>Hurricane</option>
-                        <option>Thunderstorm</option>
-                        <option>Tornado</option>
+                <label class="top" for="type">Storm Type (Select &#9662;)</label>
+                <input class="top" list="type" name="type">
+                <datalist id="type">
+                    <option>Blizzard</option>
+                    <option>Flash Flood</option>
+                    <option>Hail</option>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                </datalist>
+
+                <div><label class="top">Severity<input type="range" id="severity" value="3" min="1" max="10" step="1"
+                            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">1 2 3 4 5 6 7 8 9 10</span>
+                    </label>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
                     </datalist>
+                </div>
 
-                    <div><label class="top">Severity<input type="range" id="severity" value="3" min="1" max="10"
-                                step="1" list="tickmarks" oninput="adjustRating(this.value)"
-                                onchange="adjustRating(this.value)">
-                            <span id="ratingvalue">1 2 3 4 5 6 7 8 9 10</span>
-                        </label>
-                        <datalist id="tickmarks">
-                            <option value="0">
-                            <option value="1">
-                            <option value="2">
-                            <option value="3">
-                            <option value="4">
-                            <option value="5">
-                            <option value="6">
-                            <option value="7">
-                            <option value="8">
-                            <option value="9">
-                            <option value="10">
-                        </datalist>
-                    </div>
+                <label class="top">Storm Region
+                    <select name="region">
+                        <option>Select Region &#9662; </option>
+                        <option value="fish">Fish Haven</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda">Soda SPrings</option>
+                    </select></label>
 
-                    <label class="top">Storm Region
-                        <select name="region">
-                            <option>Select Region &#9662; </option>
-                            <option value="fish">Fish Haven</option>
-                            <option value="preston">Preston</option>
-                            <option value="soda">Soda SPrings</option>
-                        </select></label>
-
-                    <label class="top">Are you in danger?
-                        <label class="rad"><input type="radio" name="danger" value="yes">Yes!</label>
-                        <label class="rad"><input type="radio" name="danger" value="maybe">Maybe</label>
-                        <label class="rad"><input type="radio" name="danger" value="no">No</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Additional Information or Comments</legend>
-                    <label class="top">
-                        <textarea id="addinfo" name="addinfo">
+                <label class="top">Are you in danger?
+                    <label class="rad"><input type="radio" name="danger" value="yes">Yes!</label>
+                    <label class="rad"><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label class="rad"><input type="radio" name="danger" value="no">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information or Comments</legend>
+                <label class="top">
+                    <textarea id="addinfo" name="addinfo">
                             </textarea></label>
-                </fieldset>
-                <input type="submit" value= "Report Storm" class="submit">
-                    
-               
+            </fieldset>
+            <input type="submit" value="Report Storm" class="submit">
 
-        </main>
 
-        <footer> &copy;Wind Check |
-            Attributions | Amelia Chastain Brogdon |
-            California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
-            <div id="updated"><span id="currentdate"></span></div>
-        </footer>
-        <script src="js/currentdate.js"></script>
-        <script src="js/windchill.js"></script>
+
+    </main>
+
+    <footer> &copy;Wind Check |
+        Attributions | Amelia Chastain Brogdon |
+        California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
+        <div id="updated"><span id="currentdate"></span></div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
