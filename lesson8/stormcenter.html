@@ -38,9 +38,9 @@
             <li><a href="lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    <h1>Storm Center</h1>
+
     <main>
-        <h2>Report a Storm</h2>
+        <h1>Report a Storm</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
@@ -92,10 +92,11 @@
                         <option value="soda">Soda SPrings</option>
                     </select></label>
 
-                <label class="top">Are you in danger?
-                    <label class="rad"><input type="radio" name="danger" value="yes">Yes!</label>
-                    <label class="rad"><input type="radio" name="danger" value="maybe">Maybe</label>
-                    <label class="rad"><input type="radio" name="danger" value="no">No</label>
+                <div class="top">Are you in danger?</div>
+                <label class="rad"><input type="radio" id="yes" name="danger" value="yes">Yes!</label>
+                <label class="rad"><input type="radio" id="maybe" name="danger" value="maybe">Maybe</label>
+                <label class="rad"><input type="radio" id="no" name="danger" value="no">No</label>
+
             </fieldset>
             <fieldset>
                 <legend>Additional Information or Comments</legend>
@@ -104,8 +105,6 @@
                             </textarea></label>
             </fieldset>
             <input type="submit" value="Report Storm" class="submit">
-
-
 
     </main>
 

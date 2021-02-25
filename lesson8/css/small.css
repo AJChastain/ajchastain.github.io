@@ -371,16 +371,15 @@ label select {
     max-width: 20rem;
 }
 
-label.rad,
-label.rad input {
-    display: flex;
-    flex-direction: row;
-    flex-basis: 2rem;
-    margin: .5rem 0.25rem .25rem;
+form label.rad {
+    display: block;
+    padding: .25rem .75rem;
+    cursor: pointer;
+   
 }
 
 label.rad input {
-    margin-top: 4px;
+    margin: .25rem 1rem;
 }
 
 textarea {
