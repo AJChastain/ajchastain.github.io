@@ -363,8 +363,8 @@ label select {
 
 
 #ratingvalue {
+    display: block;
     font-size: 1rem;
-    letter-spacing: .55rem;
     margin-left: .8rem;
     width: 100%;
     max-width: 20rem;
