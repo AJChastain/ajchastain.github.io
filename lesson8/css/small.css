@@ -403,3 +403,6 @@ textarea {
     color: salmon;
     box-shadow: #555 6px 6px 16px;
 }
+
+p small {
+    margin-left: .75rem;}
