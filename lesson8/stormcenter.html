@@ -56,7 +56,7 @@
                 <legend>Storm Details</legend>
                 <label class="top">Storm Date<input type="date" name="date"></label>
 
-                <label class="top" for="stormtype">Storm Type (Please Select &#9662;) </label>
+                <label class="top" for="stormtype">Storm Type (Please Select &#9662;)
                     <input list="stormtypes" name="stormtype" id="stormtype">
                     <datalist id="stormtypes">
                         <option>Blizzard</option>
@@ -64,14 +64,14 @@
                         <option>Hail</option>
                         <option>Hurricane</option>
                         <option>Thunderstorm</option>
-                        <option>Tornado</option>
+                        <option>Tornado</option> </label>
                     </datalist>
                
 
 
-                <div><label class="top">Severity<input type="range" id="severity" value="3" min="1" max="10" step="1"
+                <div><label class="top">Severity<small> from 1 (mild) to 10 (severe)</small><input type="range" id="severity" value="3" min="1" max="10" step="1"
                             list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">1 2 3 4 5 6 7 8 9 10</span>
+                        <span id="ratingvalue"></span>
                     </label>
                     <datalist id="tickmarks">
                         <option value="0">
