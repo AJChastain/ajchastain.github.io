@@ -50,6 +50,8 @@ images.forEach(image => {
     imgObserver.observe(image);
 });
 
+
+//Credit to Shannon Cupido for the following code. 
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
