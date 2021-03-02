@@ -1,0 +1,54 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+.cards {
+    margin: auto;
+    /*border: white solid 2rem;*/
+    padding: 1rem;
+    box-shadow: darkgrey 4px 4px 10px 10px;
+    
+}
+
+.cards section {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid darkslateblue .25rem;
+    margin: 1rem;
+}
+
+img {
+    margin: 1rem auto;
+    max-width: 75%;
+    box-shadow: darkslateblue 2px 5px 15px 5px;
+}
+
+/*medium or tablet view*/
+@media only screen and (min-width: 37.5em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px;
+
+    }
+
+}
+
+/*large or desktop view*/
+@media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
