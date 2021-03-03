@@ -68,9 +68,9 @@ fetch(requestURL)
 
 const towns = jsonObject["towns"];
 for (let i = 0; i < towns.length; i++ ) {
-let card = document.createElement('section');
+let card = document.createElement("section");
 
-let h2 = document.createElement('h2');
+let h2 = document.createElement("h2");
     h2.textContent = towns[i].name;
     card.appendChild(h2);
 
@@ -98,7 +98,7 @@ let alt = document.createElement("alt");
     alt.setAttribute("alt", towns[i].name + ", " + "Idaho");
     card.appendChild(alt);
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector("div.cards").appendChild(card);
      
 }
 
