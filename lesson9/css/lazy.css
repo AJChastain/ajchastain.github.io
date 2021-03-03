@@ -1,0 +1,25 @@
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0);
+    transition: filter .75s;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    border: darkblue dotted 1px;
+    margin: 20px;
+}
+
+[data-src] {
+    min-width: 75px;
+    min-height: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
