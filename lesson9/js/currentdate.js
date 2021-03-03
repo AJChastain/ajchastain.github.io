@@ -87,7 +87,7 @@ let pop = document.createElement("currentPopulation");
     card.appendChild(pop);
 
 let rain = document.createElement("averageRainfall");
-    averageRainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+    rain.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
     card.appendChild(rain);
 
 let image = document.createElement("img");
