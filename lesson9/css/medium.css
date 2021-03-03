@@ -60,25 +60,30 @@
     }
 
     .mapbox {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr;
         margin: auto;
         vertical-align: top;
     }
+    
 
-    .sections #map,
-    #contact {
-        display: inline-block;
-        max-width: 280px;
+    .sections #map
+     {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
         margin: auto;
         vertical-align: top;
         /* margin: 0 0 2rem;
         }*/
     }
+   
+    .mapbox #map {
+        max-width:max-content;
+    }
 
-    #map {
-
-        max-width: 50%;
-
+    #contact a {
+        display: inline;
     }
 
     .stats {

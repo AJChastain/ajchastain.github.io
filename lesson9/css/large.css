@@ -2,33 +2,39 @@
     header img {
         width: 100%;
     }
+
     .headings {
         font-size: 3rem;
-        
-    }
 
+    }
 
     nav {
         display: block;
         margin: auto;
-        padding: 10px 
+        padding: 10px
     }
 
     nav ul li {
         margin: 0 12px;
     }
-    .sections #map,
-    #contact {
-        display: inline-block;
+
+    .sections #map
+        {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /*#contact {
+        grid-template-rows: auto;
         max-width: 300px;
-}
+    }*/
 
-.gallery {
-    display: grid;
-    grid-template-columns: 33%  33% 33%;
-}
+    .gallery {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 
-.gallery figure:hover {
-    box-shadow: 4px 4px 6px rgb(57, 64, 97);
-}
+    .gallery figure:hover {
+        box-shadow: 4px 4px 6px rgb(57, 64, 97);
+    }
 }
