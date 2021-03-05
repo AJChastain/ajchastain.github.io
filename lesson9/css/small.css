@@ -210,10 +210,11 @@ p {
 .sections #map {
     display: none
 }
+/*
 .sections .cards {
     display: flex;
 }
-
+*/
 .stats {
     position: absolute;
     top: 30px;
