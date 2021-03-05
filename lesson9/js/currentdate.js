@@ -99,8 +99,7 @@ let alt = document.createElement("alt");
     card.appendChild(alt);
 
     document.querySelector("div.cards").appendChild(card);
-     
+   
 }
-
   });
 
