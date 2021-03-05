@@ -67,7 +67,8 @@ fetch(requestURL)
     console.table(jsonObject);
 
 const towns = jsonObject["towns"];
-for (let i = 0; i < towns.length; i++) {
+for (let i = 0; i < towns.length; i++ ) {
+
 let card = document.createElement("section");
 
 let h2 = document.createElement("h2");
@@ -91,7 +92,7 @@ let rain = document.createElement("averageRainfall");
     card.appendChild(rain);
 
 let image = document.createElement("img");
-    image.setAttribute("src", towns[i].imageurl);
+    image.setAttribute("src", towns[i].photo);
     card.appendChild(image); 
 
 let alt = document.createElement("alt");
@@ -101,5 +102,6 @@ let alt = document.createElement("alt");
     document.querySelector("div.cards").appendChild(card);
    
 }
+    
   });
 
