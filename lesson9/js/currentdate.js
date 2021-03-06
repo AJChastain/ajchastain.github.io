@@ -56,7 +56,7 @@ function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
 
-
+/*
 //JSON
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -106,6 +106,6 @@ let alt = document.createElement("alt");
   
 
   });
-
+/*
   /*https://wireframe.cc/HXRaSW*/
 
