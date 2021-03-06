@@ -8,7 +8,11 @@ fetch(requestURL)
     console.table(jsonObject);
 
 const towns = jsonObject['towns'];
-for (let i = 0; i < towns.length; i++ ) {
+
+for (let i = 1; i < towns.length; i++ )
+    
+{
+towns.splice(2, 1);
 
 let card = document.createElement('section');
 

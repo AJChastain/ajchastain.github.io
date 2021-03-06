@@ -409,3 +409,27 @@ textarea {
 
 p small {
     margin-left: .75rem;}
+
+    .cards {
+        margin: auto;
+        /*border: white solid 2rem;*/
+        padding: 1rem;
+        box-shadow: darkgrey 4px 4px 10px 10px;
+        
+    }
+
+    
+.cards section {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid darkslateblue .25rem;
+    margin: 1rem;
+}
+
+motto {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}    
