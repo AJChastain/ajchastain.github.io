@@ -9,10 +9,13 @@ fetch(requestURL)
 
 const towns = jsonObject['towns'];
 
+/*
+towns.forEach(towns => {
+*/
 for (let i = 1; i < towns.length; i++ )
     
 {
-towns.splice(2, 1);
+/*towns.splice(2, 1);*/
 
 let card = document.createElement('section');
 
@@ -46,7 +49,10 @@ let alt = document.createElement("alt");
 
     document.querySelector('div.cards').appendChild(card);
    
-}
+};
   
+
+
+
 
   });
