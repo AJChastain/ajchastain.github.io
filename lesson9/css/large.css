@@ -36,10 +36,8 @@
     .gallery figure:hover {
         box-shadow: 4px 4px 6px rgb(57, 64, 97);
     }
-
-.sections {
-    width: 100%;
-}
+   
+   
     .cards section {
         background-color: rgb(170, 184, 248);
         border: solid rgb(57, 64, 97) .25rem;
@@ -47,14 +45,13 @@
         margin: 1rem;
         background-color: whitesmoke;
         grid-template-columns: 1fr;
-        max-width:inherit;
+        max-width:340px;
     }
 
     .cards section img {
         border: solid black 1px;
         margin: auto;
-        box-shadow: 5 5 15 #333;
-       
+        max-width: 12rem;
     }
 
     .cards {
