@@ -47,9 +47,9 @@ home.forEach(town => {
     card.append(averageRainfall);
     cards.append(card);
 
-  let image = document.createElement("img");
+    let image = document.createElement("img");
    
-    image.setAttribute("src", `images/${town.photo}`); 
+    image.setAttribute("src", `images/${town.photo}`);
     image.setAttribute("alt", town.name + " photo");
   
 
