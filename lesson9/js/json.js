@@ -56,10 +56,10 @@ home.forEach(town => {
             selector = "preston";
             break;
         case "Fish Haven":
-            selector = "fishHaven";
+            selector = "fishhaven";
             break;
         case "Soda Springs":
-            selector = "sodaSprings";
+            selector = "sodasprings";
             break;
     }*/
     image.setAttribute("src", `images/${town.photo}`);
