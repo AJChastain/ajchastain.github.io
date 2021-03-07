@@ -38,8 +38,17 @@
         box-shadow: 4px 4px 6px rgb(57, 64, 97);
     }
 
-     .cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    .cards {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+   
+    .cards img {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+  
+
+    
 }

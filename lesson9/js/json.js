@@ -5,17 +5,56 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+  //  console.table(jsonObject);
 
 const towns = jsonObject['towns'];
 
-/*
-towns.forEach(towns => {
-*/
-for (let i = 1; i < towns.length; i++ )
-    
+const cards = document.querySelector('.cards');
+
+towns.forEach(town => {
+
+    let card = document.createElement('section');
+
+    let h2 = document.createElement('h2');
+    h2.innerHTML = `${town.name}` ;
+    card.append(h2);
+    cards.append(card);
+
+    let motto = document.createElement('motto');
+    motto.innerHTML = `${town.motto}` ;
+    card.append(motto);
+    cards.append(card);
+
+    let yearFounded = document.createElement("yearFounded");
+    yearFounded.innerHTML = "Founded in: " + `${town.yearFounded}` ;
+    card.append(yearFounded);
+    cards.append(card);
+
+    let currentPopulation = document.createElement("currentPopulation");
+    currentPopulation.innerHTML = "Population: " + `${town.currentPopulation}` ;
+    card.append(currentPopulation);
+    cards.append(card);
+
+    let averageRainfall = document.createElement("averageRainfall");
+    averageRainfall.innerHTML = "Annual rainfall: " + `${town.averageRainfall}` ;
+    card.append(averageRainfall);
+    cards.append(card);
+
+    let image = document.createElement("img");
+    image.setAttribute = towns[`${('src', 'images/PrestonIdaho.jpg')}`];
+   /* image.setAttribute = `${images/FishHaven.jpg}`;
+    image.setAttribute = `${images/SodaSprings.jpg}`;*/
+    card.append(image);
+    cards.append(card);
+
+    let alt = document.createElement("alt");
+
+
+});
+
+/*for (let i = 1; i < towns.length; i++ )    
 {
-/*towns.splice(2, 1);*/
+
 
 let card = document.createElement('section');
 
@@ -41,6 +80,7 @@ let rain = document.createElement("averageRainfall");
 
 let image = document.createElement("img");
     image.setAttribute("src", towns[i].photo);
+        
     card.appendChild(image); 
 
 let alt = document.createElement("alt");
@@ -51,9 +91,7 @@ let alt = document.createElement("alt");
    
 };
   
-
-
-
+*/
 
   });
 
