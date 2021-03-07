@@ -137,4 +137,7 @@
     .cards section:nth-child(odd) averageRainfall {
         grid-column: 1;
     }
+
+    motto {
+        padding:.25rem }
 }
