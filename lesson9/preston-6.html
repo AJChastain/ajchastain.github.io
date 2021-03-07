@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wind Check Home Page">
-    <title>Wind Check Home Page</title>
+    <meta name="viewport" content="width-width, initial-scale=1.0">
+    <meta name="description" content="Wind Check Preston">
+    <title>Wind Check Preston</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,8 +17,11 @@
 
 </head>
 
-<body>
-
+<body onload="getChilled()">
+    <aside id="pancakes" style="display: none;">
+        <p id="pancakesinfo">Preston Pancakes in the Park! <br>
+            9:00A.M. Saturday at the city park pavilion.</p>
+    </aside>
     <header>
         <picture class="logo"><img src="images/windCheckSmall.png"
                 alt="a bright yellow sun peeks out behind a blue-grey cloud with wind blowing in front"></picture>
@@ -27,42 +30,69 @@
             <div class="motto">Don't get blown off course. Be ready for anything!</div>
         </section>
     </header>
-
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="preston-5.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-
     <main>
-        <h1>Wind Check Weather & Events</h1>
+        <h1>Preston Idaho</h1>
         <div class="hero">
             <picture>
-                <img id="heroImg" src="images/pexels-kevin-bidwell-hero.jpg" alt="Rocky peaks against a blue sky">
+                <img src="images/pexels-kevin-bidwell-hero.jpg" alt="Preston Idaho scenery image">
             </picture>
-        </div>
 
-        <div class="cards">
-            <section id="fishHaven">
-                <img src="images/FishHaven.jpg" alt="Fish Haven, Idaho">
-            </section>
-            <section id="preston">
-                <img src="images/PrestonIdaho.jpg" alt="Preston, Idaho">
-            </section>
-            <section id="sodaSprings">
-                <img src="images/SodaSprings.jpg" alt="Soda Springs, Idaho">
+            <section class="stats">
+                <h2 id="summary">Weather Summary</h2>
+                <div id="sumBox">
+                    <p id="current">Currently:</p> 
+                       <span id="currently">Sunny</span>
+                    <p id="temp">Temperature:</p> 
+                    <p><span id="temperature">48</span> &#8457;</p> 
+                    <p id="windch">Wind Chill:</p>
+                        <p><span id="wind_chill"></span> &#8457;</p>
+                    <p id="humid">Humidity: </p> 
+                        <p><span id="humidity">65</span> %</p>
+                    <p id="winds">Wind Speed:</p>
+                        <p><span id="wind_speed">11</span> mph</p>
+                </div>
             </section>
         </div>
-
+        <div class="fiveDay">
+            <h3>5-Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <th>&#127774;</th>
+                    <th>&#9925;</th>
+                    <th>&#9748;</th>
+                    <th>&#9925;</th>
+                    <th>&#127774;</th>
+                </tr>
+                <tr>
+                    <th>62&#8457;</th>
+                    <th>59&#8457;</th>
+                    <th>58&#8457;</th>
+                    <th>64&#8457;</th>
+                    <th>67&#8457;</th>
+                </tr>
+            </table>
+        </div>
         <div class="sections">
             <img src="images/pexels-brett-sayles-festival.jpg" alt="girl on her dad's shoulders"><br>
-            <h2>Spring Fling Community Event</h2>
+            <h2>Founders' Day Fresco</h2>
             <p><i>by Arthur Name</i></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, inventore! Velit blanditiis, dolor fugiat
                 quis voluptas eveniet consectetur corporis odit labore ipsum dolorem dolore quod aliquid eos saepe id,
@@ -80,7 +110,6 @@
                 ipsam fuga eligendi corrupti explicabo provident placeat iure, eveniet sunt minus. Consequatur, magnam.
                 Repellendus, ipsam.</p>
         </div>
-
         <div class="sections mapbox">
             <img id="map" src="images/bearLakeArea300.png" alt="Bear Lake Area map">
             <section id="contact">
@@ -106,7 +135,6 @@
     </footer>
     <script src="js/currentdate.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="js/json.js"></script>
 </body>
 
 </html>
