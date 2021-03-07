@@ -8,13 +8,15 @@ fetch(requestURL)
   //  console.table(jsonObject);
 
 const towns = jsonObject['towns'];
+const home = ['town.name("Fish Haven", "Preston", "Soda Springs")'];
 
 const cards = document.querySelector('.cards');
 
+/*towns.forEach(town => {*/
 towns.forEach(town => {
 
     let card = document.createElement('section');
-
+    
     let h2 = document.createElement('h2');
     h2.innerHTML = `${town.name}` ;
     card.append(h2);
@@ -48,7 +50,10 @@ towns.forEach(town => {
     cards.append(card);
 
     let alt = document.createElement("alt");
+    
 
+
+   
 
 });
 
