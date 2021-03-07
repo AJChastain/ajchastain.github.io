@@ -36,8 +36,8 @@
     .gallery figure:hover {
         box-shadow: 4px 4px 6px rgb(57, 64, 97);
     }
-   
-   
+
+
     .cards section {
         background-color: rgb(170, 184, 248);
         border: solid rgb(57, 64, 97) .25rem;
@@ -45,11 +45,11 @@
         margin: 1rem;
         background-color: whitesmoke;
         grid-template-columns: 1fr;
-        max-width:340px;
+        max-width: 340px;
     }
 
     .cards section img {
-        border: solid black 1px;
+        
         margin: auto;
         max-width: 12rem;
     }
@@ -87,6 +87,7 @@
     .cards section:nth-child(even) currentPopulation,
     .cards section:nth-child(even) averageRainfall {
         grid-column: 1/6;
+
     }
 
     .cards section:nth-child(odd) motto,
@@ -96,5 +97,8 @@
         grid-column: 1/6;
     }
 
+    averageRainfall {
+        margin-bottom: 5rem;
+    }
 
 }
