@@ -62,7 +62,7 @@ home.forEach(town => {
             selector = "sodaSprings";
             break;
     }*/
-    image.setAttribute("src", `images/${town.image}`);
+    image.setAttribute("src", `images/${town.photo}`);
     image.setAttribute("alt", town.name + " photo");
   
 
