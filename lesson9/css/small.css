@@ -430,6 +430,7 @@ p small {
     border: solid rgb(57, 64, 97) .25rem;
     box-shadow: 0 0 10 #333;
     margin: 1rem;
+    background-color: whitesmoke;
 }
 
 .cards section img {
@@ -437,6 +438,8 @@ p small {
     margin:auto;
     max-width: 400px;
     max-height: 300px;
+    padding: 1rem;
+    
 }
 
 towns {
@@ -445,7 +448,18 @@ towns {
 
 motto {
     font-style: italic;
-    font-weight: bold;
     font-size: large;
+    padding: .25rem .5rem .5rem;
 }
 
+yearFounded {
+    padding: .25rem;
+}
+
+currentPopulation {
+padding: .25rem;
+}
+
+averageRainfall {
+padding: .25rem .25rem .5rem;
+}

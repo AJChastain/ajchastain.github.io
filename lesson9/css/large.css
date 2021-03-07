@@ -39,6 +39,33 @@
     }
 
     .cards {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        /*border: white solid 2rem;*/
+        padding: 1rem;
+        /*box-shadow: darkgrey 4px 4px 10px 10px;*/
+    }
+    
+    .cards section {
+        background-color:rgb(170, 184, 248);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex: 1;
+        border: solid rgb(57, 64, 97) .25rem;
+        box-shadow: 0 0 10 #333;
+        margin: 1rem;
+    }
+    
+    .cards section img {
+        border: solid black 1px;
+        margin:auto;
+        max-width: 400px;
+        max-height: 300px;
+    }
+    
+   /* .cards {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -46,7 +73,7 @@
     .cards img {
         grid-column: 1;
         grid-row: 2;
-    }
+    }*/
 
   
 

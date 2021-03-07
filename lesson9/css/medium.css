@@ -98,28 +98,40 @@
 
     }
 
+
     .cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .cards:nth-child(even) img {
+    .cards section:nth-child(even) img {
         grid-column: 1;
     }
 
-    .cards:nth-child(odd) img {
+    .cards section:nth-child(odd) img {
         grid-column: 2;
     }
 
-    .cards:nth-child(odd) h2,
-    motto,
-    yearFounded,
-    currentPopulation,
-    averagerainfall {
+    .cards section:nth-child(even) h2 {
+        grid-column: 2;
+    }
+
+    .cards section:nth-child(odd) h2 {
         grid-column: 1;
     }
 
     
+    .cards section:nth-child(even) motto,
+    .cards section:nth-child(even) yearFounded,
+    .cards section:nth-child(even) currentPopulation,
+    .cards section:nth-child(even) averageRainfall {
+        grid-column: 2;
+    }
 
-
+    .cards section:nth-child(odd) motto,
+    .cards section:nth-child(odd) yearFounded,
+    .cards section:nth-child(odd) currentPopulation,
+    .cards section:nth-child(odd) averageRainfall {
+        grid-column: 1;
+    }
 }
