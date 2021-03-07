@@ -98,18 +98,21 @@
 
     }
 
-
     .cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: center;
+       
     }
 
     .cards section:nth-child(even) img {
         grid-column: 1;
+        grid-row: 2;
     }
 
     .cards section:nth-child(odd) img {
         grid-column: 2;
+        grid-row: 2;
     }
 
     .cards section:nth-child(even) h2 {
