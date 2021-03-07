@@ -56,6 +56,7 @@
         border: solid rgb(57, 64, 97) .25rem;
         box-shadow: 0 0 10 #333;
         margin: 1rem;
+        background-color: whitesmoke;
     }
     
     .cards section img {

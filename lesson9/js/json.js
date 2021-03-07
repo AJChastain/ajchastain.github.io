@@ -47,35 +47,22 @@ home.forEach(town => {
     cards.append(card);
 
     let image = document.createElement("img");
+    // 
     image.setAttribute("src", `images/${town.image}`);
     image.setAttribute("alt", town.name + " photo");
   
-/*//credit
-let selector = "";
-switch (town.name) {
-  case "Preston":
-    selector = "preston";
-    break;
-  case "Soda Springs":
-    selector = "sodaSprings";
-    break;
-  case "Fish Haven":
-    selector = "fishHaven";
-    break;
-}
-townSection = document.querySelector(`section#${selector}`);
-
-      townSection.appendChild(image);*/
 
     card.append(image);
     cards.append(card);
-
       
 });
 
 
-
   });
+
+
+
+  
 
   /*wireframe links for personal reference:
 
