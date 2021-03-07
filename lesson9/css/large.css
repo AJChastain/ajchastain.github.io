@@ -41,7 +41,7 @@
     .cards section {
         background-color: rgb(170, 184, 248);
         border: solid rgb(57, 64, 97) .25rem;
-        box-shadow: 0 0 10 #333;
+        box-shadow: 0 0 10px #333;
         margin: 1rem;
         background-color: whitesmoke;
         grid-template-columns: 1fr;
@@ -49,8 +49,6 @@
     }
 
     .cards section img {
-        
-        margin: auto;
         max-width: 12rem;
     }
 
@@ -61,7 +59,7 @@
 
 
     }
-
+    
     .cards section:nth-child(even) img {
         grid-column: 1/6;
         grid-row: 1;

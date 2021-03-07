@@ -428,7 +428,7 @@ p small {
     text-align: center;
     flex: 1;
     border: solid rgb(57, 64, 97) .25rem;
-    box-shadow: 0 0 10 #333;
+    box-shadow: 0 0 10px #333;
     margin: 1rem;
     background-color: whitesmoke;
 }
@@ -442,13 +442,13 @@ p small {
 }
 
 towns {
-    box-shadow: 0 0 10 #333;
+    box-shadow: 0 0 10px #333;
 }
 
 motto {
     font-style: italic;
     font-size: large;
-    padding: .25rem .5rem .5rem;
+    padding: .75rem ;
 }
 
 yearFounded {

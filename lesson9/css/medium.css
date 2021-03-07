@@ -95,22 +95,23 @@
     .gallery {
         display: grid;
         grid-template-columns: 50% 50%;
-        
+
     }
 
     .cards section {
         display: grid;
-        /*grid-template-columns: 1fr 1fr;*/
         align-content: space-around;
         justify-items: center;
-       grid: auto auto;
+        
     }
 
     .cards section:nth-child(even) img {
         grid-column: 1;
         grid-row: 1/6;
     }
-
+    .cards section img {
+        max-width: 310px;
+    }
     .cards section:nth-child(odd) img {
         grid-column: 2;
         grid-row: 1/6;
@@ -124,7 +125,7 @@
         grid-column: 1;
     }
 
-    
+
     .cards section:nth-child(even) motto,
     .cards section:nth-child(even) yearFounded,
     .cards section:nth-child(even) currentPopulation,
@@ -140,5 +141,11 @@
     }
 
     motto {
-        padding:.25rem }
+        padding: 1rem;
+    }
+    .cards section:nth-child(3) motto {
+        max-width: 70%;
+    }
+
+   
 }
