@@ -8,12 +8,16 @@ fetch(requestURL)
   //  console.table(jsonObject);
 
 const towns = jsonObject['towns'];
-const home = ['town.name("Fish Haven", "Preston", "Soda Springs")'];
+
+const home = [
+    towns.find((town) => town.name == "Fish Haven"),
+    towns.find((town) => town.name == "Preston"),
+    towns.find((town) => town.name == "Soda Springs"),];
 
 const cards = document.querySelector('.cards');
 
-/*towns.forEach(town => {*/
-towns.forEach(town => {
+
+home.forEach(town => {
 
     let card = document.createElement('section');
     
@@ -43,13 +47,16 @@ towns.forEach(town => {
     cards.append(card);
 
     let image = document.createElement("img");
-    image.setAttribute = towns[`${('src', 'images/PrestonIdaho.jpg')}`];
+    image.setAttribute("src", `images/towns/${town.image}`);
+    image.setAttribute("alt", town.name + " photo");
    /* image.setAttribute = `${images/FishHaven.jpg}`;
     image.setAttribute = `${images/SodaSprings.jpg}`;*/
+  
+
     card.append(image);
     cards.append(card);
 
-    let alt = document.createElement("alt");
+    
     
 
 
