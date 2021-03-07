@@ -95,24 +95,25 @@
     .gallery {
         display: grid;
         grid-template-columns: 50% 50%;
-
+        
     }
 
     .cards section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /*grid-template-columns: 1fr 1fr;*/
+        align-content: space-around;
         justify-items: center;
-       
+       grid: auto auto;
     }
 
     .cards section:nth-child(even) img {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 1/6;
     }
 
     .cards section:nth-child(odd) img {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 1/6;
     }
 
     .cards section:nth-child(even) h2 {
