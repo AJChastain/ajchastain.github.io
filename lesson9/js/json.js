@@ -49,7 +49,7 @@ home.forEach(town => {
 
   let image = document.createElement("img");
    
-    image.setAttribute("src", `images/${town.photo}`);
+    image.setAttribute("src", `images/${town.photo}`); 
     image.setAttribute("alt", town.name + " photo");
   
 
