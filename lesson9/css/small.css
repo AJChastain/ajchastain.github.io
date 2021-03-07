@@ -436,7 +436,7 @@ p small {
 .cards section img {
     border: solid black 1px;
     margin:auto;
-    max-width: 400px;
+    max-width: 75%;
     max-height: 300px;
     padding: 1rem;
     
