@@ -48,20 +48,7 @@ home.forEach(town => {
     cards.append(card);
 
   let image = document.createElement("img");
-   /* let card = document.getElementById("img");
-    
-    let selector= "";
-    switch (town.name) {
-        case "Preston":
-            selector = "preston";
-            break;
-        case "Fish Haven":
-            selector = "fishhaven";
-            break;
-        case "Soda Springs":
-            selector = "sodasprings";
-            break;
-    }*/
+   
     image.setAttribute("src", `images/${town.photo}`);
     image.setAttribute("alt", town.name + " photo");
   
