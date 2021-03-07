@@ -21,6 +21,7 @@ home.forEach(town => {
 
     let card = document.createElement('section');
     
+   
     let h2 = document.createElement('h2');
     h2.innerHTML = `${town.name}` ;
     card.append(h2);
@@ -46,8 +47,21 @@ home.forEach(town => {
     card.append(averageRainfall);
     cards.append(card);
 
-    let image = document.createElement("img");
-    // 
+  let image = document.createElement("img");
+   /* let card = document.getElementById("img");
+    
+    let selector= "";
+    switch (town.name) {
+        case "Preston":
+            selector = "preston";
+            break;
+        case "Fish Haven":
+            selector = "fishHaven";
+            break;
+        case "Soda Springs":
+            selector = "sodaSprings";
+            break;
+    }*/
     image.setAttribute("src", `images/${town.image}`);
     image.setAttribute("alt", town.name + " photo");
   
@@ -62,7 +76,7 @@ home.forEach(town => {
 
 
 
-  
+
 
   /*wireframe links for personal reference:
 
