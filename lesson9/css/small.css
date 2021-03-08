@@ -429,7 +429,7 @@ p small {
     flex: 1;
     border: solid rgb(57, 64, 97) .25rem;
     box-shadow: 0 0 10px #333;
-    /*margin: auto;*/
+    margin: 1rem;
     background-color: whitesmoke;
 }
 
@@ -438,7 +438,7 @@ p small {
     max-width: 75%;
     max-height: 300px;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
 }
 
 towns {
