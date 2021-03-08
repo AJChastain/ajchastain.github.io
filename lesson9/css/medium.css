@@ -102,16 +102,20 @@
         display: grid;
         align-content: space-around;
         justify-items: center;
-        
+        padding: 1.5rem;
     }
 
     .cards section:nth-child(even) img {
         grid-column: 1;
         grid-row: 1/6;
+        
     }
+
     .cards section img {
         max-width: 310px;
+        justify-content: center;
     }
+
     .cards section:nth-child(odd) img {
         grid-column: 2;
         grid-row: 1/6;
@@ -143,9 +147,12 @@
     motto {
         padding: 1rem;
     }
+
     .cards section:nth-child(3) motto {
         max-width: 70%;
     }
 
-   
+    averageRainfall {
+        padding-bottom: 2rem;
+    }
 }
