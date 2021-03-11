@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-width, initial-scale=1.0">
+    <meta name="description" content="Wind Check Gallery">
+    <title>Wind Check Gallery</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <picture class="logo"><img src="images/windCheckSmall.png"
+                alt="a bright yellow sun peeks out behind a blue-grey cloud with wind blowing in front"></picture>
+        <section class="headings">
+            <h1>Wind Check Weather & Events</h1>
+            <div class="motto">Don't get blown off course. Be ready for anything!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class="active" href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="sections gallery">
+            <figure id="gall1">
+                <img src="images/placeholderSm.jpg" data-src="images/fog.jpg" alt="weather image1">
+                <br>
+                <p>Fog lays thickly over the forest.</p>
+            </figure>
+
+            <figure id="gall2">
+                <img src="images/placeholderSm.jpg" data-src="images/icy.jpg" alt="weather image2">
+                <br>
+                <p>Icy snow blankets the ground.</p>
+            </figure>
+
+            <figure id="gall3">
+                <img src="images/placeholderSm.jpg" data-src="images/storm.jpg" alt="weather image3" loading="lazy">
+                <br>
+                <p>A storm blows in over Bear Lake.</p>
+            </figure>
+
+            <figure id="gall4">
+                <img src="images/placeholderSm.jpg" data-src="images/sunshine.jpg" alt="weather image4" loading="lazy">
+                <br>
+                <p>The sun rises on a beautiful Idaho day.</p>
+            </figure>
+
+            <figure id="gall5">
+                <img src="images/placeholderSm.jpg" data-src="images/snow.jpg" alt="weather image5" loading="lazy">
+                <br>
+                <p>Mountain peaks covered with fresh snow.</p>
+            </figure>
+
+            <figure id="gall6">
+                <img src="images/placeholderSm.jpg" data-src="images/lightning.jpg" alt="weather image6" loading="lazy">
+                <br>
+                <p>Lightning strikes during Thursday's storm.</p>
+            </figure>
+
+            <figure id="gall7">
+                <img src="images/placeholderSm.jpg" data-src="images/cloudbank.jpg" alt="weather image7" loading="lazy">
+                <br>
+                <p>This cloud bank was photographed above Fish Haven.</p>
+            </figure>
+
+            <figure id="gall8">
+                <img src="images/placeholderSm.jpg" data-src="images/rainbow.jpg" alt="weather image8" loading="lazy">
+                <br>
+                <p>A rainbow appears over fields just outside of Preston.</p>
+            </figure>
+
+            <figure id="gall9">
+                <img src="images/placeholderSm.jpg" data-src="images/windy.jpg" alt="weather image9" loading="lazy">
+                <br>
+                <p>High winds are visible as the snow flies from the mountain peaks.</p>
+            </figure>
+
+
+        </div>
+    </main>
+    <footer> &copy;Wind Check | Attributions | Amelia Chastain Brogdon |
+        California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
+        <div id="updated"><span id="currentdate"></span></div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+   
+</body>
+
+</html>

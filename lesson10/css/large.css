@@ -1,0 +1,105 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    .headings {
+        font-size: 3rem;
+
+    }
+
+    nav {
+        display: block;
+        margin: auto;
+        padding: 10px
+    }
+
+    nav ul li {
+        margin: 0 12px;
+    }
+
+    .sections #map {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /*#contact {
+        grid-template-rows: auto;
+        max-width: 300px;
+    }*/
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .gallery figure:hover {
+        box-shadow: 4px 4px 6px rgb(57, 64, 97);
+    }
+
+
+    .cards section {
+        background-color: rgb(170, 184, 248);
+        border: solid rgb(57, 64, 97) .25rem;
+        box-shadow: 0 0 10px #333;
+        margin: 1rem;
+        background-color: whitesmoke;
+        grid-template-columns: 1fr;
+        max-width: 340px;
+    }
+
+    .cards section img {
+        max-width: 12rem;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        align-content: center;
+
+
+    }
+    
+    .cards section:nth-child(even) img {
+        grid-column: 1/6;
+        grid-row: 1;
+        align-items: center;
+    }
+
+    .cards section:nth-child(odd) img {
+        grid-column: 1/6;
+        grid-row: 1;
+    }
+
+    .cards section:nth-child(even) h2 {
+        grid-column: 1/6;
+    }
+
+    .cards section:nth-child(odd) h2 {
+        grid-column: 1/6;
+    }
+
+
+    .cards section:nth-child(even) motto,
+    .cards section:nth-child(even) yearFounded,
+    .cards section:nth-child(even) currentPopulation,
+    .cards section:nth-child(even) averageRainfall {
+        grid-column: 1/6;
+
+    }
+
+    .cards section:nth-child(odd) motto,
+    .cards section:nth-child(odd) yearFounded,
+    .cards section:nth-child(odd) currentPopulation,
+    .cards section:nth-child(odd) averageRainfall {
+        grid-column: 1/6;
+    }
+
+    averageRainfall {
+        margin-bottom: 5rem;
+    }
+
+}
