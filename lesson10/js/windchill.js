@@ -1,5 +1,5 @@
 function getChilled() {
-    var temp = parseFloat(document.getElementById("temperature").innerHTML);
+    var temp = parseFloat(document.getElementById("current-temp").innerHTML);
     var ws = parseFloat(document.getElementById("wind_speed").innerHTML);
     var chill = calcChill(temp, ws);
     document.getElementById("wind_chill").innerHTML = chill;

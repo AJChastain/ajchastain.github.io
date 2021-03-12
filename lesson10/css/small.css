@@ -201,7 +201,7 @@ p {
 }
 
 
-#heroImg {
+.hero picture img {
     width: 100%;
     margin: .75rem auto;
     border: solid black 3px;
@@ -244,6 +244,7 @@ p {
 #currently {
     grid-column: 2/3;
     grid-row: 1/2;
+    white-space: nowrap;
 
 }
 
@@ -461,4 +462,8 @@ padding: .25rem;
 
 averageRainfall {
 padding: .25rem .25rem .5rem;
+}
+
+#summary {
+    margin: 0;
 }
