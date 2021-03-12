@@ -3,7 +3,7 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
-        document.getElementById('current-temp').textContent = jsObject.main.temp; 
+        document.getElementById('current-temp').textContent = jsObject.main.temp.toFixed(0); 
      
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
         
@@ -15,5 +15,6 @@ fetch(apiURL)
         document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
         document.getElementById('icon').setAttribute('alt', desc);
    
-   
+        document.getElementById('humidity').textContent = jsObject.main.humidity;
+        document.getElementById('wind_speed').textContent = jsObject.wind.speed.toFixed(0);
     });
