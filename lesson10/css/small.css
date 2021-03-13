@@ -242,7 +242,7 @@ p {
     grid-row: 1/2;
     white-space: nowrap;
     text-transform: capitalize;
-    font-weight: bold;
+    font-style: italic;
 }
 
 #pancakes {
