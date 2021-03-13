@@ -224,16 +224,16 @@ p {
     padding: .25rem 1rem;
     border: solid black 1.5px;
     box-shadow: 0 0 20px black;
-    opacity: .85;
+    opacity: 90%;
     text-align: center;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 #sumBox {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
- margin-top: 0;
+    margin-top: 0;
 }
 
 
@@ -242,6 +242,7 @@ p {
     grid-row: 1/2;
     white-space: nowrap;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 #pancakes {
@@ -419,7 +420,7 @@ p small {
 }
 
 .cards section {
-    background-color:rgb(170, 184, 248);
+    background-color: rgb(170, 184, 248);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -431,7 +432,7 @@ p small {
 }
 
 .cards section img {
-    
+
     max-width: 75%;
     max-height: 300px;
     padding: 1rem;
@@ -445,7 +446,7 @@ towns {
 motto {
     font-style: italic;
     font-size: large;
-    padding: .75rem ;
+    padding: .75rem;
 }
 
 yearFounded {
@@ -453,11 +454,11 @@ yearFounded {
 }
 
 currentPopulation {
-padding: .25rem;
+    padding: .25rem;
 }
 
 averageRainfall {
-padding: .25rem .25rem .5rem;
+    padding: .25rem .25rem .5rem;
 }
 
 #summary {
