@@ -220,11 +220,11 @@ p {
     position: absolute;
     top: 30px;
     left: 20px;
-    background: radial-gradient(whitesmoke, rgb(170, 184, 248));
+    background: radial-gradient( rgb(84, 112, 248), rgb(170, 184, 248));
     padding: .25rem 1rem;
     border: solid black 1.5px;
     box-shadow: 0 0 20px black;
-    opacity: 90%;
+    opacity: 82%;
     text-align: center;
     white-space: nowrap;
 }
