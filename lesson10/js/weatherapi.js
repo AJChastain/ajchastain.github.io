@@ -23,9 +23,10 @@ fetch(apiURL)
         const windcheck = jsObject['list'];
         let day= 0;  
         //------------------Tried to put a loop here and failed------------------
-       /*for (day = 0; day < windcheck.length; day++  ) {
-          if (windcheck[day].dt_txt.includes('18:00:00') = "true") {      
-        */          
+       for (day = 0; day < windcheck.length; day++  ) {
+        //let dt = windcheck[day].dt_txt;
+       // if (dt.includes('18:00:00') = 'true') {      
+                  
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let d = new Date(windcheck[day].dt_txt);
         console.log(d);
@@ -37,9 +38,9 @@ fetch(apiURL)
         const imagesrc1 = 'https://openweathermap.org/img/w/' + windcheck[day].weather[0].icon + '.png';
         let pic = windcheck[day].weather[0].icon;
         document.getElementById(`icon${day +1}`).setAttribute('src', imagesrc1);
-    /*  }
-           }
-    */
+     }
+        // }
+    
     });
 
 
