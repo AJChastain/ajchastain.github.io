@@ -54,7 +54,7 @@ fetch(apiURL)
       ];
       let d = new Date(windcheck[day].dt_txt);
       console.log(d);
-      document.getElementById(`dayname${day + 1}`).textContent =
+      document.getElementById("dayname").textContent =
         weekdays[d.getDay()];
 
       //daily temps
