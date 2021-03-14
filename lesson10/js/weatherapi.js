@@ -25,7 +25,7 @@ fetch(apiURL)
         //------------------Tried to put a loop here and failed------------------
        for (day = 0; day < windcheck.length; day++  ) {
         //let dt = windcheck[day].dt_txt;
-       // if (dt.includes('18:00:00') = 'true') {      
+     // if (dt.includes('18:00:00') = 'true') {      
                   
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let d = new Date(windcheck[day].dt_txt);
