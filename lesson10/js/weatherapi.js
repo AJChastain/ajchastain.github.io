@@ -21,8 +21,11 @@ fetch(apiURL)
         
         
         const windcheck = jsObject['list'];
-        const day = 0;  
+        let day;  
         //Tried to put a loop here and failed
+        for (day = 0; day < windcheck.length; day++  ) {
+
+
         
         
                   
@@ -37,7 +40,7 @@ fetch(apiURL)
         const imagesrc1 = 'https://openweathermap.org/img/w/' + windcheck[day].weather[0].icon + '.png';
         let pic = windcheck[day].weather[0].icon;
         document.getElementById(`icon${day +1}`).setAttribute('src', imagesrc1);
-       
+       }
   
     });
 
