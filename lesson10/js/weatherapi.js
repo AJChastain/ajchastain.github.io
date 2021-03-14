@@ -68,4 +68,5 @@ fetch(apiURL)
           weekdays[today + a];
       }
     }
+    
   });
