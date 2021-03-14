@@ -18,7 +18,28 @@ fetch(apiURL)
    
         document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
         document.getElementById('wind_speed').textContent = jsObject.list[0].wind.speed.toFixed(0);
+        
+        
+        
+        const windcheck = jsObject['list'];
+            for (let day = 0; day < 39; day +7) {
+                     
+        const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        let d = new Date(windcheck[day].dt_txt);
+        console.log(d);
+        document.getElementById(`dayname${day +1}`).textContent = weekdays[d.getDay()];
+
+        let h = windcheck[day].main.temp.toFixed(0);
+        document.getElementById(`hightemp${day +1}`).textContent = h;
+
+        const imagesrc1 = 'https://openweathermap.org/img/w/' + windcheck[day].weather[0].icon + '.png';
+        let pic = windcheck[day].weather[0].icon;
+        document.getElementById(`icon${day +1}`).setAttribute('src', imagesrc1);
+        
+        }
     });
+
+    
 
    
     
