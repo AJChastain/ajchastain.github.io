@@ -22,7 +22,9 @@ fetch(apiURL)
         
         const windcheck = jsObject['list'];
         const day = 0;  
-              
+        //Tried to put a loop here and failed
+        
+        
                   
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let d = new Date(windcheck[day].dt_txt);
