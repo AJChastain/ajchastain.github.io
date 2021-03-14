@@ -18,4 +18,3 @@ function calcChill(temp, ws) {
     }
    return chilled;
 }
-
