@@ -33,7 +33,25 @@ fetch(apiURL)
       "wind_speed"
     ).textContent = jsObject.list[0].wind.speed.toFixed(0);
 
-    //five-day forecast chaos
+
+    //wind chill reattempt
+    var temp = parseFloat(jsObject.list[0].main.temp);
+    var ws = parseFloat(jsObject.list[0].wind.speed);
+    var chill = calcChill(temp, ws);
+    document.getElementById("wind_chill").textContent = chill;
+    function calcChill(temp, ws) {
+        if (temp < 51 && ws > 3) {
+          var exp = Math.pow(ws, 0.16);
+          var chilled = 35.74 + 0.6215 * temp - 35.75 * exp + 0.4275 * temp * exp;
+          chilled = chilled.toFixed(0);
+        } else {
+          chilled = "(N/A)";
+        }
+        return chilled;
+      }
+
+
+    //five-day forecast
     const windcheck = jsObject["list"];
     let d = new Date();
     let today = d.getDay();
