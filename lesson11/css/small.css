@@ -424,10 +424,8 @@ p small {
 }
 .cards2 section {
     width: 50%;
-    
     flex-direction: column;
     text-align: center;
-
     border: solid rgb(57, 64, 97) .25rem;
     box-shadow: 0 0 10px #333;
     margin: .25rem;
