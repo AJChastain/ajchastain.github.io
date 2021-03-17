@@ -418,6 +418,23 @@ p small {
     padding: 1rem;
     /*box-shadow: darkgrey 4px 4px 10px 10px;*/
 }
+.cards2 {
+    display: flex;
+    justify-content: center;
+}
+.cards2 section {
+    width: 50%;
+    
+    flex-direction: column;
+    text-align: center;
+
+    border: solid rgb(57, 64, 97) .25rem;
+    box-shadow: 0 0 10px #333;
+    margin: .25rem;
+    padding: 0 1rem 1rem;
+    background-color: whitesmoke;
+    align-items: center;
+}
 
 .cards section {
     background-color: rgb(170, 184, 248);
