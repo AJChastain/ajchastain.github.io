@@ -60,15 +60,3 @@ home.forEach(town => {
 
 
   });
-
-
-
-
-
-  /*wireframe links for personal reference:
-
-  Mobile https://wireframe.cc/okvuRx
-  Tablet https://wireframe.cc/2rB9Cn
-  Desktop https://wireframe.cc/HXRaSW
-
-  */
