@@ -82,7 +82,7 @@ fetch(apiURL)
             
         }
       for (let a = 1; a < 6; a++) {
-       document.getElementById(`dayname${a}`).innerHTML = weekdays[today + a];
+       document.getElementById(`dayname${a}`).textContent = weekdays[today + a];
       
             
       }
