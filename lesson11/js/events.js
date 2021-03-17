@@ -19,9 +19,7 @@ const cards = document.querySelector('.cards2');
 
 home.forEach(town => {
 
-    let card = document.createElement('section');
-    
-   
+    let card = document.createElement('section'); 
     let h2 = document.createElement('h2');
     h2.innerHTML = "Upcoming Events" ;
     card.append(h2);
@@ -30,7 +28,7 @@ home.forEach(town => {
     let events = document.createElement("events");
     events.innerHTML = `${town.events}`;
     card.append(events);
-    card.append(card);
+    cards.append(card);
     //let motto = document.createElement('motto');
    // motto.innerHTML = `${town.motto}`;
    // card.append(motto);
