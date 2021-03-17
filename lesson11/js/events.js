@@ -5,60 +5,50 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-  //  console.table(jsonObject);
+  console.table(jsonObject);
 
 const towns = jsonObject['towns'];
 
+// Code inspired by Jeremiah Orcutt, who rocks at this.
+/*let a = 0;
+for (a = 0; a < towns.length; a++) {
+  let town = towns[a].name;
+  if (town == "Preston") {
+    let event = towns[a].events.join('<br>');
+    document.getElementById("cards2").textContent = event;
+  }
+
+  else if (town == "Fish Haven") {
+    let event = towns[a].events.join('<br>');
+    document.getElementById("cards3").textContent = event;
+  }
+
+  else if (town == "Soda Springs") {
+    let event = towns[a].events.join('<br>');
+    document.getElementById("cards4").textContent = event;
+  }
+}
+*/
+    
 const home = [
-    towns.find((town) => town.name == "Fish Haven"),
-    towns.find((town) => town.name == "Preston"),
-    towns.find((town) => town.name == "Soda Springs"),];
+  towns.find((town) => town.name == "Fish Haven"),
+  towns.find((town) => town.name == "Preston"),
+  towns.find((town) => town.name == "Soda Springs"),];
 
 const cards = document.querySelector('.cards2');
 
 
 home.forEach(town => {
 
-    let card = document.createElement('section'); 
-    let h2 = document.createElement('h2');
-    h2.innerHTML = "Upcoming Events" ;
-    card.append(h2);
-    cards.append(card);
+  let card = document.createElement('section'); 
+  let h2 = document.createElement('h2');
+  h2.innerHTML = "Upcoming Events" ;
+  card.append(h2);
+  cards.append(card);
 
-    let events = document.createElement("events");
-    events.innerHTML = `${town.events}`;
-    card.append(events);
-    cards.append(card);
-    //let motto = document.createElement('motto');
-   // motto.innerHTML = `${town.motto}`;
-   // card.append(motto);
-    //cards.append(card);
-
-   // let yearFounded = document.createElement("yearFounded");
-   // yearFounded.innerHTML = "Founded in: " + `${town.yearFounded}` ;
-   // card.append(yearFounded);
-    //cards.append(card);
-
-   // let currentPopulation = document.createElement("currentPopulation");
-    //currentPopulation.innerHTML = "Population: " + `${town.currentPopulation}` ;
-   // card.append(currentPopulation);
-   // cards.append(card);
-
-   // let averageRainfall = document.createElement("averageRainfall");
-   // averageRainfall.innerHTML = "Annual rainfall: " + `${town.averageRainfall}` ;
-    //card.append(averageRainfall);
-    //cards.append(card);
-
-    //let image = document.createElement("img");
-   
-   // image.setAttribute("src", `images/${town.photo}`);
-   // image.setAttribute("alt", town.name + " photo");
-  
-
-    //card.append(image);
-    //cards.append(card);
-      
+  let events = document.createElement("events");
+  events.innerHTML = `${town.events}`;
+  card.append(events);
+  cards.append(card);
 });
-
-
   });

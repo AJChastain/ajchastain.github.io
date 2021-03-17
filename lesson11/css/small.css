@@ -418,11 +418,11 @@ p small {
     padding: 1rem;
     /*box-shadow: darkgrey 4px 4px 10px 10px;*/
 }
-.cards2 {
+/*#cards2, #cards3, #cards4*/ .cards2 {
     display: flex;
     justify-content: center;
 }
-.cards2 section {
+/*#cards2 section, #cards3 section, #cards4*/ .cards2 section {
     width: 50%;
     flex-direction: column;
     text-align: center;
