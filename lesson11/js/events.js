@@ -14,22 +14,22 @@ const towns = jsonObject['towns'];
 for (a = 0; a < towns.length; a++) {
   let town = towns[a].name;
   if (town == "Preston") {
-    let event = towns[a].events.join('<br>');
+    let event = towns[a].events;
     document.getElementById("cards2").textContent = event;
   }
 
   else if (town == "Fish Haven") {
-    let event = towns[a].events.join('<br>');
+    let event = towns[a].events;
     document.getElementById("cards3").textContent = event;
   }
 
   else if (town == "Soda Springs") {
-    let event = towns[a].events.join('<br>');
+    let event = towns[a].events;
     document.getElementById("cards4").textContent = event;
   }
 }
 */
-    
+//let town = towns[a].name; 
 const home = [
   towns.find((town) => town.name == "Fish Haven"),
   towns.find((town) => town.name == "Preston"),
@@ -37,9 +37,8 @@ const home = [
 
 const cards = document.querySelector('.cards2');
 
-
 home.forEach(town => {
-
+  
   let card = document.createElement('section'); 
   let h2 = document.createElement('h2');
   h2.innerHTML = "Upcoming Events" ;
