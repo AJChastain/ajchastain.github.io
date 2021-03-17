@@ -76,15 +76,13 @@ fetch(apiURL)
         var temperature = windcheck[i].main.temp.toFixed(0);
         document.getElementById(`hightemp${a + 1}`).innerHTML = temperature;
         document.getElementById(`icon${a + 1}`).setAttribute("src", weatherLogo + windcheck[i].weather[0].icon + "@2x.png");
-        document
-          .getElementById(`icon${a + 1}`)
-          .setAttribute("alt", windcheck[i].weather[0].description);
+        document.getElementById(`icon${a + 1}`).setAttribute("alt", windcheck[i].weather[0].description);
         a++;
       }
       for (let a = 1; a < 6; a++) {
-        document.getElementById(`dayname${a}`).textContent =
-          weekdays[today + a];
+        document.getElementById(`dayname${a}`).textContent = weekdays[today + a];
       }
+     
     }
     
   });
