@@ -97,6 +97,9 @@
 
     }
 
+    .cards2 section, .cards3 section, .cards4 section {
+        width: 75%;
+    }
     .cards section {
         display: grid;
         align-content: space-around;

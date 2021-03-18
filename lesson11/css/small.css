@@ -420,12 +420,12 @@ p small {
     display: flex;
     justify-content: center;
     background-color: rgb(170, 184, 248);
-    margin: 2rem;
+    margin: 2rem 0;
     padding-top: 2rem;
 }
 
  .cards2 section, .cards3 section, .cards4 section {
-    width: 75%;
+    width: 85%;
     flex-direction: column;
     text-align: center;
     border: solid  rgb(57, 64, 97) .75rem;
