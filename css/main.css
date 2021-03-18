@@ -14,6 +14,8 @@ header, footer {
     text-align:center;
     padding: 12px;
     border-radius: 8px;
+    box-shadow: 0 3px 20px 5px rgb(2, 116, 116);
+    border: solid #888 .25px;
     
 }
 ul li a:hover {
