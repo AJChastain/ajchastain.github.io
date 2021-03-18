@@ -65,7 +65,11 @@
         vertical-align: top;
     }
 
-
+    .sections p {
+        padding: 1rem 1rem;
+        margin: 6px 24px;
+    }
+    
     .sections #map {
         display: grid;
         grid-template-columns: 1fr;

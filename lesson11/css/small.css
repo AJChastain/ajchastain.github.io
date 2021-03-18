@@ -60,7 +60,6 @@ header img {
 .headings h1,
 .motto {
     text-shadow: 3px 3px 5px black;
-
 }
 
 h1,
@@ -487,8 +486,6 @@ averageRainfall {
 }
 
 p a:hover {
-    color: rgb(57, 64, 97);
-    background-color: salmon;
-    text-shadow: none;
-    
+   color: salmon;
+   text-shadow: 3px 3px 20px #999;
 }
