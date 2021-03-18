@@ -415,13 +415,17 @@ p small {
     padding: 1rem;
    
 }
+
 .cards2, .cards3, .cards4 {
     display: flex;
     justify-content: center;
     background-color: rgb(170, 184, 248);
+    margin: 2rem;
+    padding-top: 2rem;
 }
+
  .cards2 section, .cards3 section, .cards4 section {
-    width: 50%;
+    width: 75%;
     flex-direction: column;
     text-align: center;
     border: solid  rgb(57, 64, 97) .75rem;
@@ -431,9 +435,10 @@ p small {
     background-color: whitesmoke;
     align-items: center;
 }
+
 .cards2 section h2, .cards3 section h2, .cards4 section h2 {
 padding: .5rem .5rem 1rem;
-margin: 0;
+margin: auto;
 }
 
 .cards section {
