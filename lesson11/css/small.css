@@ -364,7 +364,6 @@ label select {
     margin-top: .5rem;
 }
 
-
 #ratingvalue {
     display: block;
     font-size: 1rem;
@@ -377,7 +376,6 @@ form label.rad {
     display: block;
     padding: .25rem .75rem;
     cursor: pointer;
-
 }
 
 label.rad input {
@@ -426,8 +424,8 @@ p small {
     width: 50%;
     flex-direction: column;
     text-align: center;
-    border: solid  rgb(57, 64, 97) .25rem;
-    box-shadow: 0 0 10px #333;
+    border: solid  rgb(57, 64, 97) .75rem;
+    box-shadow: 5px 5px 10px #333;
     margin: .25rem;
     padding: .75rem;
     background-color: whitesmoke;
