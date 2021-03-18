@@ -486,3 +486,10 @@ averageRainfall {
 #summary {
     margin: 0;
 }
+
+p a:hover {
+    color: rgb(57, 64, 97);
+    background-color: salmon;
+    text-shadow: none;
+    
+}
