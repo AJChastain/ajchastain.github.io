@@ -1,4 +1,4 @@
-const images = document.querySelectorAll("[data-src]");
+const galimages = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
     const src = img.getAttribute("data-src");
@@ -9,24 +9,24 @@ function preloadImage(img) {
     img.onload = () => {img.removeAttribute("data-src")};
 }
 
-const imgOptions = {
+const galimgOptions = {
     threshold: 0,
     rootMargin: "0px 0px 300px 0px"
 };
 
-const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+const galimgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if(!entry.isIntersecting) {
             return;
         }
         else {
             preloadImage(entry.target);
-            imgObserver.unobserve(entry.target);
+            galimgObserver.unobserve(entry.target);
         }
     });
-}, imgOptions);
+}, galimgOptions);
 
-images.forEach(image => {
-    imgObserver.observe(image);
+galimages.forEach(image => {
+    galimgObserver.observe(image);
 });
 
