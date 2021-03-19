@@ -10,7 +10,7 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 } 
 
-
+    let style;
     let Today = new Date();
     let Day = Today.getDay();
     let aside = document.getElementById("pancakes");
