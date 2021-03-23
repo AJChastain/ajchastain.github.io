@@ -4,9 +4,11 @@ document.getElementById("currentdate").innerHTML = new Date().toLocaleDateString
 
 //Toggle hamburger for main nav
 function toggleNav() {
-    document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+    document.getElementsByClassName("navbar")[0].classList.toggle("response");
 } 
-
+/*function toggleMenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");*/
+//} 
 
 
 
