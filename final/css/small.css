@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
-
+    
 }
 
 main {
@@ -31,7 +31,6 @@ nav {
     flex-flow: column;
     flex: 1;
     justify-content: center;
-
 
 }
 
