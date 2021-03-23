@@ -1,0 +1,97 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+
+}
+
+main {
+    background-color: lightgreen;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 12px auto;
+    box-shadow: 0 4px 6px #444;
+    max-width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    margin: 0 auto;
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    justify-content: center;
+
+
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    border-top: solid rgba(0, 0, 0, .3);
+}
+
+nav a:hover {
+    color: #920783;
+    text-shadow: none;
+}
+
+header,
+footer {
+    background-color: rgb(119, 89, 62);
+    color: blanchedalmond;
+    border: solid 14px lightgreen;
+    border-radius: 10px;
+    margin: 12px;
+    box-shadow: 0 4px 6px #444;
+    text-align: center;
+}
+
+
+#updated {
+    font-size: 12px;
+    color: yellow;
+}
+
+
+footer a:visited {
+    color: lightgreen;
+}
+
+footer a:hover {
+    color: #920783;
+    background-color: blanchedalmond;
+}
+
+footer {
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.5em;
+}
