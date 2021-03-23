@@ -10,7 +10,7 @@ body {
 main {
     background-color: lightgreen;
     padding: 12px;
-    border-radius: 6px;
+    border-radius: 10px;
     margin: 12px auto;
     box-shadow: 0 4px 6px #444;
     max-width: 90%;
@@ -34,22 +34,22 @@ nav {
 
 }
 
-.navigation {
+.navbar {
     list-style: none;
     text-align: center;
     padding: 0;
 }
 
-.navigation li:first-child {
+.navbar li:first-child {
     display: block;
 }
 
-.navigation li {
+.navbar li {
     display: none;
 
 }
 
-.navigation a {
+.navbar a {
     display: block;
     padding: .75rem;
     text-align: center;
@@ -57,9 +57,25 @@ nav {
     border-top: solid rgba(0, 0, 0, .3);
 }
 
+nav a {
+    color:rgb(119, 89, 62);
+}
+
 nav a:hover {
-    color: #920783;
+    color: rgb(70, 52, 36);
+    background-color: lightgreen;
     text-shadow: none;
+}
+
+nav a:visited {
+ color: green;
+}
+
+ nav a:visited:hover {
+     color:rgb(0, 99, 0);
+ }
+.active {
+    font-size: 1.75rem;
 }
 
 header,
@@ -67,7 +83,7 @@ footer {
     background-color: rgb(119, 89, 62);
     color: blanchedalmond;
     border: solid 14px lightgreen;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 12px;
     box-shadow: 0 4px 6px #444;
     text-align: center;
@@ -75,12 +91,11 @@ footer {
 
 
 #updated {
-    font-size: 12px;
+    font-size: 13px;
     color: yellow;
 }
 
-
-footer a:visited {
+footer a {
     color: lightgreen;
 }
 
@@ -91,6 +106,6 @@ footer a:hover {
 
 footer {
     padding: 12px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.5em;
 }

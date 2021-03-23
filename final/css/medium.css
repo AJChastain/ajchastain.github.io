@@ -1,0 +1,40 @@
+@media only screen and (min-width: 37.5em) {
+    header img {
+        width: 100%;
+    }
+
+    .headings {
+        font-size: 3rem;
+        padding-left: 1rem;
+
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: 1rem;
+        margin-left: 17px;
+    }
+
+    .navbar {
+        display: flex;
+
+    }
+
+    .navbar li {
+        display: block;
+        flex: 1 1 50%;
+        padding: 0 10px;
+        text-shadow: 3px 3px 8px #999;
+    }
+
+    .navbar li:first-child {
+        display: none;
+    }
+
+    main,
+    footer {
+        max-width: 900px;
+        margin: 24px auto;
+    }
+
+}
