@@ -37,4 +37,11 @@
         margin: 24px auto;
     }
 
+    .sections img {
+        width:fit-content;
+    }
+
+
+
+
 }

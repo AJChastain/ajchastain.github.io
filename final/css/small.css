@@ -103,15 +103,18 @@ nav a:visited {
 }
 
 .sections img {
-    width: 100%;
+    width:100%;
     margin: 0 auto 2rem;
 
 }
+ figcaption {
+     margin: 0 auto;
+ }
 
 .sections p {
     padding: .25rem;
     margin: .25rem;
-
+    
 }
 
 .sections p a { /* code credit: https://perishablepress.com/wrapping-content/*/
