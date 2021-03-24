@@ -23,8 +23,14 @@ h3,
 h4,
 nav {
     font-family: 'PT Sans', sans-serif;
-
+    text-align: center;
+    
 }
+h2 {
+    text-shadow: 0 2px 20px rgb(0, 99, 0);
+    color: rgb(70, 52, 36);
+}
+
 
 nav {
     margin: 0 auto;
