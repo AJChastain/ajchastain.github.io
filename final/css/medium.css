@@ -37,11 +37,21 @@
         margin: 24px auto;
     }
 
-    .sections img {
-        width:fit-content;
+    .localImg {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
     }
 
+    .localImg img {
+        max-width: 90%;
+        margin: 1rem auto .5rem;
+    }
 
-
+    figcaption {
+        margin: 0 auto;
+        text-align: center;
+        padding: .25rem 1rem;
+    }
 
 }
