@@ -99,7 +99,7 @@ nav a:visited {
     padding: 12px;
     border: solid 3px rgb(119, 89, 62);
     margin: 20px;
-
+    border-radius: 2px;
 }
 
 .sections img {
@@ -108,9 +108,13 @@ nav a:visited {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 6px
-    
+   
 }
  
+.localImg, .localImg img {
+    box-shadow: 0px 2px 8px #444;
+}
+
 figcaption {
    margin: 0 auto 2rem;
    text-align: center;
@@ -142,7 +146,7 @@ footer {
     border: solid 14px lightgreen;
     border-radius: 6px;
     margin: 12px;
-    box-shadow: 0 4px 6px #444;
+    box-shadow: 0 4px 8px #444;
     text-align: center;
 
 }
