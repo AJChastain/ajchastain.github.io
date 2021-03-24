@@ -14,6 +14,7 @@ main {
     margin: 12px auto;
     box-shadow: 0 4px 6px #444;
     max-width: 90%;
+
 }
 
 h1,
@@ -22,6 +23,7 @@ h3,
 h4,
 nav {
     font-family: 'PT Sans', sans-serif;
+
 }
 
 nav {
@@ -32,16 +34,19 @@ nav {
     flex: 1;
     justify-content: center;
 
+
 }
 
 .navbar {
     list-style: none;
     text-align: center;
     padding: 0;
+
 }
 
 .navbar li:first-child {
     display: block;
+
 }
 
 .navbar li {
@@ -55,20 +60,24 @@ nav {
     text-align: center;
     text-decoration: none;
     border-top: solid rgba(0, 0, 0, .3);
+
 }
 
 nav a {
     color:rgb(119, 89, 62);
+
 }
 
 nav a:hover {
     color: rgb(70, 52, 36);
     background-color: lightgreen;
     text-shadow: none;
+
 }
 
 nav a:visited {
  color: green;
+
 }
 
  nav a:visited:hover {
@@ -77,26 +86,32 @@ nav a:visited {
  
  .response li {
     display: block;
+
 }
+
 .active {
     font-size: 1.75rem;
+
 }
 
 .sections {
-    background-color: white;
+    background-color:rgb(252, 245, 236);
     padding: 12px;
-    border: solid 3px rgb(70, 52, 36);
+    border: solid 3px rgb(119, 89, 62);
     margin: 20px;
+
 }
 
 .sections img {
     width: 100%;
     margin: 0 auto 2rem;
+
 }
 
 .sections p {
     padding: .25rem;
     margin: .25rem;
+
 }
 
 .sections p a { /* code credit: https://perishablepress.com/wrapping-content/*/
@@ -107,7 +122,8 @@ nav a:visited {
 	white-space: -o-pre-wrap;   /* Opera 7 */
 	white-space: -moz-pre-wrap; /* Mozilla */
 	white-space: -hp-pre-wrap;  /* HP Printers */
-	word-wrap: break-word;     
+	word-wrap: break-word;   
+
 }
 
 
@@ -120,25 +136,45 @@ footer {
     margin: 12px;
     box-shadow: 0 4px 6px #444;
     text-align: center;
+
 }
 
+header img {
+    margin-top:1rem;
+    width:150px;
+}
+
+.header h1,
+.motto {
+    text-shadow: 3px 3px 5px black;
+}
+
+.motto {
+    margin-bottom: 1rem;
+    font-style: italic;
+    color:lightgreen;
+ }
 
 #updated {
     font-size: 13px;
     color: yellow;
+
 }
 
 footer a {
     color: lightgreen;
+
 }
 
 footer a:hover {
     color: #920783;
     background-color: blanchedalmond;
+
 }
 
 footer {
     padding: 12px;
     font-size: 13px;
     line-height: 1.5em;
+
 }
