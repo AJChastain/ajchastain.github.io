@@ -64,7 +64,13 @@ fetch(apiURL)
       "Thursday",
       "Friday",
       "Saturday",
-      
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
     ];
 
     var weatherLogo = "https://openweathermap.org/img/wn/";
