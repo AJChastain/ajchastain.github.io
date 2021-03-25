@@ -62,6 +62,9 @@
         margin: auto;
         
     }
+    .threeDay {
+        justify-items: center;
+    }
     
     .contact img {
         

@@ -87,15 +87,54 @@
           <a href="https://twitter.com/turlockchamber?lang=en"> <img src="images/twitter.png" alt="twitter icon"></a>
           <a href="https://www.instagram.com/turlockcitynews/?hl=en"> <img src="images/ig.png" alt="instagram"></a>
           </div>
+        
         </section>
 
         <section class="sections">
             <h2>Upcoming Events</h2>
             upcoming events</section>
 
-        <section class="sections">
-            <h2>Current Weather Conditions</h2>
-            current weather</section>
+        <section class="sections stats">
+            <h2>Current Weather</h2>
+           
+            <div id="sumBox">
+                <span id="imagesrc"><img src="images/favicon.ico" alt="" id="icon"></span>
+                <p><span id="currently"></span></p>
+                <p id="temp">Temperature:</p>
+                <p><span id="current-temp"></span> &#8457;</p>
+                <p id="windch">Wind Chill:</p>
+                <p><span id="wind_chill"></span> &#8457;</p>
+                <p id="humid">Humidity: </p>
+                <p><span id="humidity"></span> %</p>
+                <p id="winds">Wind Speed:</p>
+                <p><span id="wind_speed"></span> mph</p>
+            </div>
+            <!---->
+            <div class="threeDay">
+                <h3>3-Day Forecast</h3>
+    
+                <table>
+                    <tr>
+                        <th id="dayname1"></th>
+                        <th id="dayname2"></th>
+                        <th id="dayname3"></th>  
+                    </tr>
+                    <tr>
+                        <th><img src="images/favicon.ico" alt="" id="icon1"></th>
+                        <th><img src="images/favicon.ico" alt="" id="icon2"></th>
+                        <th><img src="images/favicon.ico" alt="" id="icon3"></th> 
+                    </tr>
+                    <tr>
+                        <th><span id="hightemp1"></span> &#8457;</th>
+                        <th><span id="hightemp2"></span> &#8457;</th>
+                        <th><span id="hightemp3"></span> &#8457;</th>
+                    </tr>
+                </table>
+            </div>
+        
+        
+        
+        </section>
 
     </main>
     <footer> &copy;Turlock Chamber of Commerce | <a href="attribute.html">Attributions</a> | Weather data obtained from
@@ -105,5 +144,6 @@
         <div id="updated">Updated: <span id="currentdate"></span></div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/weatherapi.js"></script>
 
 </body>
