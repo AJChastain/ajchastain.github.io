@@ -65,10 +65,28 @@
     .threeDay {
         justify-items: center;
     }
-    
+
+    .threeDay table {
+        max-width: 75%;
+    }
+
+    .threeDay img {
+        margin: auto;
+    }
+
     .contact img {
-        
         padding-top: 8px;
     }
+
+    .stats {
+        max-width: 75%;
+        margin: auto;
+    }
+
+    #imagesrc img {
+        max-width: 40%;
+}
+
+
 
 }

@@ -212,9 +212,8 @@ footer {
 
 .stats {
     margin: auto;
-    width: 50%;
-    top: 30px;
-    left: 20px;
+    padding: 12px;
+    margin: 20px;
     background: radial-gradient( rgb(127, 147, 248), rgb(204, 236, 204));
     padding: .25rem 1rem 1.5rem;
     border: solid black 1.5px;
@@ -222,7 +221,16 @@ footer {
     opacity: 88%;
     text-align: center;
     white-space: nowrap;
-    
+   font-weight: 600;
+}
+.stats p {
+    padding: 0;
+}
+
+.contactUs {
+    width: 60%;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px black;
 }
 
 .stats h2, .stats h3 {
@@ -239,13 +247,16 @@ footer {
     align-items: center;
 }
 
+
 .threeDay table {
     margin: auto;
-}
+   
+   }
+
 
 #imagesrc img {
     max-width: 50%;
-   margin: 0 auto;
+    margin: 0 auto;
     
 }
 
