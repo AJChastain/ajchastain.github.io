@@ -54,4 +54,18 @@
         padding: .25rem 1rem;
     }
 
+    .contact {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        max-width: 75%;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    
+    .contact img {
+        
+        padding-top: 8px;
+    }
+
 }
