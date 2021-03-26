@@ -1,7 +1,6 @@
-//const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5404024&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
+//OneCall
 const apiURL =
 "https://api.openweathermap.org/data/2.5/onecall?lat=37.4947&lon=-120.8466&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
-//"https://api.openweathermap.org/data/2.5/forecast/?id=5404024&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -53,6 +52,8 @@ fetch(apiURL)
         return chilled;
       }
 
+    
+
 
     //three-day forecast
     const turlock = jsObject["daily"];
@@ -94,12 +95,20 @@ fetch(apiURL)
       }
      
     }
-    //Alerts  
-    function weatherAlert() {
-     alert("Hello!");
+   
+function weatherAlert() {
+     alert(JSON.stringify(jsObject.current.temp));
     }
-     //jsObject.alert.description;
-    /*document.getElementById("alert").textContent=*/  
-    
 
   });
+
+ //Alerts  
+
+ 
+    
+
+
+    
+
+
+    //alert.description
