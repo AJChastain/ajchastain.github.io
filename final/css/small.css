@@ -1,6 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
+   
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
@@ -12,7 +13,7 @@ main {
     padding: 12px;
     border-radius: 10px;
     margin: 12px auto;
-    box-shadow: 0 4px 6px #444;
+    box-shadow: rgb(70, 52, 36) 0 4px 10px;
     max-width: 90%;
 
 }
@@ -118,7 +119,7 @@ nav a:visited {
 }
  
 .localImg, .localImg img {
-    box-shadow: 0px 2px 8px #444;
+    box-shadow: rgb(70, 52, 36) 0 4px 10px;
 }
 
 figcaption {
@@ -166,7 +167,7 @@ footer {
     border: solid 14px lightgreen;
     border-radius: 6px;
     margin: 12px;
-    box-shadow: 0 4px 8px #444;
+    box-shadow: rgb(70, 52, 36) 0 4px 8px;
     text-align: center;
 
 }
@@ -230,7 +231,7 @@ footer {
 .contactUs {
     width: 60%;
     margin: 2rem auto;
-    box-shadow: 0 0 20px black;
+    box-shadow: rgb(70, 52, 36) 0 5px 20px;
 }
 
 .stats h2, .stats h3 {
@@ -267,3 +268,28 @@ footer {
     font-style: italic;
    
 }
+
+.ads {
+    border:rgb(0, 99, 0) 5px solid;
+    margin: 1.5rem auto;
+    box-shadow: rgb(119, 89, 62) 0 5px 10px;
+}
+
+.ads p {
+   text-align: center; 
+   padding: 2rem;
+}
+
+.ads img {
+    max-width: 75%;
+}
+
+.ads h3 {
+    color:rgb(70, 52, 36);
+}
+
+#tributes {
+    border:rgb(0, 99, 0) 5px solid;
+    margin: .75rem 0;
+}
+

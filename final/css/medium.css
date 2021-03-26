@@ -87,6 +87,8 @@
         max-width: 40%;
 }
 
-
+.ads img {
+    max-width: 50%;
+}
 
 }

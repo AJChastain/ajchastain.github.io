@@ -5,6 +5,30 @@
     max-width: 35%;
 }
 
+.ads {
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c";
+    justify-content: center;
+    align-items: center;
+    flex: 1fr 1fr 1fr;
+}
+
+.ads h3 {
+    grid-area: a;
+}
+
+.ads img {
+    padding: 0 0 2rem 2rem;
+    margin: 20px;
+    max-width: 75%;
+}
+
+.ads p {
+    padding: 0 2rem 2rem 0;
+}
+
 
 
 }
