@@ -1,6 +1,7 @@
 //const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5404024&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/forecast/?id=5404024&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
+"https://api.openweathermap.org/data/2.5/onecall?lat=37.4947&lon=-120.8466&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
+//"https://api.openweathermap.org/data/2.5/forecast/?id=5404024&appid=cc9663bac24d48ffba1cbf202d93ed9f&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -11,32 +12,34 @@ fetch(apiURL)
     //temp
     document.getElementById(
       "current-temp"
-    ).textContent = jsObject.list[0].main.temp.toFixed(0);
+    ).textContent = jsObject.current.temp.toFixed(0);
     document
       .getElementById("current-temp")
-      .setAttribute("data-id", jsObject.list[0].main.temp.toFixed(0));
+      .setAttribute("data-id", jsObject.current.temp.toFixed(0));
 
     //current weather icon
     const imagesrc =
       "https://openweathermap.org/img/w/" +
-      jsObject.list[0].weather[0].icon +
+      jsObject.current.weather[0].icon +
       ".png";
-    const desc = jsObject.list[0].weather[0].description;
+    const desc = jsObject.current.weather[0].description;
     document.getElementById("currently").textContent = desc;
     document.getElementById("icon").setAttribute("src", imagesrc);
     document.getElementById("icon").setAttribute("alt", desc);
 
     //humidity
     document.getElementById("humidity").textContent =
-      jsObject.list[0].main.humidity;
+      jsObject.current.humidity;
+
+    //Wind speed  
     document.getElementById(
       "wind_speed"
-    ).textContent = jsObject.list[0].wind.speed.toFixed(0);
+    ).textContent = jsObject.current.wind_speed.toFixed(0);
 
 
     //wind chill reattempt
-    var temp = parseFloat(jsObject.list[0].main.temp);
-    var ws = parseFloat(jsObject.list[0].wind.speed);
+    var temp = parseFloat(jsObject.current.temp);
+    var ws = parseFloat(jsObject.current.wind_speed);
     var chill = calcChill(temp, ws);
     document.getElementById("wind_chill").textContent = chill;
     function calcChill(temp, ws) {
@@ -52,7 +55,7 @@ fetch(apiURL)
 
 
     //three-day forecast
-    const turlock = jsObject["list"];
+    const turlock = jsObject["daily"];
     let d = new Date();
     let today = d.getDay();
 
@@ -76,11 +79,11 @@ fetch(apiURL)
     var weatherLogo = "https://openweathermap.org/img/wn/";
 
     let a = 0;
-    for (i = 0; i < turlock.length; i++) {
-      var dt = turlock[i].dt_txt;
-      var time = dt.includes("18:00:00");
-      if (time == true && a < 3) {
-        var temperature = turlock[i].main.temp.toFixed(0);
+    for (i = 1; i < turlock.length; i++) {
+      //var dt = turlock[i].dt;
+     // var time = dt.includes("18:00:00");
+      if /*(time == true &&*/ (a < 3) {
+        var temperature = turlock[i].temp.day.toFixed(0);
         document.getElementById(`hightemp${a + 1}`).innerHTML = temperature;
         document.getElementById(`icon${a + 1}`).setAttribute("src", weatherLogo + turlock[i].weather[0].icon + "@2x.png");
         document.getElementById(`icon${a + 1}`).setAttribute("alt", turlock[i].weather[0].description);
