@@ -293,3 +293,6 @@ footer {
     margin: .75rem 0;
 }
 
+.ads a img:hover {
+    box-shadow: rgb(119, 89, 62) 0 5px 10px;
+}
