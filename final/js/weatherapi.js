@@ -36,7 +36,7 @@ fetch(apiURL)
     ).textContent = jsObject.current.wind_speed.toFixed(0);
 
 
-    //wind chill reattempt
+    //wind chill 
     var temp = parseFloat(jsObject.current.temp);
     var ws = parseFloat(jsObject.current.wind_speed);
     var chill = calcChill(temp, ws);
@@ -53,8 +53,6 @@ fetch(apiURL)
       }
 
     
-
-
     //three-day forecast
     const turlock = jsObject["daily"];
     let d = new Date();
@@ -81,9 +79,8 @@ fetch(apiURL)
 
     let a = 0;
     for (i = 1; i < turlock.length; i++) {
-      //var dt = turlock[i].dt;
-     // var time = dt.includes("18:00:00");
-      if /*(time == true &&*/ (a < 3) {
+      
+      if (a < 3) {
         var temperature = turlock[i].temp.day.toFixed(0);
         document.getElementById(`hightemp${a + 1}`).innerHTML = temperature;
         document.getElementById(`icon${a + 1}`).setAttribute("src", weatherLogo + turlock[i].weather[0].icon + "@2x.png");
@@ -96,19 +93,7 @@ fetch(apiURL)
      
     }
    
-function weatherAlert() {
-     alert(JSON.stringify(jsObject.current.temp));
-    }
+     alert(jsObject.alert.description);
+  
 
   });
-
- //Alerts  
-
- 
-    
-
-
-    
-
-
-    //alert.description
