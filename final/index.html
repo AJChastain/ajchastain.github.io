@@ -15,7 +15,7 @@
     <link href="css/large.css" rel="stylesheet">
 </head>
 
-<body>
+<body //onload=>
     <header>
         <picture class="logo"><img src="images/almondTree.png"
                 alt="a tree with fat green leaves and little white blossoms"></picture>
@@ -38,8 +38,9 @@
         </ul>
     </nav>
 
-    <main>
-
+    <main >
+      <!--  <div class="alert"></div>-->
+        <button onclick="weatherAlert()">Alerts Here</button>
         <section class="sections">
             <h2>Local Photography Showcase</h2>
             <section class="sections localImg">
@@ -92,7 +93,7 @@
             <h2>Current Weather</h2>
 
             <div id="sumBox">
-                <span id="imagesrc"><img src="images/favicon.ico" alt="" id="icon"></span>
+                <span id="imagesrc"><img src="images/favicon.ico" alt="weather icon" id="icon"></span>
                 <p><span id="currently"></span></p>
                 <p id="temp">Temperature:</p>
                 <p><span id="current-temp"></span> &#8457;</p>
@@ -114,9 +115,9 @@
                         <th id="dayname3"></th>
                     </tr>
                     <tr>
-                        <th><img src="images/favicon.ico" alt="" id="icon1"></th>
-                        <th><img src="images/favicon.ico" alt="" id="icon2"></th>
-                        <th><img src="images/favicon.ico" alt="" id="icon3"></th>
+                        <th><img src="images/favicon.ico" alt="weather icon" id="icon1"></th>
+                        <th><img src="images/favicon.ico" alt="weather icon" id="icon2"></th>
+                        <th><img src="images/favicon.ico" alt="weather icon" id="icon3"></th>
                     </tr>
                     <tr>
                         <th><span id="hightemp1"></span> &#8457;</th>

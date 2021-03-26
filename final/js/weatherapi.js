@@ -94,5 +94,12 @@ fetch(apiURL)
       }
      
     }
+    //Alerts  
+    function weatherAlert() {
+     alert("Hello!");
+    }
+     //jsObject.alert.description;
+    /*document.getElementById("alert").textContent=*/  
     
+
   });
