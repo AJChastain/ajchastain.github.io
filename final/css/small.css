@@ -300,3 +300,9 @@ footer {
 #animal {
     background-color:blue;
 }
+
+figcaption {
+    font-size: 14px;
+    line-height: 1.25rem;
+   
+}
