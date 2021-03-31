@@ -306,3 +306,8 @@ figcaption {
     line-height: 1.25rem;
    
 }
+
+.top {
+    display: block;
+    padding: .75rem;
+}
