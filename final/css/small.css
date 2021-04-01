@@ -324,12 +324,11 @@ form label.top option,
 input.top,
 select {
     display: block;
-    font-size: 1rem;
     border: solid 1.5px rgb(0, 99, 0);
     border-radius: 4px;
-    padding: .75rem;
+    padding: .35rem;
     width: 100%;
-    max-width: 20rem;
+   
 }
 
 fieldset {
@@ -359,10 +358,16 @@ label select {
     border-radius: 4px;
 }
 
+#comment {
+    width: 100%;
+    border-radius: 4px;
+    
+}
+
 fieldset ul li {
     padding: .25rem;
     list-style-type: none;
-}
+    }
 
 .submit {
     padding: 1rem;
@@ -371,7 +376,7 @@ fieldset ul li {
     background-color: blanchedalmond;
     font-weight: bold;
     font-size: 1.25rem;
-    margin-top: 1.5rem;
+    margin: 1.5rem .75rem;
 }
 
 .submit:hover {
@@ -394,4 +399,9 @@ fieldset ul li {
 
 #gold {
     background-color: rgb(248, 230, 124);
+}
+
+iframe {
+  
+    max-width: 100%;
 }
