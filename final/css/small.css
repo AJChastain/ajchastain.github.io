@@ -311,3 +311,87 @@ figcaption {
     display: block;
     padding: .75rem;
 }
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+form label.top input,
+form label.top option,
+input.top,
+select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1.5px rgb(0, 99, 0);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+fieldset {
+    border: rgb(70, 52, 36) solid 4px;
+    margin-top: 1.5rem;
+    box-shadow: rgb(119, 89, 62) 0 5px 10px;
+
+}
+
+form label.top input:required {
+    border-left: salmon solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(0, 150, 0) solid 6px;
+
+}
+
+label input,
+label select {
+    margin-top: .5rem;
+}
+
+#busdesc {
+    min-width: 100%;
+    min-height: 4rem;
+    border-radius: 4px;
+}
+
+fieldset ul li {
+    padding: .25rem;
+    list-style-type: none;
+}
+
+.submit {
+    padding: 1rem;
+    border:rgb(0, 99, 0) 4px solid;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.submit:hover {
+    background-color:rgb(0, 99, 0);
+    color:rgb(252, 245, 236);
+    
+}
+
+#nonprofit {
+    background-color: white;
+}
+
+#bronze {
+    background-color:rgb(189, 172, 152);
+}
+
+#silver {
+    background-color:silver;
+}
+
+#gold {
+    background-color: rgb(248, 230, 124);
+}

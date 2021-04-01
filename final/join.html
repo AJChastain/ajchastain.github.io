@@ -30,8 +30,8 @@
         <ul class="navbar">
             <li><a href="#" onclick="toggleNav()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="turlock.html">Turlock</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a href="turlock.html">Turlock</a></li>
+            <li><a class="active" href="join.html">Join</a></li>
             <li><a href="direct.html">Directory</a></li>
             <li><a href="contact.html">Contact</a></li>
 
@@ -41,83 +41,108 @@
     <main>
         <h2>Join the Turlock Chamber of Commerce</h2>
         <section class="sections">
-        <form method="get" action="thanks.html">
-            <fieldset>
-                <legend>Contact Information</legend>
-                <p><small>* = required fields</small></p>
-                <label class="top">First Name* <input type="text" name="fname" required pattern=".{3,}"></label>
-                <label class="top">Last Name* <input type="text" name="lname" required pattern=".{3,}"></label>
-                <label class="top">Title <input type="text" name="title"></label>
-                <label class="top">Email* <input type="email" name="email" required
-                        placeholder="myname@gmail.com"></label>
-                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="2096341234"></label>
-                <label class="top">Business Name* <input type="text" name="busname" required></label>
-                <label class="top">Business Address <input type="text" name="street" placeholder="1234 Main Street" size="40"></label>
-                <label class="top">City <input type="text" name="city" placeholder="Turlock"></label>
-                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>
+                        <h3>Contact Information</h3>
+                    </legend>
+                    <p><small>* = required fields</small></p>
+                    <label class="top">First Name* <input type="text" name="fname" required pattern=".{3,}"></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required pattern=".{3,}"></label>
+                    <label class="top">Title <input type="text" name="title"></label>
+                    <label class="top">Email* <input type="email" name="email" required
+                            placeholder="myname@gmail.com"></label>
+                    <label class="top">Cell Phone <input type="tel" name="phone" placeholder="2096341234"></label>
+                    <label class="top">Business Name* <input type="text" name="busname" size="50" required></label>
+                    <label class="top">Business Address <input type="text" name="street" placeholder="1234 Main Street"
+                            size="35"></label>
+                    <label class="top">City <input type="text" name="city" size="15" placeholder="Turlock"></label>
+                    <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                    <label class="top">Business Website <input type="url" name="url" size="45"
+                            placeholder="https://"></label>
+                </fieldset>
 
+                <fieldset>
+                    <legend><h3>Business Description</h3></legend>
+                    <label class="top">
+                        <textarea id="busdesc" name="busdesc" placeholder="Describe your business here"></textarea>
+                    </label>
+                </fieldset>
+        </section>
+        <section class="sections">
+        <fieldset>
+            <!--Things like business trainings, luncheon tickets, sponsorships with levels of advertising, etc.-->
+            <legend>
+                <h3>Membership Level</h3>
+            </legend>
+            <div id="nonprofit">
+            <p ><b>Non-profit</b> ($100/year) includes:</p>
+            <ul>
+                <li>&#10003; Directory listing on our website in the Local Business Guide</li>
+                <li>&#10003; Monthly posts for your organization on our social media sites</li>
+                <li>&#10003; Your ad in the monthly mail flyer</li>
+            </ul>
+            </div>
 
+            <div id="bronze">
+            <p><b>Bronze</b> ($200/year) includes:</p>
+            <ul>
+                <li>&#10003; Directory listing on our website in the Local Business Guide</li>
+                <li>&#10003; Monthly posts for your business on our social media sites</li>
+                <li>&#10003; Your ad in the monthly mail flyer</li>
+                <li>&#10003; Monthly business seminars</li>
+                <li>&#10003; </li>
+            </ul>
+</div>
+
+            <div id="silver">
+            <p><b>Silver</b> ($400/year) includes:</p>
+            <ul>
+                <li>&#10003; Directory listing on our website in the Local Business Guide</li>
+                <li>&#10003; Weekly posts for your business on our social media sites</li>
+                <li>&#10003; Your ad in the monthly mail flyer</li>
+                <li>&#10003; Semi-annual Area Business Leaders' Lunch</li>
+                <li>&#10003; Monthly business seminars</li>
+                <li>&#10003; Specialized web training</li>
+            </ul>
+</div>
+
+<div id="gold">
+            <p><b>Gold</b> ($1000/year) includes:</p>
+            <ul>
+                <li>&#10003; Directory listing on our website and in the Local Business Guide</li>
+                <li>&#10003; Daily posts for your business on our social media sites</li>
+                <li>&#10003; Your ad in the monthly mail flyer</li>
+                <li>&#10003; An advertisement on our Home Page</li>
+                <li>&#10003; Monthly Area Business Leaders Lunch</li>
+                <li>&#10003; Special discounts on local services</li>
+            </ul>
+
+</div>
+            <label class="top">Desired Level
+                <select name="membership">
+                    <option value="select">Please Select &#9662; </option>
+                    <option value="nonprofit">Non-profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                    </datalist>
+            </label>
             </fieldset>
 </section>
-            <fieldset>
-                <legend>Storm Details</legend>
-                <label class="top">Storm Date<input type="date" name="date"></label>
+            <input type="submit" value="Join!" class="submit">
+            </form>
 
-                <label class="top" for="stormtype">Storm Type (Please Select &#9662;)
-                    <input list="stormtypes" name="stormtype" id="stormtype">
-                    <datalist id="stormtypes">
-                        <option>Blizzard</option>
-                        <option>Flash Flood</option>
-                        <option>Hail</option>
-                        <option>Hurricane</option>
-                        <option>Thunderstorm</option>
-                        <option>Tornado</option>
-                    </datalist>
-                </label>
-
-
-                <div><label class="top">Severity<small> from 1 (mild) to 10 (severe)</small><input type="range"
-                            id="severity" value="3" min="1" max="10" step="1" list="tickmarks"
-                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue"></span>
-                    </label>
-                    <datalist id="tickmarks">
-                        <option value="0">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
-                    </datalist>
-                </div>
-
-                <label class="top">Storm Region
-                    <select name="region">
-                        <option>Select Region &#9662; </option>
-                        <option value="fish">Fish Haven</option>
-                        <option value="preston">Preston</option>
-                        <option value="soda">Soda Springs</option>
-                    </select></label>
-
-                <div class="top">Are you in danger?</div>
-                <label class="rad"><input type="radio" id="yes" name="danger" value="yes">Yes!</label>
-                <label class="rad"><input type="radio" id="maybe" name="danger" value="maybe">Maybe</label>
-                <label class="rad"><input type="radio" id="no" name="danger" value="no">No</label>
-
-            </fieldset>
-            <fieldset>
-                <legend>Type Any Additional Information Here</legend>
-                <label class="top">
-                    <textarea id="addinfo" name="addinfo"></textarea>
-                </label>
-            </fieldset>
-
-            <input type="submit" value="Report Storm" class="submit">
-        </form>
 
     </main>
+    <footer> &copy;Turlock Chamber of Commerce | <a href="attribute.html">Attributions</a> | Weather data obtained from
+        <a href="https://openweathermap.org/">
+            OpenWeatherMap.org</a>
+        <br> Amelia Chastain Brogdon | California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
+        <div id="updated">Updated: <span id="currentdate"></span></div>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
