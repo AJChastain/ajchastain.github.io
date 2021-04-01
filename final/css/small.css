@@ -368,6 +368,10 @@ label.top.qs {
     padding-top: 0;
 }
 
+.directors {
+    padding: .75rem;
+}
+
 
 fieldset ul li {
     padding: .25rem;
