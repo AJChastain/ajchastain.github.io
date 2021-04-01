@@ -364,6 +364,11 @@ label select {
     
 }
 
+label.top.qs {
+    padding-top: 0;
+}
+
+
 fieldset ul li {
     padding: .25rem;
     list-style-type: none;
