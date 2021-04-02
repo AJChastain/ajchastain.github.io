@@ -1,0 +1,75 @@
+{
+    "directory": [
+        {
+            "busName": "Big Tree Organic Farms",
+            "address": "1160 W. Glenwood Ave.",
+            "cityzip": "Turlock, CA 95380",
+            "phone": "(209) 669-3678",
+            "site": "https://www.bigtreeorganic.com",
+            "logo": "images/bigtree.png"
+        },
+
+        {
+            "busName": "Main Street Footers",
+            "address": "425 East Main St.",
+            "cityzip": "Turlock, CA 95380",
+            "phone": "(209) 667-8383",
+            "site": "https://www.mainstreetfooters.com",
+            "logo": "images/footers.jpg"
+        },
+
+        {
+            "busName": "Monte Vista Small Animal Hospital",
+            "address": "901 East Monte Vista Ave.",
+            "cityzip": "Turlock, CA 95382",
+            "phone": "(209) 634-0023",
+            "site": "https://www.montevistavet.com",
+            "logo": "images/mvbigwh.png"
+        },
+
+        {
+            "busName": "Olde Tyme Pastries",
+            "address": "2225 Geer Rd.",
+            "cityzip": "Turlock, CA 95382",
+            "phone": "(209) 668-0928",
+            "site": "https://www.otpastries.com",
+            "logo": "images/otp.jpg"
+        },
+
+        {
+            "busName": "Balswick's Automotive",
+            "address": "417 N. Golden State Blvd.",
+            "cityzip": "Turlock, CA 95380",
+            "phone": "(209) 634-5882",
+            "site": "https://www.balswicks.com",
+            "logo": "images/balswicks.jpg"
+        },
+
+        {
+            "busName": "",
+            "address": "",
+            "cityzip": "Turlock, CA 95380",
+            "phone": "",
+            "site": "",
+            "logo": ""
+        },
+
+        {
+            "busName": "Haven Women's Center",
+            "address": "301 Starr Ave.",
+            "cityzip": "Turlock, CA 95380",
+            "phone": "(209) 664-9131",
+            "site": "",
+            "logo": "images/haven.jpg"
+        },
+
+        {
+            "busName": "Yonan's Jewelers",
+            "address": "2485 Geer Rd.",
+            "cityzip": "Turlock, CA 95382",
+            "phone": "(209) 656-9219",
+            "site": "https://www.yonansjewelry.com",
+            "logo": ""
+        }
+    ]
+}
