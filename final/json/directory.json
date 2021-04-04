@@ -22,7 +22,7 @@
             "cityzip": "Turlock, CA 95380",
             "phone": "(209) 632-5761",
             "site": "https://www.carnegieartsturlock.org",
-            "logo": ""
+            "logo": "images/carnegie.jpg"
         },
         {
             "busName": "Haven Women's Center",
@@ -63,7 +63,7 @@
             "cityzip": "Turlock, CA 95382",
             "phone": "(209) 656-9219",
             "site": "https://www.yonansjewelry.com",
-            "logo": ""
+            "logo": "images/yonans.jpg"
         }
     ]
 }

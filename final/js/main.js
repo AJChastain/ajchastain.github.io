@@ -61,3 +61,8 @@ fetch(requestURL)
             cards.append(card);
         };
     });
+
+
+function toggleCards() {
+    document.getElementsByClassName("cards")[0].classList.toggle("response");
+}
