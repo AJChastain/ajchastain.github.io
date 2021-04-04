@@ -35,30 +35,29 @@ fetch(requestURL)
             cards.append(card);
 
             let address = document.createElement('address');
-            address.innerHTML = `${listings[i].address}`;
+            address.innerHTML = `${listings[i].address}` + "<br>";
             card.append(address);
             cards.append(card);
 
             let city = document.createElement("city");
-            city.innerHTML = `${listings[i].cityzip}`;
+            city.innerHTML = `${listings[i].cityzip}` + "<br>";
             card.append(city);
             cards.append(card);
 
-           let phone = document.createElement("phone");
-            phone.innerHTML = `${listings[i].phone}` ;
+            let phone = document.createElement("phone");
+            phone.innerHTML = `${listings[i].phone}` + "<br>";
             card.append(phone);
             cards.append(card);
-        
-           let site = document.createElement("website");
-            site.innerHTML = `${listings[i].site}` ;
+
+            let site = document.createElement("website");
+            site.innerHTML = `${listings[i].site}` + "<br>";
             card.append(site);
             cards.append(card);
-        
-           let image = document.createElement("img");
-           
-            image.setAttribute("src", `images/${listings[i].logo}`);
-            image.setAttribute("alt", listings[i].logo + " photo");
+
+            let image = document.createElement("img");
+            image.setAttribute("src", `${listings[i].logo}`);
+            image.setAttribute("alt", listings[i].busName + " logo");
             card.append(image);
             cards.append(card);
         };
-      });
+    });
