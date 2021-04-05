@@ -431,16 +431,32 @@ iframe {
     width: 5em;
     height: 4em;
     display:block;
+    margin: 2em;
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-
+    grid-gap: 2em;
+}
+.cards section {
+    text-align: center;
+    align-content: center;
 }
 
 .cards img {
     width: 100%;
+    
+}
 
+.cards.response {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    
+}
+
+.cards.response section{
+    padding: 2em 0;
 }
