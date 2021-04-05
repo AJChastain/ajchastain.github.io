@@ -30,9 +30,14 @@
 }
 
 
-.grid section {
-    padding: 0;
-    margin:0;
+.grid img {
+    width: 100%
+}
+
+
+.cards {
+    max-width: 100%;
+   
 }
 
 }

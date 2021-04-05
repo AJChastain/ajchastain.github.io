@@ -95,7 +95,7 @@
     display:inline;
     width: 2em;
     height: 2em;
-    margin: 2em 0em 2em 2em;
+    margin: 2em 0 0 1.5em;
 }
 
 #hide:hover, #hide2:hover {
@@ -108,19 +108,18 @@
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-gap: .5em;
     justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
 }
+
 
 .grid img {
     width: 80%;
 }
 
-.cards section {
-    padding: .5rem;
-    margin: .5rem;
-}
 
 
 }
