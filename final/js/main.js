@@ -55,7 +55,7 @@ fetch(requestURL)
             cards.append(card);
 
             let site = document.createElement("website");
-            site.innerHTML = `${listings[i].site}` + "<br>";
+            site.innerHTML = "<a href=" + `${listings[i].site}` + ">" + `${listings[i].site}` + "</a>" + "<br>";
             card.append(site);
             cards.append(card);
 
@@ -64,10 +64,8 @@ fetch(requestURL)
     });
 
 
-//function toggleCards() {
-   // document.getElementsByClassName("cards")[0].classList.toggle("response");
-//}
-
-function gridCards() {
-    document.getElementsByClassName("cards")[0].style=".response";
+function toggleCards() {
+    let gridview = document.getElementsByClassName("cards")[0];
+    gridview.classList.toggle("grid");
+    button.innerHTML = "&#9776;" ;
 }

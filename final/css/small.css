@@ -34,12 +34,10 @@ h2 {
 
 nav {
     margin: 0 auto;
-    font-size: 18px;
     display: flex;
     flex-flow: column;
     flex: 1;
     justify-content: center;
-
 
 }
 
@@ -62,7 +60,7 @@ nav {
 
 .navbar a {
     display: block;
-    padding: .75rem;
+    padding: .25rem;
     text-align: center;
     text-decoration: none;
     border: .25em solid rgba(119, 89, 62, .6);
@@ -97,9 +95,9 @@ nav a:visited:hover {
 }
 
 .active {
-    font-size: 1.5rem;
     background-color: blanchedalmond;
     font-style: italic;
+ 
 }
 
 .sections {
@@ -135,23 +133,16 @@ figcaption {
 }
 
 .sections p a,
-#currently {
-    /* code credit: https://perishablepress.com/wrapping-content/*/
+#currently, .cards {
+  
     white-space: pre;
-    /* CSS 2.0 */
-    white-space: pre-wrap;
-    /* CSS 2.1 */
+    white-space: pre-wrap;*/
     white-space: pre-line;
-    /* CSS 3.0 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
+   white-space: -pre-wrap;
     white-space: -o-pre-wrap;
-    /* Opera 7 */
     white-space: -moz-pre-wrap;
-    /* Mozilla */
     white-space: -hp-pre-wrap;
-    /* HP Printers */
-    word-wrap: break-word;
+    word-wrap: break-word; */
 
 }
 
@@ -183,13 +174,14 @@ footer {
 }
 
 header img {
-    margin-top: 1rem;
+    margin: 1rem 0 0;
     width: 150px;
 }
 
 .header h1,
 .motto {
     text-shadow: 3px 3px 5px black;
+ 
 }
 
 .motto {
@@ -351,7 +343,7 @@ fieldset {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-bottom: red solid 4px;
 }
 
 form label.top input:required:valid {
@@ -423,42 +415,31 @@ fieldset ul li {
 }
 
 iframe {
-
     max-width: 100%;
 }
 
-.cards button {
-    width: 5em;
-    height: 4em;
-    display:block;
-    margin: 2em;
-}
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 2em;
+    display: block;
+    max-width: 75%;
+    margin: auto;
 }
 .cards section {
     text-align: center;
     align-content: center;
-    border:rgb(70, 52, 36) solid 2px;
     margin: 2em;
+    padding: 1em 0;
 }
 
 .cards img {
-    width: 250px;
-    
+    max-width: 250px;
 }
 
-.cards.response {
-    display: block;
-    max-width: 50%;
-    margin: auto;
-    
+#hide, #hide2 { 
+   display: none; 
 }
 
-.cards.response section{
-    padding: 2em 0;
+.cards website:hover {
+    color: #920783;
+    background-color: blanchedalmond;
 }

@@ -91,4 +91,36 @@
     max-width: 50%;
 }
 
+#hide, #hide2 {
+    display:inline;
+    width: 2em;
+    height: 2em;
+    margin: 2em 0em 2em 2em;
+}
+
+#hide:hover, #hide2:hover {
+    color: #920783;
+    background-color: blanchedalmond;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+.grid img {
+    width: 80%;
+}
+
+.cards section {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+
 }
