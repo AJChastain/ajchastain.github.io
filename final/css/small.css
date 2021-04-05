@@ -443,10 +443,12 @@ iframe {
 .cards section {
     text-align: center;
     align-content: center;
+    border:rgb(70, 52, 36) solid 2px;
+    margin: 2em;
 }
 
 .cards img {
-    width: 100%;
+    width: 250px;
     
 }
 

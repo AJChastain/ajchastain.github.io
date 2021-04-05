@@ -64,6 +64,10 @@ fetch(requestURL)
     });
 
 
-function toggleCards() {
-    document.getElementsByClassName("cards")[0].classList.toggle("response");
+//function toggleCards() {
+   // document.getElementsByClassName("cards")[0].classList.toggle("response");
+//}
+
+function gridCards() {
+    document.getElementsByClassName("cards")[0].style=".response";
 }
