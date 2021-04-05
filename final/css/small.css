@@ -427,6 +427,20 @@ iframe {
     max-width: 100%;
 }
 
-#directory {
-    column-width: 10em;
+.cards button {
+    width: 5em;
+    height: 4em;
+    display:block;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.cards img {
+    width: 100%;
+
 }

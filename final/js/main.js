@@ -28,6 +28,11 @@ fetch(requestURL)
             const cards = document.querySelector('.cards');
             let card = document.createElement('section');
 
+            let image = document.createElement("img");
+            image.setAttribute("src", `${listings[i].logo}`);
+            image.setAttribute("alt", listings[i].busName + " logo");
+            card.append(image);
+            cards.append(card);
 
             let h2 = document.createElement('h2');
             h2.innerHTML = `${listings[i].busName}`;
@@ -54,11 +59,7 @@ fetch(requestURL)
             card.append(site);
             cards.append(card);
 
-            let image = document.createElement("img");
-            image.setAttribute("src", `${listings[i].logo}`);
-            image.setAttribute("alt", listings[i].busName + " logo");
-            card.append(image);
-            cards.append(card);
+
         };
     });
 
