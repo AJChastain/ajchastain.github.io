@@ -40,4 +40,12 @@
    
 }
 
+.city img{
+    width:min-content;
+}
+
+.city figcaption {
+    padding-bottom: 3rem;
+}
+
 }
