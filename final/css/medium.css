@@ -33,7 +33,7 @@
 
     main,
     footer {
-        max-width: 900px;
+        max-width: 960px;
         margin: 24px auto;
     }
 
@@ -130,7 +130,19 @@
     padding-bottom: 2rem;
 }
 
+form label.top input,
+form label.top option,
+input.top,
+select {
+    display: block;
+    border: solid 1.5px rgb(0, 99, 0);
+    border-radius: 2px;
+    padding: .35rem;
+    width:auto;
 
+}
 
-
+form {
+    margin: 0 5em;
+}
 }
