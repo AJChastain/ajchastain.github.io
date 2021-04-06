@@ -120,6 +120,17 @@
     width: 80%;
 }
 
+.city {
+    max-width: 75%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.city figcaption {
+    padding-bottom: 2rem;
+}
+
+
 
 
 }
