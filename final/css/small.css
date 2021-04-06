@@ -314,6 +314,7 @@ figcaption {
 .top {
     display: block;
     padding: .75rem;
+    
 }
 
 form label.top,
@@ -335,6 +336,8 @@ select {
 
 }
 
+
+
 fieldset {
     border: rgb(70, 52, 36) solid 4px;
     margin-top: 1.5rem;
@@ -354,6 +357,7 @@ form label.top input:required:valid {
 label input,
 label select {
     margin-top: .5rem;
+    
 }
 
 #busdesc {
