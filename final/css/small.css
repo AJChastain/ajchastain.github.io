@@ -165,7 +165,7 @@ header,
 footer {
     background-color: rgb(119, 89, 62);
     color: blanchedalmond;
-    border: solid .5em lightgreen;
+    border: solid .3em lightgreen;
     border-radius: 2px;
     margin: 12px;
     box-shadow: rgb(70, 52, 36) 0 4px 8px;
