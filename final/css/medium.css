@@ -50,7 +50,11 @@
         max-width: 90%;
         margin: 1rem auto .5rem;
     }
-
+    .sections figure {
+        max-width: 75%;
+        margin: auto;
+    }
+    
     figcaption {
         margin: 0 auto;
         text-align: center;
