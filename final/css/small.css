@@ -166,17 +166,7 @@ p.figcaption {
 }
 
 
-header,
-footer {
-    background-color: rgb(70, 52, 36);
-    color:rgb(252, 245, 236);
-    border: solid .35em lightgreen;
-    border-radius: 2px;
-    margin: 12px;
-    box-shadow: rgb(70, 52, 36) 0 4px 8px;
-    text-align: center;
-    background: radial-gradient(rgb(119, 89, 62), rgb(70, 52, 36));
-}
+
 
 
 header img {
@@ -198,6 +188,17 @@ header img {
     font-style: italic;
     color: rgb(170, 250, 170);
     text-decoration: dashed;
+}
+header,
+footer {
+    background-color: rgb(70, 52, 36);
+    color:rgb(252, 245, 236);
+    border: solid .35em lightgreen;
+    border-radius: 2px;
+    margin: 12px;
+    box-shadow: rgb(70, 52, 36) 0 4px 8px;
+    text-align: center;
+    background: radial-gradient(rgb(119, 89, 62), rgb(70, 52, 36));
 }
 
 #updated {
