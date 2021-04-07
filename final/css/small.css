@@ -271,7 +271,8 @@ footer {
 }
 
 .threeDay img {
-    max-width: 50px;
+    max-width: 60px;
+    padding: 0 2em;
 }
 
 
