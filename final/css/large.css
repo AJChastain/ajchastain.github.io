@@ -64,6 +64,16 @@ form {
 }
 
 
+#stanback {
+    display: flex;
+     align-items: center;
+ }
+ 
+#stanback img {
+ width: 50%;
+}
+
+
 
 
 }
