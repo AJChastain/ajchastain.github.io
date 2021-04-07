@@ -34,6 +34,13 @@
     padding: 0 2rem 2rem 0;
 }
 
+#victimrights {
+    width: 75%;
+}
+
+#rightsdetails {
+    margin: 2em 5em;
+}
 
 .grid img {
     width: 100%

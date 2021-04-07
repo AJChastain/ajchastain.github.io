@@ -1,12 +1,12 @@
 @media only screen and (min-width: 37.5em) {
-   
+
     header {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-  
+
     .headings {
         font-size: 3rem;
         padding-left: 1rem;
@@ -63,8 +63,9 @@
         max-width: 75%;
         justify-content: center;
         margin: auto;
-        
+
     }
+
     .threeDay {
         justify-items: center;
     }
@@ -82,70 +83,86 @@
     }
 
     .stats {
-        max-width: 75%;
+        max-width: 50%;
         margin: auto;
     }
 
     #imagesrc img {
         max-width: 40%;
-}
+    }
 
-.ads img {
-    max-width: 50%;
-}
+    .ads img {
+        max-width: 50%;
+    }
 
-#hide, #hide2 {
-    display:inline;
-    width: 2em;
-    height: 2em;
-    margin: 2em 0 0 1.5em;
-}
+    #hide,
+    #hide2 {
+        display: inline;
+        width: 2em;
+        height: 2em;
+        margin: 2em 0 0 1.5em;
+    }
 
-#hide:hover, #hide2:hover {
-    color: #920783;
-    background-color: blanchedalmond;
+    #hide:hover,
+    #hide2:hover {
+        color: #920783;
+        background-color: blanchedalmond;
 
-}
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-gap: .5em;
-    justify-content: center;
-    margin-top: 0;
-    padding-top: 0;
-}
+    }
 
 
-.grid img {
-    width: 80%;
-}
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-gap: .5em;
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
 
-.city {
-    max-width: 75%;
-    margin: auto;
-    padding: 2rem;
-}
 
-.city figcaption {
-    padding-bottom: 2rem;
-}
+    .grid img {
+        width: 80%;
+    }
 
-form label.top input,
-form label.top option,
-input.top,
-select {
-    display: block;
-    border: solid 1.5px rgb(0, 99, 0);
-    border-radius: 2px;
-    padding: .35rem;
-    width:auto;
+    .city {
+        max-width: 75%;
+        margin: auto;
+        padding: 2rem;
+    }
 
-}
+    .city figcaption {
+        padding-bottom: 2rem;
+    }
 
-form {
-    margin: 0 5em;
-}
+    form label.top input,
+    form label.top option,
+    input.top,
+    select {
+        display: block;
+        border: solid 1.5px rgb(0, 99, 0);
+        border-radius: 2px;
+        padding: .35rem;
+        width: auto;
+
+    }
+
+    form {
+        margin: 0 5em;
+    }
+
+    #victimrights {
+        width: 80%;
+    }
+
+    #rightsdetails {
+        margin: 1.5em 2.5em;
+    }
+
+
+
+
+
+
 }
