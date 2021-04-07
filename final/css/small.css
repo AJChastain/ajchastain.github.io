@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
+    
 
 }
 
@@ -12,7 +13,7 @@ main {
     border-radius: 2px;
     margin: 12px auto;
     box-shadow: rgb(70, 52, 36) 0 4px 10px;
-    max-width: 90%;
+    max-width: 100%;
 
 }
 
@@ -63,7 +64,7 @@ nav {
     padding: .25rem;
     text-align: center;
     text-decoration: none;
-    border: .25em solid rgba(119, 89, 62, .6);
+    border: .25em solid rgba(119, 89, 62, .8);
     box-shadow: 0 2px 5px rgb(119, 89, 62);
     border-radius: 2px;
 }
@@ -165,12 +166,15 @@ header,
 footer {
     background-color: rgb(119, 89, 62);
     color: blanchedalmond;
-    border: solid .3em lightgreen;
+    border: solid .35em lightgreen;
     border-radius: 2px;
     margin: 12px;
     box-shadow: rgb(70, 52, 36) 0 4px 8px;
     text-align: center;
+}
 
+header {
+    background: radial-gradient(rgb(119, 89, 62), rgb(70, 52, 36));
 }
 
 header img {
@@ -178,16 +182,20 @@ header img {
     width: 150px;
 }
 
+
+
 .header h1,
 .motto {
     text-shadow: 3px 3px 5px black;
  
 }
 
+
 .motto {
     margin-bottom: 1rem;
     font-style: italic;
     color: lightgreen;
+    text-decoration: dashed;
 }
 
 #updated {
@@ -449,3 +457,23 @@ iframe {
     background-color: blanchedalmond;
 }
 
+#shield {
+    max-width: 120px;
+    
+}
+
+.stan {
+    position: absolute;
+    top: 160em;
+    left: 5em;
+    max-width: 75%;
+    line-height: 1.5em;
+    
+    
+}
+
+#stanback {
+    width: 100%;
+    opacity: 25%;
+    /*float: left;*/
+}
