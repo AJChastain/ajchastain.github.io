@@ -169,7 +169,7 @@ p.figcaption {
 header,
 footer {
     background-color: rgb(119, 89, 62);
-    color: blanchedalmond;
+    color:rgb(252, 245, 236);
     border: solid .35em lightgreen;
     border-radius: 2px;
     margin: 12px;
@@ -196,7 +196,7 @@ header img {
 .motto {
     margin-bottom: 1rem;
     font-style: italic;
-    color: lightgreen;
+    color: rgb(170, 250, 170);
     text-decoration: dashed;
 }
 
@@ -207,7 +207,7 @@ header img {
 }
 
 footer a {
-    color: lightgreen;
+    color: rgb(170, 250, 170);
 
 }
 
