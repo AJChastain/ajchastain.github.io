@@ -22,14 +22,17 @@
 
 .ads h3 {
     grid-area: a;
+    
 }
 
 .ads img {
     padding: 0 0 2rem 2rem;
-    margin: 20px;
-    max-width: 75%;
+    margin: auto;
+    max-width: 65%;
 }
-
+.ads a {
+    margin-bottom: 2rem;
+}
 .ads p {
     padding: 0 2rem 2rem 0;
 }
@@ -43,12 +46,18 @@
 }
 
 .grid img {
-    width: 100%
+    width: 25%
 }
 
 
 .cards {
     max-width: 100%; 
+    
+}
+
+.cards section {
+    padding: 2.5em;
+  
 }
 
 .city img{

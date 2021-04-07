@@ -298,7 +298,7 @@ footer {
 
 .ads p {
     text-align: center;
-    padding: 2rem;
+    padding: .75rem 2rem 2rem;
 }
 
 .ads img {
@@ -448,13 +448,16 @@ iframe {
 .cards section {
     text-align: center;
     align-content: center;
-    margin: 2em;
-    padding: 1em 2em;
+    margin: 1em;
+    padding: 1.5em 2em;
     border: solid black 1px;
+    box-shadow:rgb(70, 52, 36) 1px 3px 6px;
+   
 }
 
 .cards img {
     max-width: 250px;
+    
 }
 
 #hide,
