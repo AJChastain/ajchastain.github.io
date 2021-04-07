@@ -125,15 +125,15 @@ nav a:visited:hover {
     box-shadow: rgb(70, 52, 36) 0 4px 10px;
 }
 
-.figcaption {
-    margin: 0 auto 2rem;
-    text-align: center;
-}
-
 .sections p {
     padding: .25rem;
     margin: .25rem;
+}
 
+p.figcaption {
+    margin: 0 auto 2rem;
+    text-align: center;
+    padding: .25rem;
 }
 
 .sections p a,
