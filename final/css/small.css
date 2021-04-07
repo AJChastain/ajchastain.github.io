@@ -125,7 +125,7 @@ nav a:visited:hover {
     box-shadow: rgb(70, 52, 36) 0 4px 10px;
 }
 
-figcaption {
+.figcaption {
     margin: 0 auto 2rem;
     text-align: center;
 }
