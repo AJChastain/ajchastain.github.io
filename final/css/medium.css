@@ -96,9 +96,12 @@
     }
 
     .ads img {
-        max-width: 50%;
+        max-width: 45%;
     }
-
+    .ads p {
+        padding: .5rem;
+    }
+    
     #hide,
     #hide2 {
         display: inline;
