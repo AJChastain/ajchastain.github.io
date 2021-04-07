@@ -361,13 +361,12 @@ fieldset {
 
 }
 
-form label.top input:required {
+form label.top input:required:invalid {
     border-bottom: red solid 4px;
 }
 
 form label.top input:required:valid {
     border-left: rgb(0, 150, 0) solid 6px;
-
 }
 
 label input,
