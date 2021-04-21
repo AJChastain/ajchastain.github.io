@@ -28,7 +28,7 @@ header {
 }
 
 header ul li{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 nav ul li, nav a:visited {
@@ -62,7 +62,7 @@ h2 a:hover {
 }
 
 article {
-    margin: 2em;
+    margin: 2.5em .5em;
     padding: 2em;
     background-color: white;
     box-shadow: 3px 3px 4px rgb(123, 136, 148);
@@ -89,8 +89,8 @@ p a:hover {
 img {
     display: block;
     margin: auto;
-    min-width: 75%;
-    padding: 3em 0 .5em;
+    width: 85%;
+    padding: 1.5em 0 .5em;
 }
 
 
@@ -121,7 +121,8 @@ header {
 }
 
 img {
-    width: 75%;
+    width: auto;
+    
 }
 
 }
