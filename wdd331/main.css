@@ -4,6 +4,11 @@ h1, h2, h3, h4 {
     font-family: 'Lora', serif;
 }
 
+h2 {
+    margin-top: .5em;
+}
+
+
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     background-color: #FAEBD7;
@@ -59,7 +64,7 @@ article {
     margin: 2em;
     padding: 2em;
     background-color: white;
-    box-shadow: 2px 2px 6px rgb(123, 136, 148);
+    box-shadow: 3px 3px 4px rgb(123, 136, 148);
 }
 
 .post-date {
@@ -80,7 +85,12 @@ p a:hover {
     text-decoration: underline;
 }
 
-
+img {
+    display: block;
+    margin: auto;
+    min-width: 75%;
+    padding: 3em 0 .5em;
+}
 
 
 /*large*/
@@ -101,10 +111,16 @@ header {
  article {
      grid-column: 2;
      margin: 4em;
+     max-width: 650px;
  }
+
 
 .post-date {
     display: block;
+}
+
+img {
+    width: 75%;
 }
 
 }
