@@ -58,6 +58,7 @@ h2 a:active {
 
 h2 a:hover {
     color: #6495ED;
+    text-decoration: underline;
 }
 
 article {
@@ -71,7 +72,7 @@ article {
     color: #777;
 }
 
-/*Other page links should behave thus: normal and visited: #6495ED and no underline , active: #DEB887, hover: underlined*/
+
 p a, p a:visited {
     color: #6495ED;
     text-decoration: none;
