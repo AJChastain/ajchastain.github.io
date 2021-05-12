@@ -1,0 +1,88 @@
+@media only screen and (min-width: 60em) {
+   
+    main,
+    footer {
+        max-width: 1200px;
+        margin: 24px auto;
+    }
+
+ #imagesrc img {
+    max-width: 35%;
+}
+
+.ads {
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c";
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ads h3 {
+    grid-area: a;
+    
+}
+
+.ads img {
+    padding: 0 0 2rem 2rem;
+    margin: auto;
+    max-width: 65%;
+}
+.ads a {
+    margin-bottom: 2rem;
+}
+.ads p {
+    padding: 0 2rem 2rem 0;
+}
+
+#victimrights {
+    width: 65%;
+}
+
+#rightsdetails {
+    margin: 2em 5em;
+}
+
+.grid img {
+    width: 25%
+}
+
+
+.cards {
+    max-width: 100%; 
+    
+}
+
+.cards section {
+    padding: 2.5em;
+  
+}
+
+.city img{
+    width:min-content;
+}
+
+.city figcaption {
+    padding-bottom: 3rem;
+}
+
+form {
+    margin: 0 7em;
+}
+
+
+#stanback {
+    display: flex;
+     align-items: center;
+ }
+ 
+#stanback img {
+ width: 50%;
+}
+
+
+
+
+}

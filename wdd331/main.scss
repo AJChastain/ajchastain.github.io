@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap");
+
+$h-font: "Lora", serif;
+$text-dec-none: none;
+$text-dec-underline: underline;
+$beige: #faebd7;
+$lt-blue: #6495ed;
+
+@mixin body-default {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: $beige;
+}
+
+@mixin book-img {
+  display: block;
+  margin: auto;
+  width: 85%;
+  padding: 1.5em 0 0.5em;
+}
+
+@mixin article-sm {
+  margin: 2.5em 0.5em;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 3px 3px 4px rgb(123, 136, 148);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $h-font;
+}
+
+h2 {
+  margin-top: 0.5em;
+}
+
+body {
+    @include body-default;
+}
+
+header {
+  background-color: $lt-blue;
+  padding: 3em 2em 2em;
+  margin: -10px;
+  a,
+  hr,
+  li,
+  h1 {
+    color: $beige;
+    text-align: right;
+    text-decoration: $text-dec-none;
+  }
+  ul li {
+    padding-bottom: 1em;
+  }
+}
+
+nav {
+  ul li,
+  a:visited {
+    list-style: none;
+    text-decoration: $text-dec-none;
+  }
+  a:active {
+    color: #deb887;
+    text-decoration: $text-dec-none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: $text-dec-underline;
+  }
+}
+
+nav h2 a,
+article a:visited {
+  color: black;
+  text-decoration: $text-dec-none;
+}
+
+h2 {
+  a:active {
+    color: #deb887;
+  }
+  a:hover {
+    color: $lt-blue;
+    text-decoration: $text-dec-underline;
+  }
+}
+
+article {
+  @include article-sm;
+}
+
+.post-date {
+  color: #777;
+}
+
+p a {
+  :visited {
+    color: $lt-blue;
+    text-decoration: $text-dec-none;
+  }
+
+  :active {
+    color: #deb887;
+  }
+
+  :hover {
+    text-decoration: $text-dec-underline;
+  }
+}
+
+img {
+  @include book-img;
+}
+
+/*large*/
+@media only screen and (min-width: 38em) {
+  body div {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr;
+    grid-template-rows: 100%;
+  }
+
+  header {
+    grid-column: 1;
+    height: 100%;
+  }
+
+  article {
+    grid-column: 2;
+    margin: 4em;
+    max-width: 650px;
+  }
+
+  .post-date {
+    display: block;
+  }
+
+  img {
+    width: auto;
+  }
+}

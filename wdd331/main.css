@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lora", serif;
+}
+
+h2 {
+  margin-top: 0.5em;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #faebd7;
+}
+
+header {
+  background-color: #6495ed;
+  padding: 3em 2em 2em;
+  margin: -10px;
+}
+header a,
+header hr,
+header li,
+header h1 {
+  color: #faebd7;
+  text-align: right;
+  text-decoration: none;
+}
+header ul li {
+  padding-bottom: 1em;
+}
+
+nav ul li,
+nav a:visited {
+  list-style: none;
+  text-decoration: none;
+}
+nav a:active {
+  color: #deb887;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav h2 a,
+article a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+h2 a:active {
+  color: #deb887;
+}
+h2 a:hover {
+  color: #6495ed;
+  text-decoration: underline;
+}
+
+article {
+  margin: 2.5em 0.5em;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 3px 3px 4px #7b8894;
+}
+
+.post-date {
+  color: #777;
+}
+
+p a :visited {
+  color: #6495ed;
+  text-decoration: none;
+}
+p a :active {
+  color: #deb887;
+}
+p a :hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 85%;
+  padding: 1.5em 0 0.5em;
+}
+
+/*large*/
+@media only screen and (min-width: 38em) {
+  body div {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr;
+    grid-template-rows: 100%;
+  }
+
+  header {
+    grid-column: 1;
+    height: 100%;
+  }
+
+  article {
+    grid-column: 2;
+    margin: 4em;
+    max-width: 650px;
+  }
+
+  .post-date {
+    display: block;
+  }
+
+  img {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Turlock Chamber of Commerce Contact Page" content="Turlock Chamber of Commerce Contact Page">
+    <title>Turlock Chamber of Commerce Contact Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture class="logo"><img src="images/almondTree.png"
+                alt="a tree with fat green leaves and little white blossoms"></picture>
+        <section class="header">
+            <h1>Turlock, California</h1>
+            <div class="motto">The Heart of the Central Valley</div>
+        </section>
+
+    </header>
+    <h2>Chamber of Commerce</h2>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" onclick="toggleNav()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="turlock.html">Turlock</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="direct.html">Directory</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Questions or Comments?</h2>
+        <section class="sections">
+            <h3>We'd love to hear from you!</h3>
+
+            <form method="get" action="thanksContact.html">
+                <fieldset>
+                    <legend>
+                        <h3>Contact Us</h3>
+                    </legend>
+
+                    <label class="top">Name <input type="text" name="fname" pattern=".{3,}"></label>
+
+                    <label class="top">Email <input type="email" name="email" placeholder="myname@gmail.com"></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="2096341234"></label>
+
+                    
+                        <p><b>Comments or Questions</b></p>
+                  
+                    <label class="top qs">
+                        <textarea id="comment" name="comment" placeholder="Let us know what's on your mind."
+                            rows="6"></textarea>
+                    </label>
+
+                    <input type="submit" value="Send" class="submit">
+
+           
+            </fieldset> </form>
+        </section>
+
+        <section class="sections">
+            <h2>Board of Directors</h2>
+<div class="directors">
+            <p><b>Gina Petros-Blom,</b> Executive Director</p>
+            <p><b>Nathan Dabulewicz,</b> Co-Chairman of the Board/ Treasurer</p>
+            <p><b>Alan Eighmey,</b> Co-Chariman of the Board</p>
+            <p><b>Craig Pitau,</b> Treasurer, Past Chairman</p>
+            <p><b>Devinder Singh Bains</b> </p>
+            <p><b>Jaime Cimoli</b></p>
+            <p><b>Matthew Davis</b></p>
+            <p><b>Eileen Hamilton</b></p>
+            <p><b>Crystal Stapleton</b></p>
+            <p><b>Chris Harrington</b></p>
+            <p><b>Papipola Aghassi</b></p>
+            <p><b>Becky Nyman</b></p>
+            <p><em>(See <a
+                    href="https://www.turlockchamber.com/board-of-directors.html">turlockchamber.com/board-of-directors.html</a>)
+            </em> </p>
+</div>
+            <section class="contactUs">
+                <h2>Contact Us</h2>
+
+                <p><b>Email:</b> info@turlockchamber.com </p>
+                <p><b>Phone:</b> (209) 623-2221</p>
+                <p><b>Address:</b> Central Park<br>
+                    115 S. Golden State Blvd.<br>
+                    Turlock, CA 95380 </p>
+
+                <div class="contact"><a href="https://www.facebook.com/TurlockChamberofCommerce/"> <img
+                            src="images/fb.png" alt="facebook icon"></a>
+                    <a href="https://twitter.com/turlockchamber?lang=en"> <img src="images/twitter.png"
+                            alt="twitter icon"></a>
+                    <a href="https://www.instagram.com/turlockcitynews/?hl=en"> <img src="images/ig.png"
+                            alt="instagram"></a>
+                </div>
+
+            </section>
+
+        </section>
+        <section class="sections">
+            <h2>On the Map</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50644.200103514304!2d-120.8928875230718!3d37.501726381227506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091064c6d1a32c9%3A0x811fe75ca576e690!2sTurlock%2C%20CA!5e0!3m2!1sen!2sus!4v1617248421331!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+
+
+
+
+
+    </main>
+    <footer> &copy;Turlock Chamber of Commerce | <a href="attribute.html">Attributions</a> | Weather data obtained from
+        <a href="https://openweathermap.org/">
+            OpenWeatherMap.org</a>
+        <br> Amelia Chastain Brogdon | California | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
+        <div id="updated">Updated: <span id="currentdate"></span></div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/weatherapi.js"></script>
+
+</body>
+
+</html>

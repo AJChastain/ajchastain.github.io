@@ -1,0 +1,17 @@
+/* Error: expected ")".
+ *    ,
+ * 79 |     @include breakpoint(“max-width: 480px”) { background: yellow; }
+ *    |                                   ^
+ *    '
+ *   styles.scss 79:35  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ")".\a    \2577 \a 79 \2502      @include breakpoint(\201c max-width: 480px\201d ) { background: yellow; }\d\a    \2502                                    ^\a    \2575 \a   styles.scss 79:35  root stylesheet';
+}
