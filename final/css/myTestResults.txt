@@ -1,0 +1,370 @@
+
+small.css
+   2:5   ×  Expected indentation of 2 spaces         indentation                                      
+   3:5   ×  Expected indentation of 2 spaces         indentation                                      
+   4:5   ×  Expected indentation of 2 spaces         indentation                                      
+   5:5   ×  Expected indentation of 2 spaces         indentation                                      
+   6:5   ×  Expected indentation of 2 spaces         indentation                                      
+   6:22  ×  Expected single space after ":" with a   declaration-colon-space-after                    
+            single-line declaration                                                                   
+  10:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  13:5   ×  Expected indentation of 2 spaces         indentation                                      
+  14:5   ×  Expected indentation of 2 spaces         indentation                                      
+  15:5   ×  Expected indentation of 2 spaces         indentation                                      
+  16:5   ×  Expected indentation of 2 spaces         indentation                                      
+  17:5   ×  Expected indentation of 2 spaces         indentation                                      
+  18:5   ×  Expected indentation of 2 spaces         indentation                                      
+  20:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  28:5   ×  Unexpected empty line before             declaration-empty-line-before                    
+            declaration                                                                               
+  28:5   ×  Expected indentation of 2 spaces         indentation                                      
+  29:5   ×  Expected indentation of 2 spaces         indentation                                      
+  31:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  34:5   ×  Expected indentation of 2 spaces         indentation                                      
+  35:5   ×  Expected indentation of 2 spaces         indentation                                      
+  38:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+  40:5   ×  Expected indentation of 2 spaces         indentation                                      
+  41:5   ×  Expected indentation of 2 spaces         indentation                                      
+  42:5   ×  Expected indentation of 2 spaces         indentation                                      
+  43:5   ×  Expected indentation of 2 spaces         indentation                                      
+  44:5   ×  Expected indentation of 2 spaces         indentation                                      
+  46:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  49:5   ×  Expected indentation of 2 spaces         indentation                                      
+  50:5   ×  Expected indentation of 2 spaces         indentation                                      
+  51:5   ×  Expected indentation of 2 spaces         indentation                                      
+  53:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  56:5   ×  Expected indentation of 2 spaces         indentation                                      
+  58:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  60:1   ×  Expected selector ".navbar li" to come   no-descending-specificity                        
+            before selector ".navbar                                                                  
+            li:first-child"                                                                           
+  61:5   ×  Expected indentation of 2 spaces         indentation                                      
+  63:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  66:5   ×  Expected indentation of 2 spaces         indentation                                      
+  67:5   ×  Expected indentation of 2 spaces         indentation                                      
+  67:14  ×  Expected a leading zero                  number-leading-zero                              
+  68:5   ×  Expected indentation of 2 spaces         indentation                                      
+  69:5   ×  Expected indentation of 2 spaces         indentation                                      
+  70:5   ×  Expected indentation of 2 spaces         indentation                                      
+  70:13  ×  Expected a leading zero                  number-leading-zero                              
+  70:43  ×  Expected a leading zero                  number-leading-zero                              
+  71:5   ×  Expected indentation of 2 spaces         indentation                                      
+  72:5   ×  Expected indentation of 2 spaces         indentation                                      
+  75:1   ×  Expected selector "nav a" to come        no-descending-specificity                        
+            before selector ".navbar a"                                                               
+  76:5   ×  Expected indentation of 2 spaces         indentation                                      
+  77:5   ×  Expected indentation of 2 spaces         indentation                                      
+  81:5   ×  Expected indentation of 2 spaces         indentation                                      
+  82:5   ×  Expected indentation of 2 spaces         indentation                                      
+  83:5   ×  Expected indentation of 2 spaces         indentation                                      
+  85:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  88:5   ×  Expected indentation of 2 spaces         indentation                                      
+  90:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+  93:5   ×  Expected indentation of 2 spaces         indentation                                      
+  96:1   ×  Expected selector ".response li" to      no-descending-specificity                        
+            come before selector ".navbar                                                             
+            li:first-child"                                                                           
+  97:5   ×  Expected indentation of 2 spaces         indentation                                      
+  99:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 102:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 103:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 105:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 108:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 109:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 110:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 111:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 112:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 116:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 117:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 117:20  ×  Expected a leading zero                  number-leading-zero                              
+ 118:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 119:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 120:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 120:17  ×  Expected a trailing semicolon            declaration-block-trailing-semicolon             
+ 125:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 129:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 129:14  ×  Expected a leading zero                  number-leading-zero                              
+ 130:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 130:13  ×  Expected a leading zero                  number-leading-zero                              
+ 134:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 135:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 136:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 136:14  ×  Expected a leading zero                  number-leading-zero                              
+ 139:1   ×  Expected selector ".sections p a" to     no-descending-specificity                        
+            come before selector "nav                                                                 
+            a:visited:hover"                                                                          
+ 143:5   ×  Unexpected empty line before             declaration-empty-line-before                    
+            declaration                                                                               
+ 143:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 144:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 145:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 146:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 147:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 148:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 149:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 150:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 151:4   ×  Unexpected whitespace at end of line     no-eol-whitespace                                
+ 152:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 155:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 156:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 157:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 158:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 159:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 161:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 164:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 165:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 168:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 169:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 170:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 171:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 172:1   ×  Expected selector "header img" to come   no-descending-specificity                        
+            before selector ".sections img"                                                           
+ 172:1   ×  Expected selector "header img" to come   no-descending-specificity                        
+            before selector ".localImg img"                                                           
+ 172:1   ×  Expected selector "header img" to come   no-descending-specificity                        
+            before selector ".contact img"                                                            
+ 173:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 174:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 177:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 178:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 181:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 183:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 185:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 187:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 188:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 189:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 190:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 192:1   ×  Expected empty line before rule          rule-empty-line-before                           
+ 194:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 195:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 195:11  ×  Expected single space after ":" with a   declaration-colon-space-after                    
+            single-line declaration                                                                   
+ 196:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 196:19  ×  Expected a leading zero                  number-leading-zero                              
+ 197:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 198:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 199:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 200:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 201:5   ×  Unexpected shorthand "background" after  declaration-block-no-shorthand-property-overrides
+            "background-color"                                                                        
+ 201:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 205:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 206:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 208:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 210:1   ×  Expected selector "footer a" to come     no-descending-specificity                        
+            before selector ".navbar a"                                                               
+ 210:1   ×  Expected selector "footer a" to come     no-descending-specificity                        
+            before selector "nav a:hover"                                                             
+ 210:1   ×  Expected selector "footer a" to come     no-descending-specificity                        
+            before selector "nav a:visited"                                                           
+ 210:1   ×  Expected selector "footer a" to come     no-descending-specificity                        
+            before selector "nav a:visited:hover"                                                     
+ 210:1   ×  Expected selector "footer a" to come     no-descending-specificity                        
+            before selector ".sections p a"                                                           
+ 211:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 213:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 215:1   ×  Expected selector "footer a:hover" to    no-descending-specificity                        
+            come before selector "nav                                                                 
+            a:visited:hover"                                                                          
+ 216:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 217:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 219:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 222:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 223:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 224:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 228:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 229:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 230:5   ×  Unexpected duplicate "margin"            declaration-block-no-duplicate-properties        
+ 230:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 231:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 232:5   ×  Unexpected duplicate "padding"           declaration-block-no-duplicate-properties        
+ 232:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 232:14  ×  Expected a leading zero                  number-leading-zero                              
+ 233:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 234:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 235:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 236:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 237:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 238:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 240:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 243:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 245:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 248:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 249:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 250:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 255:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 256:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 260:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 261:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 262:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 263:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 264:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 265:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 268:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 270:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 272:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 275:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 276:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 279:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 281:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 282:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 284:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 287:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 288:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 289:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 290:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 292:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 295:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 296:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 297:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 301:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 302:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 302:14  ×  Expected a leading zero                  number-leading-zero                              
+ 305:1   ×  Expected selector ".ads img" to come     no-descending-specificity                        
+            before selector "#imagesrc img"                                                           
+ 306:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 310:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 314:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 315:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 315:13  ×  Expected a leading zero                  number-leading-zero                              
+ 318:1   ×  Expected selector ".ads a img:hover" to  no-descending-specificity                        
+            come before selector "#imagesrc img"                                                      
+ 319:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 323:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 327:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 328:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 330:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 333:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 334:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 334:14  ×  Expected a leading zero                  number-leading-zero                              
+ 336:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 340:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 341:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 343:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 349:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 350:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 351:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 352:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 352:14  ×  Expected a leading zero                  number-leading-zero                              
+ 353:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 355:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 357:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 358:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 360:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 361:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 362:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 364:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 367:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 371:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 374:1   ×  Expected selector "label input" to come  no-descending-specificity                        
+            before selector "form label.top input"                                                    
+ 374:1   ×  Expected selector "label input" to come  no-descending-specificity                        
+            before selector "form label.top                                                           
+            input:required:invalid"                                                                   
+ 374:1   ×  Expected selector "label input" to come  no-descending-specificity                        
+            before selector "form label.top                                                           
+            input:required:valid"                                                                     
+ 376:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 376:17  ×  Expected a leading zero                  number-leading-zero                              
+ 378:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 381:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 382:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 383:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 387:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 388:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 390:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 393:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 397:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 397:14  ×  Expected a leading zero                  number-leading-zero                              
+ 400:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 401:1   ×  Expected selector "fieldset ul li" to    no-descending-specificity                        
+            come before selector ".navbar                                                             
+            li:first-child"                                                                           
+ 401:1   ×  Expected selector "fieldset ul li" to    no-descending-specificity                        
+            come before selector ".navbar li"                                                         
+ 401:1   ×  Expected selector "fieldset ul li" to    no-descending-specificity                        
+            come before selector ".response li"                                                       
+ 402:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 402:14  ×  Expected a leading zero                  number-leading-zero                              
+ 403:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 407:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 408:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 409:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 410:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 411:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 412:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 413:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 413:20  ×  Expected a leading zero                  number-leading-zero                              
+ 417:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 418:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 420:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 423:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 427:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 431:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 435:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 439:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 442:1   ×  Expected no more than 1 empty line       max-empty-lines                                  
+ 444:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 445:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 446:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 450:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 451:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 452:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 453:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 454:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 455:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 455:16  ×  Expected single space after ":" with a   declaration-colon-space-after                    
+            single-line declaration                                                                   
+ 456:3   ×  Unexpected whitespace at end of line     no-eol-whitespace                                
+ 457:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 459:1   ×  Expected selector ".cards img" to come   no-descending-specificity                        
+            before selector "#imagesrc img"                                                           
+ 459:1   ×  Expected selector ".cards img" to come   no-descending-specificity                        
+            before selector ".ads a img:hover"                                                        
+ 460:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 461:4   ×  Unexpected whitespace at end of line     no-eol-whitespace                                
+ 462:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 466:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 469:8   ×  Unexpected unknown type selector         selector-type-no-unknown                         
+            "website"                                                                                 
+ 470:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 471:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 475:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 477:1   ×  Unexpected empty line before closing     block-closing-brace-empty-line-before            
+            brace                                                                                     
+ 480:5   ×  Expected indentation of 2 spaces         indentation                                      
+ 481:1   ×  Unexpected missing end-of-source         no-missing-end-of-source-newline                 
+            newline
+
