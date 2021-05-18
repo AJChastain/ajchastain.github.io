@@ -1,1 +1,3 @@
-{"extends": "AppData/Roaming/npm/stylelint-config-standard"}
+{
+    "extends": "/AppData/Roaming/npm/stylelint-config-standard"
+}
