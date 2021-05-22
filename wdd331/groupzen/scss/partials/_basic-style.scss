@@ -449,6 +449,7 @@ section {
 		&::after {
 			right: 0;
 		}
+		
 	}
 
 	b {
@@ -466,11 +467,13 @@ section {
 		&::after {
 			background: darken($color-1, 5%);
 		}
+		
 	}
-
+	
+	
 	li:nth-of-type(2) .cd-color-swatch {
 		background: $color-2;
-
+		
 		&::before {
 			background: lighten($color-2, 5%);
 		}
@@ -480,6 +483,7 @@ section {
 		}
 	}
 
+	
 	li:nth-of-type(3) .cd-color-swatch {
 		background: $color-3;
 
@@ -553,6 +557,12 @@ section {
 		content: 'Aa - ';
 		color: $color-1;
 	}
+	h1::after {
+		content: ': Merienda';
+	}
+	p::before {
+		content: 'Body: Roboto. ';
+	}
 }
 
 .cd-buttons {
@@ -578,66 +588,6 @@ section {
 	}
 }
 
-/* xIcons section - basic style */
-
-.cd-icons {
-	li {
-		display: inline-block;
-		background-position: center center;
-		background-repeat: no-repeat;
-		margin: 1em;
-	}
-
-	.cd-icon-1 {
-		background-image: url('../assets/icons/icon-1.svg'); 
-	}
-
-	.cd-icon-2 {
-		background-image: url('../assets/icons/icon-2.svg'); 
-	}
-
-	.cd-icon-3 {
-		background-image: url('../assets/icons/icon-3.svg'); 
-	}
-
-	.cd-icon-4 {
-		background-image: url('../assets/icons/icon-4.svg'); 
-	}
-
-	.cd-icon-5 {
-		background-image: url('../assets/icons/icon-5.svg'); 
-	}
-
-	.cd-icon-6 {
-		background-image: url('../assets/icons/icon-6.svg'); 
-	}
-
-	.cd-icon-7 {
-		background-image: url('../assets/icons/icon-7.svg'); 
-	}
-
-	.cd-icon-8 {
-		background-image: url('../assets/icons/icon-8.svg'); 
-	}
-}
-
-/* xForm section - basic style */
-
-.cd-form {
-	input[type=text],
-	.cd-input-wrapper {
-		margin: 1em;
-	}
-
-	.cd-input-wrapper {
-		position: relative;
-		display: inline-block;
-	}
-
-	select::-ms-expand {
-      display: none;
-	}
-}
 
 @-moz-document url-prefix(){
 	/* hide custom arrow on Firefox */
@@ -648,4 +598,11 @@ section {
 
 .no-csstransitions .cd-select::after {
 	display: none;
+}
+
+.cd-wireframes {
+	list-style: none;
+	:hover {
+		color: darken($color-1, 10%);
+	}
 }
