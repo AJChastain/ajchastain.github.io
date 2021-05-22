@@ -3,10 +3,10 @@
 @import 'partials/_layout'; // responsive grid and media queries
 
 /* Variables */
-@import 'partials/variables';
+@import "partials/variables";
 
 /* Sitewide Color settings */
-@import 'partials/colors';
+@import "partials/colors";
 
 /* -------------------------------- 
 
@@ -127,7 +127,7 @@ xTypography
 
 -------------------------------- */
 
-@import 'partials/typography';
+@import "partials/typography";
 
 
-@import 'partials/basic-style';
+@import "partials/basic-style";
