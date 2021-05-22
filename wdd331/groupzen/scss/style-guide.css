@@ -64,6 +64,23 @@ header {
   background-color: #485947;
 }
 
+/* Navigation Settings */
+.cd-primary-nav a {
+  background-color: #9babb2;
+  color: #f2eee3;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.cd-primary-nav li {
+  line-height: 34px;
+}
+
+.cd-primary-nav a:hover {
+  background-color: #e3e8e9;
+  color: #568c63;
+}
+
 /* -------------------------------- 
 
 xPatterns
