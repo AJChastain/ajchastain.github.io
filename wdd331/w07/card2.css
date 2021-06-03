@@ -1,6 +1,11 @@
 @import "cardfront.scss";
-
-
+/*
+//variables to setup basic size and shape of the card and pips
+$card-width: 40vw;
+$card-height: $card-width * 1.4;
+$font-size-number: $card-width * 0.1;
+$icon-size: $card-width / 5;
+*/
 *,
 *:before,
 *:after {
@@ -8,8 +13,8 @@
   margin: 0;
   padding: 0;
 }
-
-/*styles to draw a basic outline of a card*/
+/*
+//styles to draw a basic outline of a card
 .card {
   border: 1px solid grey;
   height: $card-height;
@@ -18,13 +23,13 @@
   margin: 20px;
   box-shadow: 2px 2px 4px grey;
 }
-
-/*because it is a card front we want a bit of extra padding*/
+*/
+/*because it is a card front we want a bit of extra */padding
 .card-front {
   padding: 0.5em;
 }
-
-/*set icon size*/
+/*
+//set icon size
 .icon {
   width: $icon-size;
   height: $icon-size;
@@ -33,13 +38,13 @@
 .number {
   text-align: center;
   font-size: $font-size-number;
-  /*an icon that is part of a number should be half the normal size*/
+  //an icon that is part of a number should be half the normal size
   & > .icon {
     width: $icon-size * 0.5;
     height: $icon-size * 0.5;
   }
 }
-
+*/
 /*rotate bottom pips 180deg*/
 .rotate {
   transform: rotate(180deg);
@@ -56,4 +61,49 @@
 .cell {
   flex: 1;
   text-align: center;
+}
+/*
+//mixins
+@mixin col($span-num) {
+flex: 0 0 12.5% * $span-num;
+}
+
+@mixin offset($offset-num) {
+margin-left: 12.5% * $offset-num;
+}
+
+//make column classes 
+@for $index from 1 to 9 {
+.col-#{$index} {
+    @include col($index);
+}
+}
+
+//make offset classes
+@for $index from 1 to 9 {
+.offset-#{$index} {
+    @include offset($index);
+}
+}
+*/
+
+/*
+.col-1 {
+  @include col(1);
+}
+
+.col-2 {
+  @include col(2);
+}
+
+.col-8 {
+  @include col(8);
+}
+
+.offset-2 {
+  @include offset(2);
+}
+
+.offset-1 {
+  @include offset(1);
 }
