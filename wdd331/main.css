@@ -20,6 +20,7 @@ header {
   padding: 3em 2em 2em;
   margin: -10px;
 }
+
 header a,
 header hr,
 header li,
@@ -28,6 +29,7 @@ header h1 {
   text-align: right;
   text-decoration: none;
 }
+
 header ul li {
   padding-bottom: 1em;
 }
@@ -37,10 +39,12 @@ nav a:visited {
   list-style: none;
   text-decoration: none;
 }
+
 nav a:active {
   color: #deb887;
   text-decoration: none;
 }
+
 nav a:hover {
   color: white;
   text-decoration: underline;
@@ -55,6 +59,7 @@ article a:visited {
 h2 a:active {
   color: #deb887;
 }
+
 h2 a:hover {
   color: #6495ed;
   text-decoration: underline;
@@ -64,7 +69,8 @@ article {
   margin: 2.5em 0.5em;
   padding: 2em;
   background-color: white;
-  box-shadow: 3px 3px 4px #7b8894;
+  -webkit-box-shadow: 3px 3px 4px #7b8894;
+          box-shadow: 3px 3px 4px #7b8894;
 }
 
 .post-date {
@@ -75,9 +81,11 @@ p a :visited {
   color: #6495ed;
   text-decoration: none;
 }
+
 p a :active {
   color: #deb887;
 }
+
 p a :hover {
   text-decoration: underline;
 }
@@ -92,29 +100,29 @@ img {
 /*large*/
 @media only screen and (min-width: 38em) {
   body div {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1.5fr 4.5fr;
-    grid-template-rows: 100%;
+    -ms-grid-columns: 1.5fr 4.5fr;
+        grid-template-columns: 1.5fr 4.5fr;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
   }
-
   header {
+    -ms-grid-column: 1;
     grid-column: 1;
     height: 100%;
   }
-
   article {
+    -ms-grid-column: 2;
     grid-column: 2;
     margin: 4em;
     max-width: 650px;
   }
-
   .post-date {
     display: block;
   }
-
   img {
     width: auto;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
