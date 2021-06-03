@@ -1,5 +1,5 @@
-@import 'cardfront.scss';
-/*
+/*@import 'cardfront';*/
+
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width * 1.4;
@@ -23,12 +23,12 @@ $icon-size: $card-width / 5;
   margin: 20px;
   box-shadow: 2px 2px 4px grey;
 }
-*/
+
 /*because it is a card front we want a bit of extra */padding
 .card-front {
   padding: 0.5em;
 }
-/*
+
 //set icon size
 .icon {
   width: $icon-size;
@@ -44,7 +44,7 @@ $icon-size: $card-width / 5;
     height: $icon-size * 0.5;
   }
 }
-*/
+
 /*rotate bottom pips 180deg*/
 .rotate {
   transform: rotate(180deg);
@@ -62,7 +62,7 @@ $icon-size: $card-width / 5;
   flex: 1;
   text-align: center;
 }
-/*
+
 //mixins
 @mixin col($span-num) {
 flex: 0 0 12.5% * $span-num;
@@ -85,7 +85,7 @@ margin-left: 12.5% * $offset-num;
     @include offset($index);
 }
 }
-*/
+
 
 /*
 .col-1 {
