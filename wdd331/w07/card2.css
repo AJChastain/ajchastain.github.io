@@ -1,11 +1,11 @@
-@import "cardfront.scss";
+@import 'cardfront.scss';
 /*
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width * 1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
-*/
+
 *,
 *:before,
 *:after {
@@ -13,7 +13,7 @@ $icon-size: $card-width / 5;
   margin: 0;
   padding: 0;
 }
-/*
+
 //styles to draw a basic outline of a card
 .card {
   border: 1px solid grey;
@@ -106,4 +106,4 @@ margin-left: 12.5% * $offset-num;
 
 .offset-1 {
   @include offset(1);
-}
+}*/

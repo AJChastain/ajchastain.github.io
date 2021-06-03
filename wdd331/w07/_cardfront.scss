@@ -4,6 +4,14 @@ $card-height: $card-width * 1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 //styles to draw a basic outline of a card
 .card {
   border: 1px solid grey;
@@ -30,6 +38,26 @@ $icon-size: $card-width / 5;
   }
 }
 
+.col-1 {
+    @include col(1);
+  }
+  
+  .col-2 {
+    @include col(2);
+  }
+  
+  .col-8 {
+    @include col(8);
+  }
+  
+  .offset-2 {
+    @include offset(2);
+  }
+  
+  .offset-1 {
+    @include offset(1);
+  }
+  
 //mixins
 @mixin col($span-num) {
 flex: 0 0 12.5% * $span-num;
