@@ -725,3 +725,16 @@ body{
 	  background-color: lighten($color-4, 25%);
 	  color: $color-1;
   }
+
+  .archives, .next, .select, .resources{
+	display:none;
+  }
+  .design-selection a, .viewall a, .zen-resources a, footer a{
+	text-decoration: none;
+	color: $color-2;
+	align-items: center;
+  }
+  .design-selection{
+	color: $color-2;
+	align-items: center;
+  }
