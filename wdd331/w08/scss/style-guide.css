@@ -107,7 +107,7 @@ xNavigation
   width: 120px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-logo {
     width: 180px;
   }
@@ -123,7 +123,7 @@ xNavigation
   border-color: #536752;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-main-nav li a {
     color: #afbeae;
   }
@@ -186,7 +186,7 @@ main > h1 {
   color: #485947;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   main > h1 {
     /* title goes into the header on big devices */
     color: #f2eee3;
@@ -211,13 +211,13 @@ h1 {
   margin: 0 0 0.4em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   h1 {
     font-size: 3.2rem;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   h1 {
     font-size: 4rem;
   }
@@ -229,7 +229,7 @@ h2 {
   margin: 1em 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   h2 {
     font-size: 1.8rem;
     margin: 1em 0 1.4em;
@@ -254,7 +254,7 @@ p a {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   p {
     font-size: 1.6rem;
     line-height: 1.6;
@@ -283,6 +283,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
+  margin: auto;
+  padding: 3em 2em;
 }
 
 a {
@@ -300,7 +302,7 @@ input, textarea, select {
 
 header {
   position: fixed;
-  height: 50px;
+  height: 3em;
   width: 100%;
   top: 0;
   left: 0;
@@ -313,7 +315,7 @@ header nav {
   display: inline-block;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   header {
     height: 80px;
   }
@@ -339,7 +341,7 @@ header nav {
   transform: translateX(-50%) translateY(-50%);
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   .cd-logo {
     margin-left: 5%;
   }
@@ -397,7 +399,7 @@ header nav {
   transform: translateY(6px);
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-nav-trigger {
     display: none;
   }
@@ -432,7 +434,7 @@ header nav {
   border-top-width: 1px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-main-nav {
     position: static;
     display: table;
@@ -462,7 +464,7 @@ header nav {
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   .cd-main-nav {
     display: none;
   }
@@ -535,7 +537,7 @@ header nav {
   transition: opacity .2s 0s, visibility 0s 0s;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-download {
     display: block;
   }
@@ -545,7 +547,7 @@ header nav {
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   .cd-download {
     right: 5%;
   }
@@ -553,7 +555,7 @@ header nav {
 
 main {
   width: 90%;
-  max-width: 1024px;
+  max-width: 50em;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -563,13 +565,13 @@ main > h1 {
   margin: 3em 0;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   main {
     padding-top: 80px;
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   main {
     max-width: none;
     padding: 120px 0 50px;
@@ -637,13 +639,13 @@ section:nth-of-type(10) h2::before {
   content: '10. ';
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   section {
     margin: 3em 0 5em;
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 70em) {
   section {
     width: 48%;
     float: left;
@@ -697,7 +699,7 @@ section:nth-of-type(10) h2::before {
   border-radius: .2em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   .cd-branding .cd-box {
     width: 49%;
     float: left;
@@ -814,7 +816,7 @@ section:nth-of-type(10) h2::before {
   background: #eae3d2;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   .cd-colors li {
     width: 19%;
     float: left;
@@ -835,7 +837,7 @@ section:nth-of-type(10) h2::before {
   padding: 1em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 25em) {
   .cd-typography .cd-box .cd-box,
   .cd-buttons .cd-box .cd-box,
   .cd-icons .cd-box .cd-box,
@@ -873,7 +875,7 @@ section:nth-of-type(10) h2::before {
   margin: .4em;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 50em) {
   .cd-buttons button {
     margin: 1em;
   }

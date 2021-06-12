@@ -20,6 +20,8 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: $primary-font;
+	margin: auto;
+	padding: 3em 2em;
 }
 
 a {
@@ -37,7 +39,7 @@ input, textarea, select {
 
 header {
 	position: fixed;
-	height: 50px;
+	height: 3em;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -606,3 +608,120 @@ section {
 		color: darken($color-1, 10%);
 	}
 }
+
+/*12 June 2021 */
+
+body{
+	padding: 50px;
+  }
+  .participation{
+	background-image: url(blank_img.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: border-box;
+	padding-right: 27%;
+	display: block;
+  }
+  .preamble{
+	background-image: url(blank_img.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-origin: border-box;
+	padding-left: 27%;
+  }
+  .page-wrapper {
+	display: grid;
+	grid-template-columns: auto 200px;
+  }
+  .intro {
+	grid-column: 1/3;
+	grid-row: 1/3;
+	display: grid;
+	grid-template-columns: auto 200px;
+	grid-template-rows: repeat(3, auto);
+	header {
+	  grid-column: 1 / span 2;
+	  grid-row: 1;
+	  text-align: center;
+	}
+	.summary {
+	  grid-column: 1 / span 2;
+	  grid-row: 2;
+	}
+	.preamble {
+	  grid-column: 1/2;
+	  grid-row: 3;
+	  background-image: url(blank_img.png);
+	  background-repeat: no-repeat;
+	  background-position: left;
+	  background-origin: border-box;
+	  padding-left: 27%;
+	}
+  }
+  .supporting {
+	grid-column: 1/3;
+	grid-row: 3/5;
+	display: grid;
+	grid-template-columns: auto auto 200px;
+	.explanation, .participation, .benefits {
+	  grid-column: 1/3;
+	}
+	.explanation {
+	  grid-row: 1;
+	}
+	.participation {
+	  grid-row: 2;
+	  background-image: url(blank_img.png);
+	  background-repeat: no-repeat;
+	  background-position: right;
+	  background-origin: border-box;
+	  padding-right: 27%;
+	  display: block;
+	}
+	.benefits {
+	  grid-row: 3;
+	}
+	.requirements {
+	  grid-column: 1/4;
+	  grid-row: 4/6;
+	  display: grid;
+	  grid-template-columns: 50% auto 200px;
+	  p {
+		grid-column: 1/3;
+	  }
+	  p[role=contentinfo] {
+		grid-column: 1/2;
+	  }
+	}
+	footer {
+	  grid-column: 2/4;
+	  grid-row: 5;
+	}
+  }
+
+  .sidebar {
+	grid-column: 2/3;
+	grid-row: 2/4;
+  }
+  .archives, .next {
+	display: none;
+  }
+  .archives, .next {
+	display: none;
+  }
+  footer a, .design-selection li, .viewall, .zen-resources li {
+	background-color: $color-4;
+	width: 90px;
+	height: 80px;
+	border-radius: 25px;
+	padding: 10px 5px 10px 5px;
+	margin: 10px;
+	display: grid;
+	grid-gap: 0;
+	text-align: center;
+  }
+  
+  footer a:hover, .design-selection li:hover, .viewall:hover, .zen-resources li:hover {
+	  background-color: lighten($color-4, 25%);
+	  color: $color-1;
+  }
