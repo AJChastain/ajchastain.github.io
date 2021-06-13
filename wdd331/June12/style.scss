@@ -1,138 +1,123 @@
-@import 'partials/_reset';
-@import 'partials/_prefix-mixins';
-@import 'partials/_layout'; // responsive grid and media queries
-
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
 /* Variables */
-@import "partials/variables";
-
+@import 'partials/variables';
 /* Sitewide Color settings */
-@import "partials/colors";
-
+@import 'partials/colors';
 /* Navigation Settings */
-@import "partials/navigation";
+@import 'partials/navigation';
+//responsive layouts
+@import 'partials/layout';
+/* Sitewide typography */
+@import 'partials/typography';
 
-/* -------------------------------- 
 
-xPatterns
-
--------------------------------- */
-
-.cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid $color-4;
-  border-radius: 3px;
-  background: $color-5;
-  box-shadow: 0 1px 1px rgba(#000, 0.05);
-  padding: 6px;
-}
-
-/* -------------------------------- 
-
-xNavigation 
-
--------------------------------- */
-
-.cd-logo {
-  /* logo box style */
-  background-color: $color-1;
-  width: 120px;
-
-  @include MQ(M) {
-    width: 180px;
+.intro {
+  h1,
+  h2 {
+    text-align: center;
   }
 }
-
-.cd-main-nav {
-  /* main navigation background color - full screen on small devices */
-  background: $color-2;
-
-  li a {
-    color: $color-5;
-    border-color: lighten($color-2, 5%);
+.explanation, .benefits, .requirements p:nth-child(6) {
+  text-align: right;
+}
+footer {
+  display: grid;
+  grid-template-columns: auto repeat(6, 50px) auto;
+  text-align: center;
+  .zen-license, .zen-accessibility, .zen-github {
+    grid-row: 2;
   }
-
-  @include MQ(M) {
-    li a {
-      color: lighten($color-2, 40%);
-
-      &.selected {
-        color: $color-5;
-        box-shadow: 0 2px 0 $color-1;
-      }
-
-      &:hover {
-        color: $color-5;
-      }
-    }
+  .zen-validate-html {
+    grid-column: 3/5;
+  }
+  .zen-validate-css {
+    grid-column: 5/7;
+  }
+  .zen-license {
+    grid-column: 2/4;
+  }
+  .zen-accessibility {
+    grid-column: 4/6;
+  }
+  .zen-github {
+    grid-column: 6/8;
   }
 }
-
-.cd-nav-trigger span {
-  /* hamburger menu */
-  background-color: $color-5;
-
-  &::before,
-  &::after {
-    /* upper and lower lines */
-    background-color: $color-5;
+.select, .resources {
+  text-align: center;
+}
+.archives, .next {
+  display: none;
+}
+.design-selection ul {
+  display: grid;
+  grid-template-columns: auto 100px 100px auto;
+  grid-gap: 10px;
+  text-align: center;
+  li:nth-child(odd) {
+    grid-column: 2;
+  }
+  li:nth-child(even) {
+    grid-column: 3;
   }
 }
-
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-  background-color: rgba($color-5, 0);
-
-  &::before,
-  &::after {
-    /* preserve visibility of upper and lower lines - close icon */
-    background-color: rgba($color-5, 1);
+.zen-resources ul {
+  display: grid;
+  grid-template-columns: auto repeat(6, 50px) auto;
+  text-align: center;
+  grid-gap: 10px;
+  .view-css {
+    grid-column: 2/4;
+  }
+  .css-resources {
+    grid-column: 4/6;
+  }
+  .zen-faq {
+    grid-column: 6/8;
+  }
+  .zen-submit, .zen-translations {
+    grid-row: 2;
+  }
+  .zen-submit {
+    grid-column: 3/5;
+  }
+  .zen-translations {
+    grid-column: 5/7;
   }
 }
-
-.cd-download {
-  /* download button top-right visible on big devices */
-  background-color: lighten($color-2, 10%);
-
-  .no-touch &:hover {
-    background-color: lighten($color-2, 15%);
-  }
-
-  span {
-    /* tooltip */
-    background: $color-1;
-    color: $color-5;
-
-    &::before {
-      /* right arrow color */
-      border-color: $color-1;
-    }
-  }
+footer a {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.design-selection li {
+  width: 90px;
+  height: 80px;
+  padding: 10px 5px 10px 5px;
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 0;
+}
+.zen-resources li {
+  list-style: none;
+  width: 90px;
+  height: 80px;
+  padding: 10px 5px 10px 5px;
+}
+.design-archives {
+  display: flex;
+  justify-content: center;
+}
+.viewall {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  width: 210px;
+  height: 100px;
+  line-height: 100px;
 }
 
-/* -------------------------------- 
-
-xPage title 
-
--------------------------------- */
-
-main > h1 {
-  color: $color-2;
-
-  @include MQ(L) {
-    /* title goes into the header on big devices */
-    color: $color-5;
-  }
+@media only screen and (min-width: $M) {
+  @import 'partials/responsive'
 }
-
-/* -------------------------------- 
-
-xTypography 
-
--------------------------------- */
-
-@import "partials/typography";
-
-
-@import "partials/basic-style";
-
-

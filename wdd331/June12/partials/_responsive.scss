@@ -1,0 +1,100 @@
+body{
+    padding: 50px;
+  }
+footer, .design-selection ul, .zen-resources ul, .design-archives {
+    display: inline;
+}
+.select, .resources {
+    display: none;
+  } 
+.page-wrapper {
+    display: grid;
+    grid-template-columns: auto 150px;
+  }
+.intro {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-rows: repeat(3, auto);
+    header {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+      text-align: center;
+    }
+    .summary {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+    }
+    .preamble {
+      grid-column: 1/2;
+      grid-row: 3;
+      background-image: url(assets/blank_img.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-origin: border-box;
+      padding-left: 27%;
+    }
+  }
+.supporting {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-columns: auto auto 200px;
+    .explanation, .participation, .benefits {
+      grid-column: 1/3;
+    }
+    .explanation {
+      grid-row: 1;
+    }
+    .participation {
+      grid-row: 2;
+      background-image: url(assets/blank_img.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-origin: border-box;
+      padding-right: 27%;
+      display: block;
+    }
+    .benefits {
+      grid-row: 3;
+    }
+    .requirements {
+      grid-column: 1/4;
+      grid-row: 4/6;
+      display: grid;
+      grid-template-columns: 50% auto 200px;
+      p {
+        grid-column: 1/3;
+      }
+      p[role=contentinfo] {
+        grid-column: 1/2;
+      }
+    }
+    footer {
+      grid-column: 2/4;
+      grid-row: 5;
+    }
+  }
+.sidebar {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+  .design-selection a, .viewall a, .zen-resources a, footer a{
+    text-decoration: none;
+    color: $color-2;
+    align-items: center;
+  }
+  .design-selection{
+    color: $color-2;
+    align-items: center;
+  }
+  footer a{
+    border-radius: 15px;
+    margin: 2px;
+    text-align: center;
+    padding: 20px;
+  }
+  .viewall {
+      width: 100px;
+  }
