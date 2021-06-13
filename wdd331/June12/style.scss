@@ -11,6 +11,7 @@
 /* Sitewide typography */
 @import 'partials/typography';
 
+/*@import 'partials/basic-style';*/
 
 .intro {
   h1,
@@ -119,5 +120,5 @@ footer a {
 }
 
 @media only screen and (min-width: $M) {
-  @import 'partials/responsive'
+  @import 'partials/responsive';
 }
