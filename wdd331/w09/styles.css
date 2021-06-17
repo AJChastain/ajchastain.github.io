@@ -1102,14 +1102,112 @@ img {
 
 .interest-box {
   margin-top: 2em;
+  margin: 2em auto;
+}
+
+figure {
+  border: solid 1px #b4b3b5;
+}
+
+figure img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+figcaption {
+  padding: 0.5em;
+}
+
+.links h2 {
+  font-weight: lighter;
+  padding: 0.45em 1em;
+  color: #fff;
+  margin-bottom: -0.55em;
 }
 
 .links li {
+  padding: 0.45em 2em;
+  margin: -0.025em 0 0.25em -2.35em;
+  border-bottom: solid #b4b3b5 1px;
   list-style: none;
 }
 
-.links a {
+.links li:hover {
+  background-color: #eaeaea;
+}
+
+.resources li {
+  background-color: #f7f7f7;
+  font-size: 1.045em;
+}
+
+.resources ul {
+  border-left: solid #b4b3b5 1px;
+  border-right: solid #b4b3b5 1px;
+}
+
+.resources h2 {
+  background-color: #727272;
+  padding-left: 1.5em;
+}
+
+a {
   text-decoration: none;
+  color: #0076b6;
+}
+
+.dates div {
+  padding-top: 1em;
+}
+
+.dates a {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.5fr .5fr 3fr;
+      grid-template-columns: 1fr 0.5fr .5fr 3fr;
+  color: #020202;
+  border-bottom: solid #b4b3b5 1px;
+}
+
+.dates p {
+  margin: .5em auto;
+}
+
+.date-bold {
+  font-weight: bold;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  margin-left: 2em;
+}
+
+.dash {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  text-align: center;
+}
+
+.details {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4 / 5;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.dates a:hover {
+  color: #0076b6;
+  background-color: #eaeaea;
+}
+
+.dates h2 {
+  background-color: #056cb6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
+  padding-left: 1.5em;
 }
 
 .news img {
@@ -1126,19 +1224,15 @@ img {
 }
 
 .footimg {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+  -webkit-box-shadow: #eaeaea 0px 40px 0px 0px;
+          box-shadow: #eaeaea 0px 40px 0px 0px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: solid #727272 0.25em;
+  border-bottom: solid #b4b3b5 2px;
 }
-
-/*.footimg:after {
-    content: " ";
-    order: 1;
-    position:absolute;
-    border-top: solid $light-grey 3em 0;
-    
-    
-}*/
 /*# sourceMappingURL=styles.css.map */
