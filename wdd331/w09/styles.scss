@@ -1,5 +1,5 @@
-@import 'typography';
-@import 'icons';
+@import "typography";
+@import "icons";
 
 $sm-break: 48em;
 // colors
@@ -9,6 +9,9 @@ $light-gray: #eaeaea;
 $body-font: #020202;
 $link-blue: #0076b6; //why do we have both of these blues?
 $byui-blue: #056cb6;
+$white: #fff;
+$pad-sm: 0.5em;
+$pad-1: 1em;
 
 // Utility classes
 *,
@@ -31,3 +34,100 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+//header
+.site-banner {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: $byui-blue;
+  margin: -0.75em;
+}
+
+.site-banner a {
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.text-white {
+  color: $white;
+}
+
+.site-banner__left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: $body-font;
+  width: min-content;
+  padding: 1em 1em 0.5em;
+}
+
+.icon-byui-logo {
+  color: $white;
+}
+
+.mobile-header-icon {
+  justify-content: right;
+}
+
+.site-banner__right {
+  grid-row: 1 / 2;
+  grid-column: 2 / 11;
+  padding: 1em 1.25em 0.5em 1em;
+  justify-self: right;
+}
+
+.page-name {
+  grid-column: 1 / 11;
+  color: $dark-gray;
+  background-color: $light-gray;
+  padding: $pad-sm;
+  text-align: center;
+  border: solid $dark-gray 1px;
+  font-size: x-small;
+}
+
+//interest boxes
+.interest-box {
+  margin-top: 2em;
+}
+
+//links
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+//news
+.news img {
+  display: none; //for small screens
+}
+
+.news {
+  border-top: solid $med-gray 2.5px;
+  margin: 0 0 2em 2em;
+}
+
+.news a {
+  font-weight: bold;
+}
+
+//footer
+.footimg {
+  position: relative;
+  justify-content: center;
+  border-bottom: solid $dark-gray .25em;
+}
+
+.footimg:after {
+    content: " ";
+    position:absolute; 
+    z-index: 1;
+    bottom: 3em;
+    border-top: solid $light-grey 3em 0;
+    
+    
+}
+
