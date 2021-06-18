@@ -12,6 +12,7 @@ $byui-blue: #056cb6;
 $white: #fff;
 $pad-sm: 0.5em;
 $pad-1: 1em;
+$bord-thin: solid $med-gray 1px;
 
 // Utility classes
 *,
@@ -33,6 +34,11 @@ img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+body {
+  font-family: "BYUI Open Sans", sans-serif;
+  font-size: 15px;
 }
 
 //header
@@ -88,12 +94,16 @@ img {
 
 //interest boxes
 .interest-box {
-  margin-top: 2em;
-  margin: 2em auto;
+  margin: 2.5em .5em 2em;
+}
+
+.interest-box:first-child {
+    margin-top: 3.5em;
 }
 
 figure {
-  border: solid 1px $med-gray;
+  border: $bord-thin;
+  
 }
 figure img {
   width: max-content;
@@ -104,21 +114,31 @@ figcaption {
 
 //links
 .links h2 {
-  font-weight: lighter;
-  padding: 0.45em 1em;
+  font-weight: 400;
+  padding: 0.35em 0;
   color: $white;
-  margin-bottom: -0.55em;
+  margin: -.035em auto -.5em 0em
+
 }
 
 .links li {
-  padding: 0.45em 2em;
-  margin: -0.025em 0 0.25em -2.35em;
-  border-bottom: solid $med-gray 1px;
+  padding: 0.5em 1.5em;
+  margin: -0.025em 0 0.025em -2.35em;
+  border-bottom: $bord-thin;
   list-style: none;
+}
+
+.links li:last-child, .links a:last-child {
+    border-bottom: none;
 }
 
 .links li:hover {
   background-color: $light-gray;
+}
+
+.resources {
+    border: $bord-thin;
+    margin-top: 2.5em;
 }
 
 .resources li {
@@ -127,13 +147,13 @@ figcaption {
 }
 
 .resources ul {
-  border-left: solid $med-gray 1px;
-  border-right: solid $med-gray 1px;
+  margin-bottom: -.025em;
 }
 
 .resources h2 {
   background-color: $dark-gray;
-  padding-left: 1.5em;
+  padding-left: 1em;
+  margin-left: 0.025em;
 }
 
 a {
@@ -142,25 +162,33 @@ a {
 }
 
 //dates
+
+.dates {
+    margin-top: 2.5em;
+}
+
 .dates div {
   padding-top: 1em;
 }
 
 .dates a {
   display: grid;
-  grid-template-columns: 1fr 0.5fr .5fr 3fr;
+  grid-template-columns: 1fr 0.25fr 0.5fr 4fr;
   color: $body-font;
-  border-bottom: solid $med-gray 1px;
-  
+  border-bottom: $bord-thin;
+  font-size: small;
 }
+
 .dates p {
-    margin: .5em auto;
+  margin: 0.5em auto;
 }
+
 .date-bold {
   font-weight: bold;
   grid-column: 1 / 2;
   margin-left: 2em;
 }
+
 .dash {
   grid-column: 3 / 4;
   text-align: center;
@@ -168,7 +196,7 @@ a {
 
 .details {
   grid-column: 4 / 5;
-  justify-self:left;
+  justify-self: left;
 }
 
 .dates a:hover {
@@ -179,7 +207,8 @@ a {
 .dates h2 {
   background-color: $byui-blue;
   grid-column: 1 / 5;
-  padding-left: 1.5em;
+  padding-left: 1em;
+  margin-left: 0.025em;
 }
 
 //news
@@ -188,19 +217,31 @@ a {
 }
 
 .news {
-  border-top: solid $med-gray 2.5px;
-  margin: 0 0 2em 2em;
+  border-top: $bord-thin;
+  margin: 0 0 2em 0.75em;
 }
 
 .news a {
   font-weight: bold;
+  color: $link-blue;
+  font-size: 400;
+}
+
+.news p {
+  font-weight: normal;
+}
+
+p.sm-date {
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 1.5em;
 }
 
 //footer
 .footimg {
   display: flex;
   margin-bottom: 3em;
-  box-shadow: $light-gray 0px 40px 0px 0px;
+  box-shadow: $light-gray 0px 60px 0px 0px;
   justify-content: center;
-  border-bottom: solid $med-gray 2px;
+  border-bottom: $bord-thin;
 }
