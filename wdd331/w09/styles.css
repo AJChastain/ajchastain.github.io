@@ -1110,6 +1110,10 @@ body {
   font-weight: 300;
 }
 
+.icon-angle-right {
+  padding-left: 22em;
+}
+
 .interest-box {
   margin: 2.5em auto 2em;
 }
@@ -1294,6 +1298,9 @@ p.sm-date {
     -ms-grid-columns: 6fr 0.5fr 2.5fr;
         grid-template-columns: 6fr 0.5fr 2.5fr;
   }
+  .icon-angle-right {
+    padding-left: 3em;
+  }
   .site-banner__left {
     position: absolute;
     width: 6em;
@@ -1373,6 +1380,9 @@ p.sm-date {
   .site-banner__right {
     margin-right: 5em;
   }
+  .icon-angle-right {
+    padding-left: 6em;
+  }
   aside {
     max-width: 20em;
   }
@@ -1401,6 +1411,9 @@ p.sm-date {
   }
   .site-banner__right {
     margin-right: 15em;
+  }
+  .icon-angle-right {
+    padding-left: 9em;
   }
   .interest-section {
     margin-left: auto;
